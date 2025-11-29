@@ -14,13 +14,46 @@ interface Props {
 // Map service page headlines to unique image paths
 // Each service page gets its own unique image based on heroHeadline
 function getServiceHeroImage(headline: string, slug: string): string {
-  // Use the exact heroHeadline format to map to image filename
-  // Images are named: "{heroHeadline}.jpg"
-  const imagePath = `/images/services/${headline}.jpg`;
+  // Map heroHeadline to actual image filenames
+  // Some images have slight variations in naming (e.g., "Service" vs "Services", extra spaces)
+  const imageMap: Record<string, string> = {
+    'Pacemaker Testing Services': 'Pacemaker Testing Services.jpg',
+    'ICD Testing Services': 'ICD Testing Services.jpg',
+    'Drug-Eluting Stent Testing Services': 'Drug-Eluting Stent Testing.jpg',
+    'Heart Pump Testing Services': 'Heart Pump Testing Service.jpg',
+    'LVAD Testing Services': 'LVAD Testing Service.jpg',
+    'TAVR Testing Services': 'TAVR Testing Services.jpg',
+    'MitraClip Testing Services': 'MitraClip Testing Services.jpg',
+    'Sapien Valve Testing Services': 'Sapien Valve Testing Services.jpg',
+    'Evolut Valve Testing Services': 'Evolut Valve Testing Services.jpg',
+    'Pascal Device Testing Services': 'Pascal Device Testing Services.jpg',
+    'Tendyne Testing Services': 'Tendyne Testing Services.jpg',
+    'TriClip Testing Services': 'TriClip Testing Service.jpg',
+    'CoreValve Testing Services': 'CoreValve Testing Service.jpg',
+    'Embolic Protection Testing Services': 'Embolic Protection Testing.jpg',
+    'LAA Closure Testing Services': 'LAA Closure Testing.jpg',
+    'Watchman Device Testing Services': 'Watchman Device Testing .jpg',
+    'Renal Denervation Testing Services': 'Renal Denervation Testing .jpg',
+    'Laparoscopic Testing Services': 'Laparoscopic Testing.jpg',
+    'Endoscopic Device Testing Services': 'Endoscopic Device Testing.jpg',
+    'GLP Testing Services': 'GLP Testing.jpg',
+    'Biocompatibility Testing Services': 'Biocompatibility Testing.jpg',
+    'FDA Regulatory Testing Services': 'FDA Regulatory Testing.jpg',
+    'Liquid Embolic Device Testing Services': 'Liquid Embolic Device Testing.jpg',
+    'Thrombectomy Testing Services': 'Thrombectomy Testing.jpg',
+    'Direct Aspiration Thrombectomy Testing Services': 'Direct Aspiration Thrombectomy Testing.jpg',
+    'Carotid Stent Testing Services': 'Carotid Stent Testing.jpg',
+    'AAA Device Testing Services': 'AAA Device Testing.jpg',
+    'IVC Filter Testing Services': 'IVC Filter Testing.jpg',
+  };
   
-  // Return the path - if image doesn't exist, browser will show broken image
-  // or we can add fallback logic later if needed
-  return imagePath;
+  // Check if we have a specific mapping
+  if (imageMap[headline]) {
+    return `/images/services/${imageMap[headline]}`;
+  }
+  
+  // Default: use headline text directly with .jpg extension
+  return `/images/services/${headline}.jpg`;
 }
 
 const { page } = Astro.props;

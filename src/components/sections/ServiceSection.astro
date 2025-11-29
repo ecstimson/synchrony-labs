@@ -10,14 +10,21 @@ const { service, index } = Astro.props;
 const isEven = index % 2 === 0;
 const imageOnLeft = isEven;
 
-// Get hub page image path - try .jpeg first, then .jpg
+// Get hub page image path - map slugs to actual image filenames
 function getHubImagePath(slug: string): string {
-  // Some hub images are .jpeg, others are .jpg
-  // Try .jpeg first for cardiovascular-disease-testing, then fallback to .jpg
-  if (slug === 'cardiovascular-disease-testing') {
-    return `/images/services/${slug}.jpeg`;
-  }
-  return `/images/services/${slug}.jpg`;
+  // Map hub page slugs to their image filenames
+  const imageMap: Record<string, string> = {
+    'cardiovascular-disease-testing': 'cardiovascular-disease-testing.jpeg',
+    'neurovascular-testing': 'neurovascular-testing.jpg',
+    'peripheral-vascular-testing': 'peripheral-vascular-testing.jpg',
+    'surgical-robotics': 'surgical-robotics.jpg',
+    'medical-device-testing': 'medical-device-testing.jpg',
+    'dcb-testing': 'dcb-testing.jpg',
+  };
+  
+  // Return mapped image path or fallback to slug.jpg
+  const imageFile = imageMap[slug] || `${slug}.jpg`;
+  return `/images/services/${imageFile}`;
 }
 ---
 
