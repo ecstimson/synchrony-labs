@@ -9,29 +9,51 @@ interface Props {
 const { title, services } = Astro.props;
 
 // Map image names to actual file paths
-function getImagePath(imageUrl?: string): string {
-  if (!imageUrl) return '/images/placeholder.jpg';
-  // Extract filename from Google Drive URL or use as-is
-  const filename = imageUrl.split('/').pop() || 'placeholder.jpg';
-  // Map to actual image files
-  const imageMap: Record<string, string> = {
-    'Heart Valve Testing.jpg': '/images/services/Heart Valve Testing.jpg',
-    'Structural Heart Testing.jpg': '/images/services/Structural Heart Testing.jpg',
-    'Coronary Stent Testing.jpg': '/images/services/Coronary Stent Testing.jpg',
-    'Thrombectomy Testing.jpg': '/images/services/Thrombectomy Testing.jpg',
-    'Direct Aspiration Thrombectomy Testing.jpg': '/images/services/Direct Aspiration Thrombectomy Testing.jpg',
-    'Liquid Embolic Device Testing.jpg': '/images/services/Liquid Embolic Device Testing.jpg',
-    'Carotid Stent Testing.jpg': '/images/services/Carotid Stent Testing.jpg',
-    'AAA Device Testing.jpg': '/images/services/AAA Device Testing.jpg',
-    'IVC Filter Testing.jpg': '/images/services/IVC Filter Testing.jpg',
-    'Endoscopic Device Testing.jpg': '/images/services/Endoscopic Device Testing.jpg',
-    'Laparoscopic Testing.jpg': '/images/services/Laparoscopic Testing.jpg',
-    'GLP Testing.jpg': '/images/services/GLP Testing.jpg',
-    'Biocompatibility Testing.jpg': '/images/services/Biocompatibility Testing.jpg',
-    'FDA Regulatory Testing.jpg': '/images/services/FDA Regulatory Testing.jpg',
-    'Comprehensive DCB Validation.jpg': '/images/services/Comprehensive DCB Validation.jpg',
-  };
-  return imageMap[filename] || '/images/placeholder.jpg';
+function getImagePath(imageUrl?: string, heading?: string): string {
+  if (!imageUrl && !heading) return '/images/placeholder.jpg';
+  
+  // If imageUrl is already a local path, use it
+  if (imageUrl && !imageUrl.startsWith('http')) {
+    return imageUrl.startsWith('/') ? imageUrl : `/images/services/${imageUrl}`;
+  }
+  
+  // Use heading to map to image file (images are named after headings)
+  if (heading) {
+    const imagePath = `/images/services/${heading}.jpg`;
+    return imagePath;
+  }
+  
+  // Fallback for Google Drive URLs or other cases - try to extract from URL
+  if (imageUrl) {
+    // Try to match known patterns
+    const imageMap: Record<string, string> = {
+      'Heart Valve Testing': '/images/services/Heart Valve Testing.jpg',
+      'Structural Heart Testing': '/images/services/Structural Heart Testing.jpg',
+      'Coronary Stent Testing': '/images/services/Coronary Stent Testing.jpg',
+      'Thrombectomy Testing': '/images/services/Thrombectomy Testing.jpg',
+      'Direct Aspiration Thrombectomy Testing': '/images/services/Direct Aspiration Thrombectomy Testing.jpg',
+      'Liquid Embolic Device Testing': '/images/services/Liquid Embolic Device Testing.jpg',
+      'Carotid Stent Testing': '/images/services/Carotid Stent Testing.jpg',
+      'AAA Device Testing': '/images/services/AAA Device Testing.jpg',
+      'IVC Filter Testing': '/images/services/IVC Filter Testing.jpg',
+      'Endoscopic Device Testing': '/images/services/Endoscopic Device Testing.jpg',
+      'Laparoscopic Testing': '/images/services/Laparoscopic Testing.jpg',
+      'Robotic System Integration Testing': '/images/services/Robotic System Integration Testing.jpg',
+      'GLP Testing': '/images/services/GLP Testing.jpg',
+      'Biocompatibility Testing': '/images/services/Biocompatibility Testing.jpg',
+      'FDA Regulatory Testing': '/images/services/FDA Regulatory Testing.jpg',
+      'Comprehensive DCB Validation': '/images/services/Comprehensive DCB Validation.jpg',
+    };
+    
+    // Try to find a match in the URL
+    for (const [key, path] of Object.entries(imageMap)) {
+      if (imageUrl.includes(key)) {
+        return path;
+      }
+    }
+  }
+  
+  return '/images/placeholder.jpg';
 }
 
 ---
@@ -75,7 +97,7 @@ function getImagePath(imageUrl?: string): string {
               <div class={`order-2 ${imageOnLeft ? 'lg:col-start-1 lg:order-1' : 'lg:col-start-2 lg:order-2'}`}>
                 <div class="aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 dark:bg-navy-dark/50 border border-navy/10 dark:border-white/10">
                   <img 
-                    src={getImagePath(service.image)} 
+                    src={getImagePath(service.image, service.heading)} 
                     alt={service.heading}
                     class="w-full h-full object-cover"
                     loading="lazy"

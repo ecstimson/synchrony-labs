@@ -328,6 +328,8 @@ interface ServicePage {
 }
 ```
 
+**Important:** The `image` and `icon` fields in CSV/JSON data should be **ignored**. Images are automatically mapped based on service headings (e.g., "Heart Valve Testing" → `/images/services/Heart Valve Testing.jpg`). Icons are handled programmatically by the component system.
+
 **Deliverables:**
 - CSV → JSON build script
 - TypeScript types defined
@@ -685,6 +687,12 @@ SITE_URL=https://synchronylabs.com
 ---
 
 ## Content Guidelines
+
+### Data Field Handling
+- **Image and Icon Fields:** The `image` and `icon` fields in CSV/JSON data should be **ignored**. 
+  - Images are automatically mapped based on service headings (e.g., "Heart Valve Testing" → `/images/services/Heart Valve Testing.jpg`)
+  - Icons are handled programmatically by the component system based on service type
+  - This ensures consistency and prevents broken image references from spreadsheet data transfers
 
 ### Writing Standards
 - No word "animal" anywhere
