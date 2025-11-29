@@ -15,7 +15,8 @@ function getImagePath(imageUrl?: string, heading?: string): string {
   if (!heading) return '/images/placeholder.jpg';
   
   // Map heading text to actual image filenames
-  // Some headings don't match file names exactly, so we need a mapping
+  // Original images use capitalized headings with spaces: "Heart Valve Testing.jpg"
+  // New hub page images use lowercase with hyphens: "neurovascular-testing.jpg"
   const headingMap: Record<string, string> = {
     'Neurovascular Testing': 'neurovascular-testing.jpg',
     'Peripheral Vascular Testing': 'peripheral-vascular-testing.jpg',
@@ -23,19 +24,16 @@ function getImagePath(imageUrl?: string, heading?: string): string {
     'Medical Device Testing Laboratory': 'medical-device-testing.jpg',
     'Surgical Robotics Testing': 'surgical-robotics.jpg',
     'Drug-Coated Balloon Testing': 'dcb-testing.jpg',
-    // For other headings, convert to filename format: lowercase with hyphens
-    // Default: convert "Heading Text" to "heading-text.jpg"
   };
   
-  // Check if we have a specific mapping
+  // Check if we have a specific mapping (for new hub page images)
   if (headingMap[heading]) {
     return `/images/services/${headingMap[heading]}`;
   }
   
-  // Default: convert heading to filename format
-  // "Heart Valve Testing" → "heart-valve-testing.jpg"
-  const filename = heading.toLowerCase().replace(/\s+/g, '-') + '.jpg';
-  return `/images/services/${filename}`;
+  // Default: use heading text directly with .jpg extension
+  // Original images match heading exactly: "Heart Valve Testing" → "Heart Valve Testing.jpg"
+  return `/images/services/${heading}.jpg`;
 }
 
 ---
