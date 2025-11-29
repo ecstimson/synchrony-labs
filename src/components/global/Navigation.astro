@@ -1,0 +1,78 @@
+---
+const NAV_ITEMS = [
+  { label: 'Home', href: '/' },
+  { label: 'Services', href: '/preclinical-services' },
+  { label: 'Facility', href: '/preclinical-facility' },
+  { label: 'Contact', href: '/contact' },
+];
+---
+
+<nav class="hidden md:flex items-center space-x-8">
+  <button 
+    id="theme-toggle"
+    class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 text-navy dark:text-gray-300 transition-colors"
+    aria-label="Toggle theme"
+  >
+    <span id="theme-icon-sun" class="hidden">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    </span>
+    <span id="theme-icon-moon" class="hidden">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+    </span>
+  </button>
+
+  {NAV_ITEMS.map((item) => (
+    <a 
+      href={item.href} 
+      class="text-sm font-medium text-navy dark:text-gray-300 hover:text-teal dark:hover:text-teal transition-colors"
+    >
+      {item.label}
+    </a>
+  ))}
+</nav>
+
+<script>
+  // Theme toggle functionality
+  function initTheme() {
+    const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'dark');
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+    updateThemeIcon(theme === 'dark');
+  }
+
+  function updateThemeIcon(isDark: boolean) {
+    const sunIcon = document.getElementById('theme-icon-sun');
+    const moonIcon = document.getElementById('theme-icon-moon');
+    if (sunIcon && moonIcon) {
+      sunIcon.classList.toggle('hidden', !isDark);
+      moonIcon.classList.toggle('hidden', isDark);
+    }
+  }
+
+  function toggleTheme() {
+    const isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    updateThemeIcon(isDark);
+  }
+
+  // Initialize on load
+  initTheme();
+
+  // Set up toggle button
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', toggleTheme);
+  }
+</script>
+

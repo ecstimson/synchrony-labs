@@ -1,0 +1,23 @@
+---
+const NAV_ITEMS = [
+  { label: 'Home', href: '/' },
+  { label: 'Services', href: '/preclinical-services' },
+  { label: 'Facility', href: '/preclinical-facility' },
+  { label: 'Contact', href: '/contact' },
+];
+---
+
+<div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-navy-dark border-b border-gray-100 dark:border-gray-800 backdrop-blur-xl">
+  <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+    {NAV_ITEMS.map((item) => (
+      <a
+        href={item.href}
+        class="block px-3 py-2 rounded-md text-base font-medium text-navy dark:text-gray-300 hover:bg-black/5 dark:hover:bg-white/5 hover:text-teal"
+        onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.getElementById('mobile-menu-button').setAttribute('aria-expanded', 'false');"
+      >
+        {item.label}
+      </a>
+    ))}
+  </div>
+</div>
+

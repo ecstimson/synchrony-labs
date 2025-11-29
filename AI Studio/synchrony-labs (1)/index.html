@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synchrony Labs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"'],
+            },
+            colors: {
+              navy: '#05101a',
+              'navy-dark': '#000000', // Pure black
+              'navy-light': '#162432',
+              'navy-card': '#0f1c29',
+              red: '#b91c1c',
+              teal: '#4682B4', // Steel Blue
+              'teal-bright': '#B0C4DE', // Light Steel Blue
+              steel: '#4682b4',
+            },
+            backgroundImage: {
+              'grid-pattern': "linear-gradient(to right, #1e293b 1px, transparent 1px), linear-gradient(to bottom, #1e293b 1px, transparent 1px)",
+            },
+            animation: {
+              'ecg-draw': 'draw 12s linear infinite', 
+              'grid-move': 'gridMove 30s linear infinite', 
+              'float-up': 'floatUp 20s linear infinite',
+              'pulse-slow': 'pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'ray-drift-1': 'rayDrift1 20s ease-in-out infinite alternate',
+              'ray-drift-2': 'rayDrift2 25s ease-in-out infinite alternate-reverse',
+              'ray-drift-3': 'rayDrift3 22s ease-in-out infinite alternate',
+              'ray-flash': 'rayFlash 15s ease-in-out infinite',
+            },
+            keyframes: {
+              draw: {
+                '0%': { strokeDashoffset: '1200' },
+                '100%': { strokeDashoffset: '0' },
+              },
+              gridMove: {
+                '0%': { backgroundPosition: '0 0' },
+                '100%': { backgroundPosition: '0 80px' },
+              },
+              floatUp: {
+                '0%': { transform: 'translateY(100vh) scale(0.5)', opacity: '0' },
+                '20%': { opacity: '0.5' },
+                '80%': { opacity: '0.5' },
+                '100%': { transform: 'translateY(-20vh) scale(1)', opacity: '0' },
+              },
+              rayDrift1: {
+                '0%': { transform: 'rotate(-8deg) translateX(-5%) scale(1.1)', opacity: '0.5' },
+                '100%': { transform: 'rotate(8deg) translateX(5%) scale(1)', opacity: '0.8' },
+              },
+              rayDrift2: {
+                '0%': { transform: 'rotate(5deg) translateX(5%) scale(1.2)', opacity: '0.4' },
+                '100%': { transform: 'rotate(-5deg) translateX(-5%) scale(1)', opacity: '0.7' },
+              },
+              rayDrift3: {
+                '0%': { transform: 'rotate(0deg) scale(1)', opacity: '0.6' },
+                '50%': { transform: 'rotate(3deg) scale(1.1)', opacity: '0.4' },
+                '100%': { transform: 'rotate(-3deg) scale(1)', opacity: '0.6' },
+              },
+              rayFlash: {
+                '0%, 100%': { opacity: '0.2' },
+                '50%': { opacity: '0.5' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: #ffffff; /* Default light */
+        color: #05101a;
+        overflow-x: hidden;
+      }
+
+      /* Dark mode body override */
+      .dark body {
+        background-color: #000000;
+        color: white;
+      }
+      
+      /* Base Glass Card (Light Mode) */
+      .glass-card {
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.4) 100%);
+        backdrop-filter: blur(20px) saturate(140%);
+        -webkit-backdrop-filter: blur(20px) saturate(140%);
+        border: 1px solid rgba(70, 130, 180, 0.2);
+        box-shadow: 
+          0 4px 30px rgba(0, 0, 0, 0.05),
+          inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
+
+      .glass-card:hover {
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 248, 255, 0.9) 100%);
+        border-color: rgba(70, 130, 180, 0.6);
+        box-shadow: 
+          0 10px 40px -10px rgba(70, 130, 180, 0.25),
+          inset 0 0 20px rgba(70, 130, 180, 0.05);
+        transform: translateY(-5px);
+      }
+
+      /* Dark Mode Glass Card Override */
+      .dark .glass-card {
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 
+          0 4px 30px rgba(0, 0, 0, 0.5),
+          inset 0 1px 0 rgba(255, 255, 255, 0.15);
+      }
+      
+      .dark .glass-card:hover {
+        background: linear-gradient(145deg, rgba(70, 130, 180, 0.15) 0%, rgba(0, 0, 0, 0.4) 100%);
+        border-color: rgba(70, 130, 180, 0.8);
+        box-shadow: 
+          0 0 30px -5px rgba(70, 130, 180, 0.6),
+          inset 0 0 20px rgba(70, 130, 180, 0.2);
+      }
+
+      /* Grid Background Utility */
+      .bg-grid-slate {
+        background-size: 60px 60px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+        -webkit-mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+      }
+
+      /* Smoother Reveal */
+      .reveal-hidden {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 1.5s cubic-bezier(0.2, 0.8, 0.2, 1), transform 1.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+      .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white dark:bg-black text-navy dark:text-white transition-colors duration-500">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+import React from 'react';
+
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+}
+
+export const Button: React.FC<ButtonProps> = ({ 
+  children, 
+  className = '', 
+  variant = 'primary', 
+  size = 'md',
+  ...props 
+}) => {
+  const baseStyles = "inline-flex items-center justify-center rounded font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none active:scale-[0.98]";
+  
+  const variants = {
+    // Shiny Steel/Glass Primary
+    primary: "bg-teal/90 text-white backdrop-blur-sm border border-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.3),0_4px_20px_rgba(70,130,180,0.4)] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_6px_24px_rgba(70,130,180,0.6)] hover:bg-teal hover:-translate-y-0.5 relative overflow-hidden after:absolute after:inset-0 after:bg-gradient-to-b after:from-white/10 after:to-transparent",
+    
+    // Shiny Steel Secondary
+    secondary: "bg-steel text-white border border-transparent shadow-[inset_0_1px_0_rgba(255,255,255,0.2)] hover:bg-steel/90 hover:-translate-y-0.5",
+    
+    // Glass Outline (Adapted for light/dark)
+    outline: "border border-navy/10 dark:border-white/10 text-navy dark:text-white bg-white/5 backdrop-blur-md shadow-[inset_0_1px_0_rgba(255,255,255,0.1)] hover:bg-navy/5 dark:hover:bg-white/10 hover:border-teal/50 hover:text-teal dark:hover:text-teal-bright hover:shadow-[0_0_20px_rgba(70,130,180,0.2)] hover:-translate-y-0.5",
+    
+    ghost: "bg-transparent text-navy dark:text-white hover:bg-black/5 dark:hover:bg-white/5 hover:backdrop-blur-sm",
+  };
+
+  const sizes = {
+    sm: "h-9 px-3 text-sm",
+    md: "h-11 px-6 text-base",
+    lg: "h-14 px-8 text-lg",
+  };
+
+  return (
+    <button 
+      className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`}
+      {...props}
+    >
+      {children}
+    </button>
+  );
+};
