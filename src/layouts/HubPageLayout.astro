@@ -23,11 +23,13 @@ const breadcrumbs = getBreadcrumbs(page.slug);
     description={page.heroDescription}
     breadcrumbs={breadcrumbs}
   />
-  <SubServicesGrid 
-    title={page.subpagesSectionTitle}
-    description={page.subpagesSectionDescription}
-    items={page.subpages}
-  />
+  {page.subpages && page.subpages.length > 0 && (
+    <SubServicesGrid 
+      title={page.subpagesSectionTitle}
+      description={page.subpagesSectionDescription}
+      items={page.subpages}
+    />
+  )}
   <WhyChoose 
     title={page.whyChooseSectionTitle}
     description={page.whyChooseDescription}

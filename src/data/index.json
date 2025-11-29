@@ -112,8 +112,8 @@
         "tertiaryButtonText": "Email Our Team"
       }
     },
-    "neurovascular-services": {
-      "slug": "neurovascular-services",
+    "neurovascular-testing": {
+      "slug": "neurovascular-testing",
       "title": "Neurovascular Device Testing | Synchrony Labs",
       "heroHeadline": "Neurovascular Device Testing",
       "heroDescription": "Specialized preclinical validation for stroke intervention and aneurysm treatment devices.",
@@ -123,18 +123,18 @@
         {
           "heading": "Thrombectomy Testing",
           "text": "Stent retriever and combination device evaluation including clot engagement efficiency, retrieval force optimization, and first-pass recanalization assessment with vessel preservation protocols.",
-          "url": "/preclinical-services/neurovascular-services/thrombectomy-testing"
+          "url": "/preclinical-services/neurovascular-testing/thrombectomy-testing"
         },
         {
           "heading": "Direct Aspiration Thrombectomy Testing",
           "text": "Direct aspiration catheter validation for stroke, coronary, and peripheral applications. Vacuum force generation, clot extraction efficiency, and complete recanalization assessment.",
-          "url": "/preclinical-services/neurovascular-services/direct-aspiration-thrombectomy-testing"
+          "url": "/preclinical-services/neurovascular-testing/direct-aspiration-thrombectomy-testing"
         },
         {
           "icon": "Droplet",
           "heading": "Liquid Embolic Device Testing",
           "text": "Polymer delivery system validation for aneurysm and AVM treatment. DMSO compatibility, radiopacity assessment, and controlled polymerization testing with occlusion effectiveness protocols.",
-          "url": "/preclinical-services/neurovascular-services/liquid-embolic-device-testing"
+          "url": "/preclinical-services/neurovascular-testing/liquid-embolic-device-testing"
         }
       ],
       "whyChooseSectionTitle": "Why Choose Synchrony for Neurovascular Testing",
@@ -162,21 +162,21 @@
           "heading": "Thrombectomy Testing",
           "text": "Mechanical thrombectomy devices need to prove they can engage clots effectively, achieve first-pass recanalization, and preserve vessel integrity during emergency stroke procedures. We test device performance using advanced clot simulation systems that replicate diverse thrombus compositions, validating retrieval mechanics and TICI scoring across stent retrievers and combination devices. Our catheterization laboratories provide angiographic documentation of recanalization success while anatomically accurate cerebral vessel models enable realistic performance assessment throughout the entire study.",
           "ctaText": "Learn More About Thrombectomy Testing",
-          "ctaUrl": "/preclinical-services/neurovascular-services/thrombectomy-testing",
+          "ctaUrl": "/preclinical-services/neurovascular-testing/thrombectomy-testing",
           "image": "https://drive.google.com/file/d/1tXNysvNy8WcIe6euxEKO3Nwh9NDPXl9d/view?usp=drive_link"
         },
         {
           "heading": "Direct Aspiration Thrombectomy Testing",
-          "text": "Aspiration catheters require validation of vacuum force generation, clot extraction efficiency, and complete vessel recanalization across neurovascular, coronary, and peripheral applications. We evaluate aspiration performance using standardized clot compositionsâ€”from fresh platelet-rich thrombi to organized fibrin materialâ€”ensuring devices handle the full spectrum of clinical scenarios. Our testing protocols assess catheter trackability through tortuous cerebral anatomy, aspiration force consistency during extended procedures, and biocompatibility requirements for blood-contacting devices.",
+          "text": "Aspiration catheters require validation of vacuum force generation, clot extraction efficiency, and complete vessel recanalization across neurovascular, coronary, and peripheral applications. We evaluate aspiration performance using standardized clot compositions—from fresh platelet-rich thrombi to organized fibrin material—ensuring devices handle the full spectrum of clinical scenarios. Our testing protocols assess catheter trackability through tortuous cerebral anatomy, aspiration force consistency during extended procedures, and biocompatibility requirements for blood-contacting devices.",
           "ctaText": "Learn More About Aspiration Thrombectomy Testing",
-          "ctaUrl": "/preclinical-services/neurovascular-services/direct-aspiration-thrombectomy-testing",
+          "ctaUrl": "/preclinical-services/neurovascular-testing/direct-aspiration-thrombectomy-testing",
           "image": "https://drive.google.com/file/d/1sLHGNTiS7mzufLjC6hy4TMs4WMM-6qY6/view?usp=drive_link"
         },
         {
           "heading": "Liquid Embolic Device Testing",
           "text": "Liquid embolic agents face unique challenges that standard biocompatibility testing can't address. We validate polymer viscosity, radiopacity, and polymerization kinetics using specialized protocols for DMSO compatibility, tantalum suspension stability, and controlled precipitation behavior. Our catheterization laboratories feature imaging systems configured specifically for liquid embolic visualization, while ISO 10993-compliant testing addresses material characterization and delivery performance across aneurysm, AVM, and peripheral embolization applications.",
           "ctaText": "Learn More About Liquid Embolic Testing",
-          "ctaUrl": "/preclinical-services/neurovascular-services/liquid-embolic-device-testing",
+          "ctaUrl": "/preclinical-services/neurovascular-testing/liquid-embolic-device-testing",
           "image": "https://drive.google.com/file/d/15nB_JEx5iD72Ga07RJlI247pTCfq84_S/view?usp=drive_link"
         }
       ],
@@ -210,8 +210,8 @@
         "tertiaryButtonLink": "/contact"
       }
     },
-    "peripheral-vascular": {
-      "slug": "peripheral-vascular",
+    "peripheral-vascular-testing": {
+      "slug": "peripheral-vascular-testing",
       "title": "Peripheral Vascular Testing | Synchrony Labs",
       "heroHeadline": "Peripheral Vascular Testing",
       "heroDescription": "Specialized testing across carotid, aortic, venous, and embolic protection applications with territory-specific protocols, anatomical models, and regulatory expertise.",
@@ -221,24 +221,24 @@
         {
           "heading": "Carotid Stent Testing",
           "text": "Cerebrovascular testing for carotid stents addressing embolic protection, plaque scaffolding, and stroke prevention.",
-          "url": "/preclinical-services/peripheral-vascular/carotid-stent-testing"
+          "url": "/preclinical-services/peripheral-vascular-testing/carotid-stent-testing"
         },
         {
           "heading": "AAA Device Testing",
           "text": "Endovascular aneurysm repair testing with high-pressure containment, seal integrity, and durability validation.",
-          "url": "/preclinical-services/peripheral-vascular/aaa-device-testing"
+          "url": "/preclinical-services/peripheral-vascular-testing/aaa-device-testing"
         },
         {
           "icon": "Filter",
           "heading": "IVC Filter Testing",
           "text": "Venous embolic capture testing with flow preservation, retrieval mechanics, and biocompatibility assessment.",
-          "url": "/preclinical-services/peripheral-vascular/ivc-filter-testing"
+          "url": "/preclinical-services/peripheral-vascular-testing/ivc-filter-testing"
         },
         {
           "icon": "Shield",
           "heading": "Embolic Protection Devices",
           "text": "Procedural safety device testing with debris capture efficiency and flow preservation validation.",
-          "url": "/preclinical-services/peripheral-vascular/embolic-protection-testing"
+          "url": "/preclinical-services/peripheral-vascular-testing/embolic-protection-testing"
         }
       ],
       "whyChooseSectionTitle": "Why Choose Synchrony Labs for Peripheral Vascular Testing",
@@ -266,21 +266,21 @@
           "heading": "Carotid Stent Testing",
           "text": "Carotid stent development requires specialized cerebrovascular testing that addresses embolic risk, plaque stabilization, and vessel scaffolding in the critical carotid circulation. We evaluate embolic generation, plaque compression, and patency maintenance using anatomically accurate carotid bifurcation models that replicate the unique hemodynamics of cerebral circulation. Our testing protocols span self-expanding nitinol systems, balloon-expandable designs, and drug-eluting platforms, with advanced embolic monitoring systems evaluating particle generation during deployment across various plaque types. Specialized protocols assess plaque stabilization effectiveness, deployment precision through tortuous anatomy, and chronic thrombogenicity in the cerebrovascular environment.",
           "ctaText": "Learn More About Carotid Stent Testing",
-          "ctaUrl": "/preclinical-services/peripheral-vascular/carotid-stent-testing",
+          "ctaUrl": "/preclinical-services/peripheral-vascular-testing/carotid-stent-testing",
           "image": "https://drive.google.com/file/d/12cH_juXkYhe9fgh9nUAJdE0125OnZ6Ly/view?usp=drive_link"
         },
         {
           "heading": "AAA Device Testing",
           "text": "Abdominal aortic aneurysm repair systems need to prove they can withstand systolic pressure cycles while providing complete aneurysm exclusion and maintaining critical branch vessel perfusion. We evaluate pressure containment, endoleak prevention, and structural integrity using high-pressure flow circuits and anatomically accurate aneurysm models that accommodate modular stent grafts, unibody designs, and fenestrated devices with branch vessel preservation. Advanced pressure monitoring provides real-time seal integrity assessment while leak detection systems identify potential endoleak pathways. Accelerated fatigue testing simulates decades of cardiac pressure cycles, characterizing material durability and component interface integrity throughout intended device life.",
           "ctaText": "Learn More About AAA Device Testing",
-          "ctaUrl": "/preclinical-services/peripheral-vascular/aaa-device-testing",
+          "ctaUrl": "/preclinical-services/peripheral-vascular-testing/aaa-device-testing",
           "image": "https://drive.google.com/file/d/1hpozPq0vQWRwPBIMEvqqR3UQd-XysqhT/view?usp=drive_link"
         },
         {
           "heading": "IVC Filter Testing",
           "text": "Inferior vena cava filter development requires specialized venous testing that addresses clot capture efficiency, flow preservation, and retrieval mechanics in the low-pressure, large-diameter venous environment. We evaluate embolic challenge response, anchoring stability, and biocompatibility using high-volume venous flow circuits that replicate physiological IVC hemodynamics. Our testing addresses both permanent filter designs requiring long-term biocompatibility validation and retrievable systems demanding comprehensive retrieval mechanics assessment. Advanced embolic simulation systems deliver calibrated thrombus analogs across clinically relevant size ranges while specialized protocols characterize retrieval force requirements and safe recovery timelines.",
           "ctaText": "Learn More About IVC Filter Testing",
-          "ctaUrl": "/preclinical-services/peripheral-vascular/ivc-filter-testing",
+          "ctaUrl": "/preclinical-services/peripheral-vascular-testing/ivc-filter-testing",
           "image": "https://drive.google.com/file/d/1Yd3rwSKjPlBmgHBMnlPEHecqJDmmY5yY/view?usp=drive_link"
         }
       ],

@@ -13,7 +13,9 @@ interface Props {
 }
 
 const { page } = Astro.props;
-const breadcrumbs = getBreadcrumbs(page.slug);
+// Construct full path for breadcrumbs: parentHubUrl + slug
+const fullPath = page.parentHubUrl.replace('/preclinical-services/', '') + '/' + page.slug;
+const breadcrumbs = getBreadcrumbs(fullPath);
 ---
 
 <BaseLayout title={page.title}>
@@ -32,6 +34,7 @@ const breadcrumbs = getBreadcrumbs(page.slug);
     description={page.primaryContentDescription}
     capabilitiesTitle={page.keyCapabilitiesTitle}
     capabilities={page.capabilities}
+    pageTitle={page.heroHeadline}
   />
   <WhyChoose 
     title={page.whyChooseTitle}

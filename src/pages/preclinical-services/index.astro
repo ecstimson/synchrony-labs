@@ -8,22 +8,22 @@ const hubPages = getAllHubPages();
 ---
 
 <BaseLayout title="Preclinical Services | Synchrony Labs">
-  <section class="relative w-full min-h-[60vh] flex items-center justify-center overflow-hidden pt-24">
-    <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 text-center py-16">
-      <h1 class="mx-auto max-w-5xl text-4xl font-bold tracking-tight text-navy dark:text-white sm:text-5xl lg:text-6xl mb-8 leading-tight">
+  <section class="relative w-full min-h-[400px] flex items-center justify-center overflow-hidden pt-24 pb-8">
+    <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-7xl">
+      <h1 class="mx-auto max-w-5xl text-4xl font-bold tracking-tight text-navy dark:text-white sm:text-5xl lg:text-6xl mb-4 leading-tight">
         Preclinical Services
       </h1>
       
-      <p class="mx-auto mt-6 max-w-2xl text-lg text-gray-600 dark:text-gray-400 mb-12 leading-relaxed">
+      <p class="mx-auto mt-4 max-w-2xl text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
         Comprehensive preclinical testing services across cardiovascular, neurovascular, peripheral vascular, and surgical robotics applications.
       </p>
     </div>
   </section>
 
   {/* Core Study Areas - Cards Grid Section */}
-  <section class="py-12 px-4 border-b border-navy/5 dark:border-white/5 bg-transparent">
+  <section class="py-8 px-4 border-b border-navy/5 dark:border-white/5 bg-transparent">
     <div class="max-w-7xl mx-auto">
-      <div class="text-center mb-10 max-w-3xl mx-auto">
+      <div class="text-center mb-8 max-w-3xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-4 text-navy dark:text-white">
           Core Study Areas
         </h2>
@@ -32,16 +32,16 @@ const hubPages = getAllHubPages();
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {hubPages.map((hub) => (
           <a 
             href={`/preclinical-services/${hub.slug}`}
-            class="group glass-card rounded-xl p-8 transition-all duration-300 hover:-translate-y-1"
+            class="group glass-card rounded-xl p-6 transition-all duration-300 hover:-translate-y-1"
           >
-            <h3 class="text-xl font-bold text-navy dark:text-white mb-4 group-hover:text-teal transition-colors">
+            <h3 class="text-lg font-bold text-navy dark:text-white mb-3 group-hover:text-teal transition-colors">
               {hub.heroHeadline}
             </h3>
-            <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+            <p class="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed text-sm">
               {hub.heroDescription}
             </p>
             <span class="text-sm font-medium text-teal group-hover:underline">

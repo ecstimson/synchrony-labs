@@ -9,9 +9,21 @@ const tickerIcons = [
 ];
 ---
 
-<section class="py-12 border-y border-navy/5 dark:border-white/5 bg-navy/5 dark:bg-white/[0.02] backdrop-blur-sm relative z-10 transition-colors duration-500 overflow-hidden">
-  <div class="relative">
+<section class="py-8 border-y border-navy/5 dark:border-white/5 relative z-10 transition-colors duration-500 overflow-hidden w-full">
+  <div class="relative w-full">
     <div class="flex items-center gap-24 md:gap-32 lg:gap-40 animate-scroll">
+      <!-- First set of logos -->
+      {tickerIcons.map((icon) => (
+        <div class="flex-shrink-0 h-12 md:h-16 lg:h-20 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity px-8">
+          <img 
+            src={`/images/ticker/${icon.image}`}
+            alt={icon.name}
+            class="h-full w-auto object-contain filter dark:brightness-0 dark:invert max-w-[200px]"
+            loading="lazy"
+          />
+        </div>
+      ))}
+      <!-- Duplicate set for seamless loop -->
       {tickerIcons.map((icon) => (
         <div class="flex-shrink-0 h-12 md:h-16 lg:h-20 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity px-8">
           <img 
@@ -32,7 +44,7 @@ const tickerIcons = [
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-100% - 2rem));
+      transform: translateX(calc(-50% - 1rem));
     }
   }
   

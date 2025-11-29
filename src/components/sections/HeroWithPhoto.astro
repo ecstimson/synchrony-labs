@@ -1,0 +1,50 @@
+---
+import Breadcrumb from './Breadcrumb.astro';
+import Button from '../ui/Button.astro';
+
+interface Props {
+  headline: string;
+  description: string;
+  breadcrumbs: Array<{ label: string; url: string }>;
+  imageUrl?: string;
+}
+
+const { headline, description, breadcrumbs, imageUrl } = Astro.props;
+const heroImage = imageUrl || '/images/placeholder.jpg';
+---
+
+<section class="relative w-full min-h-[60vh] flex items-center overflow-hidden pt-24">
+  <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <Breadcrumb items={breadcrumbs} />
+    
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      {/* Left side - Content */}
+      <div class="flex flex-col">
+        <h1 class="text-4xl font-bold tracking-tight text-navy dark:text-white sm:text-5xl lg:text-6xl mb-6 leading-tight">
+          {headline}
+        </h1>
+        <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-8 max-w-2xl">
+          {description}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <Button variant="primary" size="lg" href="/contact" class="w-full sm:w-auto">
+            Schedule Consultation
+          </Button>
+        </div>
+      </div>
+
+      {/* Right side - Image */}
+      <div>
+        <div class="aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 dark:bg-navy-dark/50 border border-navy/10 dark:border-white/10 shadow-lg">
+          <img 
+            src={heroImage}
+            alt={headline}
+            class="w-full h-full object-cover"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

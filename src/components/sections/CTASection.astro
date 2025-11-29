@@ -23,16 +23,6 @@ const { cta } = Astro.props;
       <Button variant="primary" size="lg" href={cta.primaryButtonLink}>
         {cta.primaryButtonText}
       </Button>
-      {cta.secondaryButtonText && cta.secondaryButtonLink && (
-        <Button variant="outline" size="lg" href={cta.secondaryButtonLink}>
-          {cta.secondaryButtonText}
-        </Button>
-      )}
-      {cta.tertiaryButtonText && cta.tertiaryButtonLink && (
-        <Button variant="ghost" size="lg" href={cta.tertiaryButtonLink}>
-          {cta.tertiaryButtonText}
-        </Button>
-      )}
     </div>
   </div>
 </section>

@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 
   const paths = [
     ...hubPages.map(page => {
-      // Extract slug from URL path
+      // Hub pages: slug is just the hub name
       const slugPath = page.slug.replace(/^\/?preclinical-services\//, '').split('/').filter(Boolean);
       return {
         params: { slug: slugPath.join('/') },
@@ -19,16 +19,22 @@ export async function getStaticPaths() {
       };
     }),
     ...parentPages.map(page => {
-      const slugPath = page.slug.replace(/^\/?preclinical-services\//, '').split('/').filter(Boolean);
+      // Parent pages: construct full path from parentHubUrl + slug
+      // e.g., /preclinical-services/cardiovascular-disease-testing/heart-valve-testing
+      const hubPath = page.parentHubUrl.replace('/preclinical-services/', '');
+      const fullPath = `${hubPath}/${page.slug}`;
       return {
-        params: { slug: slugPath.join('/') },
+        params: { slug: fullPath },
         props: { page, pageType: 'parent' }
       };
     }),
     ...servicePages.map(page => {
-      const slugPath = page.slug.replace(/^\/?preclinical-services\//, '').split('/').filter(Boolean);
+      // Service pages: use the full URL from parentHubUrl + slug
+      // e.g., /preclinical-services/cardiovascular-disease-testing/heart-valve-testing/tavr-testing
+      const parentPath = page.parentHubUrl.replace('/preclinical-services/', '');
+      const fullPath = `${parentPath}/${page.slug}`;
       return {
-        params: { slug: slugPath.join('/') },
+        params: { slug: fullPath },
         props: { page, pageType: 'service' }
       };
     })
