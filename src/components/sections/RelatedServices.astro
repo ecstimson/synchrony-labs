@@ -26,14 +26,14 @@ const { title, description, services } = Astro.props;
 
     <div class="grid gap-6 md:grid-cols-3">
       {services.map((service) => (
-        <div class="glass-card rounded-xl p-8">
+        <div class="glass-card rounded-xl p-8 flex flex-col h-full">
           <h3 class="text-xl font-bold text-navy dark:text-white mb-3">
             {service.heading}
           </h3>
-          <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+          <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 flex-grow">
             {service.text}
           </p>
-          <Button variant="outline" href={service.ctaUrl} size="sm">
+          <Button variant="outline" href={service.ctaUrl} size="sm" class="mt-auto">
             {service.ctaText}
           </Button>
         </div>

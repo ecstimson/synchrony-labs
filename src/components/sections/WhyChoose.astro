@@ -25,11 +25,11 @@ const { title, description, cards } = Astro.props;
 
     <div class="grid gap-8 md:grid-cols-3">
       {cards.map((card) => (
-        <div class="glass-card rounded-xl p-8 text-center">
+        <div class="glass-card rounded-xl p-8 text-center flex flex-col h-full">
           <h3 class="text-xl font-bold text-navy dark:text-white mb-4">
             {card.heading}
           </h3>
-          <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          <p class="text-gray-600 dark:text-gray-400 leading-relaxed flex-grow">
             {card.text}
           </p>
         </div>
