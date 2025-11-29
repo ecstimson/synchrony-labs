@@ -38,17 +38,13 @@ import Button from '../ui/Button.astro';
 
       <div class="flex-1 w-full order-1 lg:order-2 reveal-hidden" style="transition-delay: 300ms">
         <div class="relative overflow-hidden rounded-2xl glass-card p-2 shadow-2xl">
-          <div class="bg-gray-100 dark:bg-navy-dark/50 rounded-xl overflow-hidden aspect-[4/3] relative flex items-center justify-center border border-navy/5 dark:border-white/5 group transition-colors duration-500">
-            <div class="absolute inset-0 bg-grid-slate opacity-10 dark:opacity-20 group-hover:opacity-30 dark:group-hover:opacity-40 transition-opacity duration-700"></div>
-            
-            <div class="text-center relative z-10">
-              <div class="mx-auto w-16 h-16 rounded-full bg-white dark:bg-white/5 flex items-center justify-center mb-4 border border-navy/10 dark:border-white/10 group-hover:scale-110 group-hover:bg-teal/20 group-hover:border-teal/50 transition-all duration-500 shadow-sm">
-                <svg class="w-8 h-8 text-gray-400 group-hover:text-navy dark:group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <span class="text-sm text-gray-500 font-medium group-hover:text-navy dark:group-hover:text-gray-300 transition-colors">Facility Image Placeholder</span>
-            </div>
+          <div class="bg-gray-100 dark:bg-navy-dark/50 rounded-xl overflow-hidden aspect-[4/3] relative border border-navy/5 dark:border-white/5 group transition-colors duration-500">
+            <img 
+              src="/images/services/facility.jpeg"
+              alt="Synchrony Labs Facility"
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

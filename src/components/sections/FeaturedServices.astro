@@ -9,48 +9,13 @@ interface Props {
 const { title, services } = Astro.props;
 
 // Map image names to actual file paths
+// CSV image fields are ignored - images are determined by heading name only
 function getImagePath(imageUrl?: string, heading?: string): string {
-  if (!imageUrl && !heading) return '/images/placeholder.jpg';
-  
-  // If imageUrl is already a local path, use it
-  if (imageUrl && !imageUrl.startsWith('http')) {
-    return imageUrl.startsWith('/') ? imageUrl : `/images/services/${imageUrl}`;
-  }
-  
-  // Use heading to map to image file (images are named after headings)
+  // Always use heading to map to image file (images are named after headings)
+  // Ignore any imageUrl from CSV (Google Drive URLs are not used)
   if (heading) {
     const imagePath = `/images/services/${heading}.jpg`;
     return imagePath;
-  }
-  
-  // Fallback for Google Drive URLs or other cases - try to extract from URL
-  if (imageUrl) {
-    // Try to match known patterns
-    const imageMap: Record<string, string> = {
-      'Heart Valve Testing': '/images/services/Heart Valve Testing.jpg',
-      'Structural Heart Testing': '/images/services/Structural Heart Testing.jpg',
-      'Coronary Stent Testing': '/images/services/Coronary Stent Testing.jpg',
-      'Thrombectomy Testing': '/images/services/Thrombectomy Testing.jpg',
-      'Direct Aspiration Thrombectomy Testing': '/images/services/Direct Aspiration Thrombectomy Testing.jpg',
-      'Liquid Embolic Device Testing': '/images/services/Liquid Embolic Device Testing.jpg',
-      'Carotid Stent Testing': '/images/services/Carotid Stent Testing.jpg',
-      'AAA Device Testing': '/images/services/AAA Device Testing.jpg',
-      'IVC Filter Testing': '/images/services/IVC Filter Testing.jpg',
-      'Endoscopic Device Testing': '/images/services/Endoscopic Device Testing.jpg',
-      'Laparoscopic Testing': '/images/services/Laparoscopic Testing.jpg',
-      'Robotic System Integration Testing': '/images/services/Robotic System Integration Testing.jpg',
-      'GLP Testing': '/images/services/GLP Testing.jpg',
-      'Biocompatibility Testing': '/images/services/Biocompatibility Testing.jpg',
-      'FDA Regulatory Testing': '/images/services/FDA Regulatory Testing.jpg',
-      'Comprehensive DCB Validation': '/images/services/Comprehensive DCB Validation.jpg',
-    };
-    
-    // Try to find a match in the URL
-    for (const [key, path] of Object.entries(imageMap)) {
-      if (imageUrl.includes(key)) {
-        return path;
-      }
-    }
   }
   
   return '/images/placeholder.jpg';

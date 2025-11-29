@@ -34,7 +34,8 @@ function parseFeaturedService(row: Record<string, string>, index: number): Featu
   const text = row[`featured_${index}_text`];
   const ctaText = row[`featured_${index}_cta_text`];
   const ctaUrl = row[`featured_${index}_cta_url`];
-  const image = row[`featured_${index}_image`];
+  // Ignore CSV image fields - images are determined by heading name
+  const image = undefined;
 
   if (!heading || !text || !ctaText || !ctaUrl) return null;
 

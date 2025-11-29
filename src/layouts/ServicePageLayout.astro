@@ -11,101 +11,16 @@ interface Props {
   page: ServicePage;
 }
 
-// Map service page headlines to image paths
+// Map service page headlines to unique image paths
+// Each service page gets its own unique image based on heroHeadline
 function getServiceHeroImage(headline: string, slug: string): string {
-  const headlineLower = headline.toLowerCase();
-  const slugLower = slug.toLowerCase();
+  // Use the exact heroHeadline format to map to image filename
+  // Images are named: "{heroHeadline}.jpg"
+  const imagePath = `/images/services/${headline}.jpg`;
   
-  const imageMap: Record<string, string> = {
-    // Heart Valve Services
-    'tavr': '/images/services/Heart Valve Testing.jpg',
-    'mitraclip': '/images/services/Heart Valve Testing.jpg',
-    'sapien': '/images/services/Heart Valve Testing.jpg',
-    'evolut': '/images/services/Heart Valve Testing.jpg',
-    'pascal': '/images/services/Heart Valve Testing.jpg',
-    'tendyne': '/images/services/Heart Valve Testing.jpg',
-    'triclip': '/images/services/Heart Valve Testing.jpg',
-    'corevalve': '/images/services/Heart Valve Testing.jpg',
-    'heart valve': '/images/services/Heart Valve Testing.jpg',
-    'pacemaker': '/images/services/Heart Valve Testing.jpg',
-    'icd': '/images/services/Heart Valve Testing.jpg',
-    'heart pump': '/images/services/Heart Valve Testing.jpg',
-    'l vad': '/images/services/Heart Valve Testing.jpg',
-    
-    // Structural Heart Services
-    'structural heart': '/images/services/Structural Heart Testing.jpg',
-    'laa closure': '/images/services/Structural Heart Testing.jpg',
-    'watchman': '/images/services/Structural Heart Testing.jpg',
-    'renal denervation': '/images/services/Structural Heart Testing.jpg',
-    
-    // Coronary Stent Services
-    'coronary stent': '/images/services/Coronary Stent Testing.jpg',
-    'des testing': '/images/services/Coronary Stent Testing.jpg',
-    'drug-eluting stent': '/images/services/Coronary Stent Testing.jpg',
-    
-    // Thrombectomy Services
-    'thrombectomy': '/images/services/Thrombectomy Testing.jpg',
-    'direct aspiration thrombectomy': '/images/services/Direct Aspiration Thrombectomy Testing.jpg',
-    
-    // Liquid Embolic Services
-    'liquid embolic': '/images/services/Liquid Embolic Device Testing.jpg',
-    'liquid embolic device': '/images/services/Liquid Embolic Device Testing.jpg',
-    
-    // Carotid Services
-    'carotid stent': '/images/services/Carotid Stent Testing.jpg',
-    'carotid': '/images/services/Carotid Stent Testing.jpg',
-    
-    // AAA Services
-    'aaa device': '/images/services/AAA Device Testing.jpg',
-    'aaa': '/images/services/AAA Device Testing.jpg',
-    'aneurysm': '/images/services/AAA Device Testing.jpg',
-    
-    // IVC Filter Services
-    'ivc filter': '/images/services/IVC Filter Testing.jpg',
-    'ivc': '/images/services/IVC Filter Testing.jpg',
-    
-    // Endoscopic Services
-    'endoscopic device': '/images/services/Endoscopic Device Testing.jpg',
-    'endoscopic': '/images/services/Endoscopic Device Testing.jpg',
-    
-    // Laparoscopic Services
-    'laparoscopic': '/images/services/Laparoscopic Testing.jpg',
-    'laparoscopic testing': '/images/services/Laparoscopic Testing.jpg',
-    
-    // GLP Services
-    'glp testing': '/images/services/GLP Testing.jpg',
-    'glp': '/images/services/GLP Testing.jpg',
-    
-    // Biocompatibility Services
-    'biocompatibility': '/images/services/Biocompatibility Testing.jpg',
-    'biocompatibility testing': '/images/services/Biocompatibility Testing.jpg',
-    
-    // FDA Regulatory Services
-    'fda regulatory': '/images/services/FDA Regulatory Testing.jpg',
-    'fda': '/images/services/FDA Regulatory Testing.jpg',
-    
-    // DCB Services
-    'dcb': '/images/services/Comprehensive DCB Validation.jpg',
-    'drug-coated balloon': '/images/services/Comprehensive DCB Validation.jpg',
-    'comprehensive dcb': '/images/services/Comprehensive DCB Validation.jpg',
-  };
-  
-  // Check headline first
-  for (const [key, imagePath] of Object.entries(imageMap)) {
-    if (headlineLower.includes(key)) {
-      return imagePath;
-    }
-  }
-  
-  // Check slug as fallback
-  for (const [key, imagePath] of Object.entries(imageMap)) {
-    if (slugLower.includes(key)) {
-      return imagePath;
-    }
-  }
-  
-  // Default placeholder
-  return '/images/placeholder.jpg';
+  // Return the path - if image doesn't exist, browser will show broken image
+  // or we can add fallback logic later if needed
+  return imagePath;
 }
 
 const { page } = Astro.props;

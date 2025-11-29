@@ -9,6 +9,16 @@ interface Props {
 const { service, index } = Astro.props;
 const isEven = index % 2 === 0;
 const imageOnLeft = isEven;
+
+// Get hub page image path - try .jpeg first, then .jpg
+function getHubImagePath(slug: string): string {
+  // Some hub images are .jpeg, others are .jpg
+  // Try .jpeg first for cardiovascular-disease-testing, then fallback to .jpg
+  if (slug === 'cardiovascular-disease-testing') {
+    return `/images/services/${slug}.jpeg`;
+  }
+  return `/images/services/${slug}.jpg`;
+}
 ---
 
 <section class="py-12 md:py-16 bg-transparent">
@@ -56,13 +66,13 @@ const imageOnLeft = isEven;
 
         {/* Image - always second on mobile */}
         <div class={`order-2 ${imageOnLeft ? 'lg:col-start-1 lg:order-1' : 'lg:col-start-2 lg:order-2'}`}>
-          <div class="aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 dark:bg-navy-dark/50 flex items-center justify-center border border-navy/10 dark:border-white/10">
-            <div class="text-center">
-              <svg class="w-16 h-16 mx-auto mb-4 text-gray-400 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <span class="text-sm text-gray-500 dark:text-gray-400">Service Image Placeholder</span>
-            </div>
+          <div class="aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 dark:bg-navy-dark/50 border border-navy/10 dark:border-white/10">
+            <img 
+              src={getHubImagePath(service.slug)}
+              alt={service.heroHeadline}
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
