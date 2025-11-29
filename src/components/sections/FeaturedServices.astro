@@ -11,14 +11,31 @@ const { title, services } = Astro.props;
 // Map image names to actual file paths
 // CSV image fields are ignored - images are determined by heading name only
 function getImagePath(imageUrl?: string, heading?: string): string {
-  // Always use heading to map to image file (images are named after headings)
   // Ignore any imageUrl from CSV (Google Drive URLs are not used)
-  if (heading) {
-    const imagePath = `/images/services/${heading}.jpg`;
-    return imagePath;
+  if (!heading) return '/images/placeholder.jpg';
+  
+  // Map heading text to actual image filenames
+  // Some headings don't match file names exactly, so we need a mapping
+  const headingMap: Record<string, string> = {
+    'Neurovascular Testing': 'neurovascular-testing.jpg',
+    'Peripheral Vascular Testing': 'peripheral-vascular-testing.jpg',
+    'Cardiovascular Disease Testing': 'cardiovascular-disease-testing.jpeg',
+    'Medical Device Testing Laboratory': 'medical-device-testing.jpg',
+    'Surgical Robotics Testing': 'surgical-robotics.jpg',
+    'Drug-Coated Balloon Testing': 'dcb-testing.jpg',
+    // For other headings, convert to filename format: lowercase with hyphens
+    // Default: convert "Heading Text" to "heading-text.jpg"
+  };
+  
+  // Check if we have a specific mapping
+  if (headingMap[heading]) {
+    return `/images/services/${headingMap[heading]}`;
   }
   
-  return '/images/placeholder.jpg';
+  // Default: convert heading to filename format
+  // "Heart Valve Testing" → "heart-valve-testing.jpg"
+  const filename = heading.toLowerCase().replace(/\s+/g, '-') + '.jpg';
+  return `/images/services/${filename}`;
 }
 
 ---
