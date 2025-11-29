@@ -1,0 +1,1710 @@
+[
+  {
+    "slug": "pacemaker-testing",
+    "title": "Pacemaker Testing Services | Synchrony Labs",
+    "parentHubName": "Arrhythmia Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/arrhythmia-testing",
+    "heroHeadline": "Pacemaker Testing Services",
+    "heroDescription": "Comprehensive preclinical validation for bradycardia pacing devices with electrical performance characterization, sensing algorithm verification, lead system biocompatibility assessment, and battery longevity evaluation using GLP-compliant methodologies for regulatory submissions.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Cardiac pacemakers sustain life through reliable electrical stimulation, requiring validation that demonstrates consistent sensing, appropriate pacing, and battery longevity across varying physiological conditions. Pacemakers must detect intrinsic cardiac activity while delivering therapy that maintains adequate heart rate without depleting battery reserves prematurely. Single-chamber systems demand precise ventricular pacing validation while dual-chamber platforms require complex atrial-ventricular synchronization assessment and rate-responsive devices need sensor algorithm verification across activity levels.\n\nWe evaluate electrical performance using specialized electrophysiology systems that capture pacing thresholds, sensing amplitudes, and impedance measurements with microsecond precision. Our catheterization laboratories feature programmable cardiac simulation systems enabling comprehensive pacing mode assessment and rate adaptation testing. Lead system testing evaluates conductor durability through accelerated fatigue protocols while biocompatibility assessment addresses chronic tissue contact requirements using ISO 10993 standards adapted for active implantable devices.\n\nISO 14708 series standards guide cardiac pacemaker assessment while FDA guidance documents for active implantable medical devices inform protocol development addressing electromagnetic compatibility, battery performance, and MRI conditional validation. Our GLP-compliant testing supports both 510(k) pathways demonstrating substantial equivalence and PMA submissions for breakthrough technologies. Whether validating traditional dual-chamber systems, leadless pacemaker platforms, or MRI-conditional devices, our protocols demonstrate electrical reliability, sensing accuracy, and long-term biocompatibility performance that regulatory submissions demand.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Electrical Performance Characterization",
+        "description": "Pacing output validation across voltage and pulse width ranges, sensing threshold assessment for P-wave and R-wave detection, and impedance measurement throughout chronic implantation with battery performance evaluation projecting device longevity under varying pacing burden scenarios"
+      },
+      {
+        "title": "Sensing Algorithm and Rate Adaptation Validation",
+        "description": "Detection sensitivity testing for intrinsic cardiac activity, noise rejection assessment for electromagnetic interference sources, and rate-responsive sensor evaluation validating physiological rate adaptation across activity levels and environmental conditions"
+      },
+      {
+        "title": "Lead System Performance and Durability",
+        "description": "Chronic electrical integrity assessment evaluates conductor resistance stability, insulation performance under flexion stress, and lead-tissue interface impedance changes while mechanical durability protocols simulate years of cardiac motion through accelerated fatigue testing"
+      },
+      {
+        "title": "Electromagnetic Compatibility Testing",
+        "description": "MRI conditional validation per ISO 14117 standards, electromagnetic interference susceptibility assessment across frequency ranges, and medical device interaction testing including exposure to electrocautery, defibrillators, and consumer electronics"
+      },
+      {
+        "title": "Battery Longevity and End-of-Life Assessment",
+        "description": "Long-term battery performance characterization under varying pacing burdens, end-of-life indicator validation, and replacement threshold assessment ensuring predictable device longevity for clinical management planning"
+      },
+      {
+        "title": "Biocompatibility for Active Implants",
+        "description": "ISO 10993 testing adapted for active implantable devices addresses chronic tissue contact requirements with specialized protocols evaluating hemocompatibility for blood-contacting components, muscle stimulation effects, and tissue response at lead-myocardium interfaces"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Pacemaker Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Specialized Electrophysiology Infrastructure",
+        "text": "Two catheterization laboratories equipped specifically for cardiac rhythm device evaluation feature programmable cardiac simulation systems, high-resolution ECG monitoring, and real-time hemodynamic assessment capabilities. Our electromagnetic compatibility chambers validate MRI conditional devices and interference immunity across multiple frequency ranges while specialized lead testing systems simulate millions of cardiac cycles through accelerated fatigue protocols. Battery performance assessment equipment characterizes longevity projections under varying clinical pacing scenarios."
+      },
+      {
+        "icon": "Users",
+        "heading": "Cardiac Rhythm Device Expertise",
+        "text": "Founded by Duke University interventional cardiologists who pioneered electrophysiology techniques, our team understands cardiac conduction systems, pacing algorithms, and sensing mechanisms specific to rhythm management devices. This cardiovascular heritage translates to protocol designs addressing FDA active implantable device requirements including electromagnetic compatibility demonstration through ISO 14117 compliance, battery longevity assessment, and the comprehensive safety validation life-sustaining pacemakers demand for decades of reliable cardiac pacing therapy."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "Proven Pacemaker Regulatory Success",
+        "text": "Our data packages have supported successful FDA submissions for cardiac pacemaker systems across single-chamber, dual-chamber, and rate-responsive platforms. We understand active implantable medical device requirements including electromagnetic compatibility demonstration, chronic biocompatibility validation, and the specific endpoints FDA expects for pacemaker submissions addressing both traditional lead-based systems and emerging leadless pacemaker technologies requiring novel implantation and sensing validation approaches."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your pacemaker device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "icd-testing",
+    "title": "ICD Testing Services | Synchrony Labs",
+    "parentHubName": "Arrhythmia Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/arrhythmia-testing",
+    "heroHeadline": "ICD Testing Services",
+    "heroDescription": "Comprehensive preclinical validation for implantable cardioverter defibrillators with arrhythmia detection algorithm testing, high-voltage defibrillation efficacy assessment, shock delivery characterization, and electromagnetic compatibility evaluation using GLP-compliant methodologies for life-sustaining device submissions.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Implantable cardioverter defibrillators prevent sudden cardiac death through rapid arrhythmia detection and high-voltage therapy delivery, requiring validation that demonstrates reliable detection algorithms while delivering effective defibrillation without unnecessary shocks. ICDs must discriminate life-threatening ventricular arrhythmias from benign rhythms while charging capacitors rapidly and delivering therapy that terminates fibrillation consistently. Transvenous systems demand comprehensive lead validation while subcutaneous platforms require alternative pathway characterization and CRT-D devices need biventricular pacing assessment alongside defibrillation capability.\n\nWe evaluate ICD performance using specialized electrophysiology systems that induce ventricular arrhythmias and assess detection accuracy with millisecond precision. Our high-voltage testing infrastructure characterizes defibrillation thresholds across energy levels while waveform optimization validates biphasic shock delivery effectiveness. Arrhythmia simulation capabilities test detection algorithms across varying ventricular tachycardia and fibrillation presentations while electromagnetic compatibility chambers assess device performance near MRI systems and medical equipment generating electromagnetic interference.\n\nISO 14708 series standards guide ICD assessment while FDA guidance documents for active implantable cardioverter defibrillators inform protocol development addressing defibrillation efficacy, sensing accuracy, and electromagnetic safety requirements. Our GLP-compliant testing supports PMA pathways for Class III life-sustaining devices. Whether validating traditional transvenous ICDs, subcutaneous systems avoiding intracardiac leads, or CRT-D platforms combining resynchronization and defibrillation therapy, our protocols demonstrate detection reliability, shock efficacy, and electromagnetic compatibility that sudden cardiac death prevention devices demand.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Arrhythmia Detection Algorithm Validation",
+        "description": "Detection sensitivity testing across ventricular tachycardia and fibrillation presentations, specificity assessment for supraventricular tachycardia rejection, and rate discrimination validation with advanced algorithms including morphology analysis and sudden onset criteria undergoing comprehensive evaluation"
+      },
+      {
+        "title": "Defibrillation Efficacy Assessment",
+        "description": "High-voltage testing characterizes defibrillation thresholds across multiple energy levels while waveform optimization validates biphasic shock delivery, capacitor charging performance evaluation, shock impedance measurement, and therapy success rate analysis addressing ICD-specific requirements"
+      },
+      {
+        "title": "High-Voltage Lead System Performance",
+        "description": "Chronic electrical integrity assessment evaluates high-voltage conductor resistance stability, specialized insulation performance under defibrillation stress, and shock coil effectiveness while mechanical durability protocols simulate years of cardiac motion combined with periodic high-energy therapy delivery"
+      },
+      {
+        "title": "Electromagnetic Compatibility and MRI Conditional Validation",
+        "description": "MRI conditional testing per ISO 14117 standards validates device performance during imaging procedures, electromagnetic interference susceptibility assessment across frequency ranges, and medical device interaction testing including defibrillator exposure and electrocautery proximity scenarios"
+      },
+      {
+        "title": "Battery Performance Under Therapy Demands",
+        "description": "Long-term battery characterization under varying shock delivery scenarios, capacitor charging time assessment across battery depletion states, and end-of-life indicator validation ensuring predictable device longevity for replacement planning despite unpredictable therapy requirements"
+      },
+      {
+        "title": "High-Voltage System Biocompatibility",
+        "description": "ISO 10993 testing adapted for high-voltage active implantable devices addresses chronic tissue contact with specialized protocols evaluating defibrillation lead hemocompatibility, shock electrode tissue response, and high-voltage component safety throughout extended implantation periods"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for ICD Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Specialized High-Voltage Testing Infrastructure",
+        "text": "Two catheterization laboratories configured specifically for ICD evaluation feature arrhythmia induction capabilities, defibrillation threshold testing systems, and high-voltage safety equipment enabling comprehensive shock delivery assessment. Our electromagnetic compatibility chambers validate MRI conditional devices while specialized high-voltage lead testing systems simulate defibrillation stress through accelerated protocols. Advanced electrophysiology monitoring captures detection algorithm performance with millisecond precision during induced arrhythmia episodes."
+      },
+      {
+        "icon": "Users",
+        "heading": "Sudden Cardiac Death Prevention Expertise",
+        "text": "Founded by Duke University interventional cardiologists who pioneered electrophysiology and ICD implantation techniques, our team understands ventricular arrhythmia mechanisms, defibrillation physics, and detection algorithm optimization specific to life-saving devices. This cardiovascular heritage translates to protocol designs addressing FDA Class III requirements including defibrillation efficacy demonstration, electromagnetic compatibility validation, and the comprehensive safety evidence implantable cardioverter defibrillators demand for preventing sudden cardiac death across diverse patient populations."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "Proven ICD Regulatory Success",
+        "text": "Our data packages have supported successful FDA approvals for implantable cardioverter defibrillators across transvenous, subcutaneous, and CRT-D platforms. We understand Class III life-sustaining device requirements including high-voltage system validation, arrhythmia detection algorithm assessment, and the specific endpoints FDA expects for ICD submissions addressing both traditional intracardiac lead systems and emerging subcutaneous technologies requiring alternative defibrillation pathway validation and unique electromagnetic compatibility considerations."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your ICD device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "des-testing",
+    "title": "Drug-Eluting Stent Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Coronary Stent Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/coronary-stent-testing",
+    "heroHeadline": "Drug-Eluting Stent Testing Services",
+    "heroDescription": "Drug-eluting stents face unique validation challenges as combination products requiring both device and drug assessment. We test drug release patterns, polymer coating performance, tissue uptake levels, and vascular healing across paclitaxel, sirolimus, and everolimus platforms for both 510(k) and PMA submissions.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Drug-eluting stents require validation beyond mechanical testing because the polymer coating must release drug at precise rates while staying intact during deployment. The drug needs to reach vessel walls at therapeutic levels that prevent restenosis without causing toxicity. This combination product challenge means we test both device mechanics and drug delivery together, validating how the coating performs during balloon expansion and how effectively the drug penetrates arterial tissue.\n\nWe track drug release using HPLC analysis that measures elution over time under flow conditions that match coronary arteries. Scanning electron microscopy shows coating uniformity across stent struts while tissue samples reveal drug concentration in vessel walls. Our testing captures how drugs like paclitaxel and sirolimus distribute through arterial layers, measuring the tissue levels that determine whether the stent prevents smooth muscle cell growth effectively.\n\nDrug-eluting stents follow FDA combination product rules requiring coordination between device and drug review centers. We conduct ISO 10993 biocompatibility testing adapted for drug-eluting systems while ISO 25539 guides mechanical validation. Our protocols address both 510(k) pathways comparing to predicate devices and PMA submissions for breakthrough technologies. Testing demonstrates that polymer coatings maintain drug stability through sterilization and shelf life while delivering therapeutic benefit during vascular healing.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Drug Release Measurement",
+        "description": "HPLC analysis tracks how drug releases over time under flow conditions matching coronary arteries, measuring burst release in the first 24 hours and sustained delivery through the healing phase to confirm therapeutic levels reach vessel tissue."
+      },
+      {
+        "title": "Polymer Coating Validation",
+        "description": "Scanning electron microscopy and mechanical testing evaluate coating thickness, uniformity across stent struts, and adhesion strength during balloon expansion to ensure coating stays intact during deployment without cracking or peeling."
+      },
+      {
+        "title": "Tissue Drug Uptake Analysis",
+        "description": "Quantitative tissue analysis measures drug concentrations in arterial wall layers, mapping how deeply drugs like paclitaxel and sirolimus penetrate to reach smooth muscle cells where they prevent restenosis."
+      },
+      {
+        "title": "Mechanical and Coating Integrity",
+        "description": "Combined testing evaluates stent radial strength, recoil behavior, and coating integrity simultaneously during deployment to ensure mechanical forces don't damage the polymer coating or affect drug delivery."
+      },
+      {
+        "title": "Combination Product Biocompatibility",
+        "description": "ISO 10993 testing adapted for drug-eluting systems evaluates both polymer biocompatibility and drug effects on tissue, addressing local tolerance and systemic safety specific to combination product requirements."
+      },
+      {
+        "title": "Regulatory Pathway Support",
+        "description": "Testing protocols address FDA combination product guidance requiring both device center and drug center review, generating data for 510(k) pathways through predicate comparison or PMA submissions for breakthrough technologies."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Drug-Eluting Stent Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Specialized Drug Analysis Infrastructure",
+        "text": "Our laboratories feature HPLC systems configured specifically for drug-eluting stent analysis, scanning electron microscopy for coating characterization, and quantitative tissue analysis equipment for measuring drug penetration. This specialized analytical infrastructure enables precise drug release profiling, polymer coating assessment, and tissue uptake measurement that combination products require for FDA approval."
+      },
+      {
+        "icon": "Users",
+        "heading": "Combination Product Expertise",
+        "text": "Drug-eluting stents require expertise in both device mechanics and pharmaceutical delivery that most facilities don't have. Our team understands polymer coating chemistry, drug release kinetics, and antiproliferative pharmacology alongside stent deployment mechanics and vascular healing. This combined expertise translates to testing protocols that address both CDRH device requirements and CDER drug evaluation standards."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "FDA Combination Product Pathway Success",
+        "text": "Our data packages have supported successful FDA submissions for drug-eluting platforms requiring coordination between device and drug review centers. We understand how to structure testing that satisfies both CDRH mechanical performance expectations and CDER pharmacological safety requirements, whether pursuing 510(k) clearance through predicate comparison or PMA approval for breakthrough drug-polymer combinations."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your drug-eluting stent platform, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "heart-pump-testing",
+    "title": "Heart Pump Testing Services | Synchrony Labs",
+    "parentHubName": "Heart Failure Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-failure-testing",
+    "heroHeadline": "Heart Pump Testing Services",
+    "heroDescription": "Comprehensive preclinical validation for mechanical circulatory support devices with pump performance characterization, hemocompatibility assessment, durability protocols, and hemodynamic testing under physiological conditions using GLP-compliant methodologies.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Mechanical circulatory support devices sustain life by generating continuous flow, requiring validation that demonstrates reliable pump performance while preventing blood damage and thrombotic complications. Heart pumps must maintain 5 liters per minute across varying preload and afterload conditions while operating continuously for months or years without mechanical failure. Continuous-flow platforms demand specialized shear stress assessment while pulsatile systems require complex timing validation and chamber pressurization characterization.\n\nWe evaluate pump performance using pressure-flow curve analysis and real-time hemodynamic monitoring that captures output stability across physiological stress conditions. Our catheterization laboratories feature mock circulation loops replicating normal and failing heart hemodynamics while specialized test fixtures accommodate both implantable and percutaneous pump configurations. Hemocompatibility protocols quantify hemolysis indices, platelet activation markers, and von Willebrand factor degradation using ISO 10993-4 adapted for high-shear blood pump environments.\n\nISO 10993 biocompatibility standards guide chronic implantation assessment while device-specific protocols address pump durability through accelerated fatigue testing, flow dynamics optimization, and anatomical integration studies. Our GLP-compliant testing addresses PMA pathway requirements for Class III life-sustaining devices. Whether validating next-generation LVADs, temporary support systems, or total artificial hearts, our protocols demonstrate both mechanical reliability and hemocompatibility performance that regulatory submissions demand.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Pump Performance Characterization",
+        "description": "Pressure-flow curve validation across physiological ranges evaluates pump efficiency, power consumption, and flow stability under varying preload and afterload conditions while assessing continuous-flow dynamics and pulsatility characteristics"
+      },
+      {
+        "title": "Hemodynamic Performance Assessment",
+        "description": "Real-time monitoring captures cardiac output, ventricular pressure relationships, and systemic flow patterns using pressure-volume loop analysis that quantifies ventricular unloading and circulatory support effectiveness across stress conditions"
+      },
+      {
+        "title": "Hemocompatibility and Blood Damage Testing",
+        "description": "ISO 10993-4 compliant protocols quantify hemolysis indices, platelet function markers, and shear stress effects while evaluating thrombogenic potential and anticoagulation requirements for chronic blood-contacting pump surfaces"
+      },
+      {
+        "title": "Durability and Accelerated Wear Testing",
+        "description": "Long-term durability protocols simulate years of continuous operation through accelerated cycling with performance monitoring detecting bearing wear, seal degradation, and motor stability changes across millions of pump cycles"
+      },
+      {
+        "title": "Flow Dynamics and Visualization",
+        "description": "Advanced imaging identifies flow disturbances and stasis regions that promote thrombosis while computational fluid dynamics validation assesses shear stress distribution across blood-contacting surfaces and pump chambers"
+      },
+      {
+        "title": "Anatomical Integration and Biocompatibility",
+        "description": "Chronic implantation studies evaluate tissue response at pump interfaces, cannula positioning stability, and healing patterns using histopathological analysis with standardized scoring systems for fibrosis and inflammation assessment"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Heart Pump Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Specialized Circulatory Support Infrastructure",
+        "text": "Two catheterization laboratories configured specifically for mechanical circulatory support evaluation feature continuous hemodynamic monitoring, pressure-volume loop analysis systems, and real-time flow measurement capabilities. Our mock circulation loops replicate physiological preload and afterload conditions while specialized test fixtures accommodate both implantable and percutaneous pump configurations. Accelerated durability testing systems simulate years of continuous operation through millions of pump cycles under controlled conditions."
+      },
+      {
+        "icon": "Users",
+        "heading": "Mechanical Support Device Expertise",
+        "text": "Founded by Duke University interventional cardiologists who pioneered mechanical circulatory support techniques, our team understands pump physiology, ventricular mechanics, and hemodynamic optimization specific to life-sustaining devices. This cardiovascular heritage translates to protocol designs addressing FDA Class III requirements including durability demonstration, hemocompatibility validation, and the comprehensive safety evidence mechanical support devices demand for both bridge-to-transplant and destination therapy applications."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "Proven Circulatory Support Regulatory Success",
+        "text": "Our data packages have supported successful FDA approvals for mechanical circulatory support devices across ventricular assist device, temporary support, and total artificial heart categories. We understand Class III life-sustaining device requirements including chronic biocompatibility demonstration through ISO 10993 compliance, pump durability validation, and the specific endpoints FDA expects for circulatory support submissions addressing both acute decompensation management and long-term cardiac replacement applications."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your heart pump device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "lvad-testing",
+    "title": "LVAD Testing Services | Synchrony Labs",
+    "parentHubName": "Heart Failure Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-failure-testing",
+    "heroHeadline": "LVAD Testing Services",
+    "heroDescription": "Comprehensive preclinical validation for left ventricular assist devices with hemocompatibility assessment under continuous flow conditions, pump durability protocols, driveline interface evaluation, and ventricular interaction analysis using GLP-compliant methodologies.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Left ventricular assist devices provide life-sustaining cardiac support, requiring validation that demonstrates pump reliability while preventing thrombosis, hemolysis, and infection complications throughout extended implantation periods. LVADs must maintain continuous flow supporting 5-6 liters per minute while preserving ventricular function and enabling potential cardiac recovery. Continuous-flow platforms demand specialized assessment of shear-induced blood damage while pump-ventricle interaction analysis ensures optimal hemodynamic support across varying cardiac function levels.\n\nWe evaluate LVAD performance using pressure-volume loop analysis and ventricular function monitoring that captures device-heart interaction throughout cardiac cycles. Our catheterization laboratories feature mock circulation systems replicating normal and failing heart conditions while specialized surgical models enable driveline tunneling assessment and percutaneous site evaluation. Hemocompatibility testing quantifies hemolysis indices, platelet activation, and von Willebrand factor degradation using ISO 10993-4 protocols adapted for chronic continuous-flow environments found in destination therapy applications.\n\nISO 10993 biocompatibility standards guide long-term implantation assessment while FDA guidance documents for ventricular assist devices inform protocol development addressing pump durability, electrical safety, and infection resistance requirements. Our GLP-compliant testing supports PMA pathways for Class III life-sustaining devices. Whether validating next-generation miniaturized LVADs, pediatric platforms, or destination therapy systems, our protocols demonstrate mechanical reliability, hemocompatibility performance, and driveline integrity that bridge-to-transplant and destination therapy indications demand.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Pump-Ventricle Interaction Analysis",
+        "description": "Pressure-volume loop characterization quantifies ventricular unloading, inflow cannula positioning effects, and outflow graft hemodynamics while assessing cardiac output augmentation and potential for myocardial recovery across heart failure severities"
+      },
+      {
+        "title": "Continuous-Flow Hemocompatibility Assessment",
+        "description": "ISO 10993-4 compliant testing adapted for continuous-flow devices quantifies hemolysis indices, platelet function changes, and von Willebrand factor degradation while evaluating thrombogenic potential under chronic anticoagulation scenarios typical of LVAD therapy"
+      },
+      {
+        "title": "Pump Durability and Reliability Testing",
+        "description": "Accelerated fatigue protocols simulate years of continuous operation through millions of pump cycles with performance monitoring detecting bearing wear, seal integrity changes, and motor efficiency degradation addressing destination therapy durability requirements"
+      },
+      {
+        "title": "Driveline Interface and Infection Resistance",
+        "description": "Percutaneous exit site assessment evaluates tissue integration at skin-driveline interfaces while infection challenge studies characterize bacterial colonization resistance and biofilm formation potential across extended implantation periods"
+      },
+      {
+        "title": "Flow Dynamics and Thrombosis Assessment",
+        "description": "Advanced flow visualization identifies stasis regions within pump chambers that promote thrombus formation while computational fluid dynamics validation assesses shear stress distribution affecting blood damage and platelet activation"
+      },
+      {
+        "title": "Controller and Power System Validation",
+        "description": "Electrical safety testing per IEC 60601 standards validates controller performance, battery longevity, and alarm system reliability while electromagnetic compatibility assessment ensures device operation across environmental conditions and medical equipment proximity"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for LVAD Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Specialized LVAD Testing Infrastructure",
+        "text": "Two catheterization laboratories configured specifically for ventricular assist device evaluation feature pressure-volume loop analysis systems, continuous hemodynamic monitoring, and mock circulation loops replicating heart failure conditions. Our surgical suites enable driveline implantation studies and percutaneous site assessment while specialized test fixtures accommodate both intracorporeal and extracorporeal LVAD configurations. Accelerated durability systems simulate destination therapy requirements through millions of continuous pump cycles."
+      },
+      {
+        "icon": "Users",
+        "heading": "Ventricular Assist Device Expertise",
+        "text": "Founded by Duke University interventional cardiologists who pioneered mechanical circulatory support therapies, our team understands ventricular mechanics, pump-heart interaction, and LVAD optimization specific to both bridge-to-transplant and destination therapy applications. This cardiovascular heritage translates to protocol designs addressing FDA Class III requirements including chronic hemocompatibility demonstration, pump durability validation, and the comprehensive safety evidence life-sustaining ventricular assist devices demand for extended support periods."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "Proven LVAD Regulatory Success",
+        "text": "Our data packages have supported successful FDA approvals for left ventricular assist devices across continuous-flow and pulsatile platforms. We understand Class III life-sustaining device requirements including chronic biocompatibility demonstration through ISO 10993 compliance, destination therapy durability validation, and the specific endpoints FDA expects for LVAD submissions addressing both bridge-to-transplant indications and permanent cardiac support applications requiring years of reliable operation."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your LVAD device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "tavr-testing",
+    "title": "TAVR Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "TAVR Testing Services",
+    "heroDescription": "Successful aortic valve replacement depends on precise deployment in calcified tissue, complete sealing without paravalvular leak, and preserved blood flow to coronary arteries. We test positioning accuracy, measure hemodynamic performance, and validate whether your TAVR system performs safely across varying anatomies.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "TAVR devices must deploy accurately despite heavy calcification, seal completely against irregular tissue, and avoid blocking coronary arteries. Small positioning errors cause permanent pacemaker needs or dangerous leaks. We test whether your valve expands uniformly, whether balloon-inflatable frames maintain position during inflation, and whether self-expanding systems provide consistent radial force.\n\nWe measure deployment precision using biplane fluoroscopy that captures valve positioning from multiple angles. Our aortic root models range from normal anatomy to severely calcified bicuspid valves where standard TAVR approaches fail. Pulse duplicator systems measure pressure gradients across your valve while flow imaging reveals paravalvular leak patterns. We quantify coronary ostia clearance, conduction bundle proximity, and sealing effectiveness.\n\nISO 5840 standards guide our TAVR testing protocols. FDA guidance documents for transcatheter aortic valves inform our study designs, ensuring we generate the hemodynamic benchmarks and safety data your PMA or 510(k) requires. Our GLP-compliant testing addresses balloon-expandable and self-expanding platforms, standard TAVR procedures, and specialized applications including valve-in-valve implantation.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Deployment Precision and Anatomical Compatibility",
+        "description": "We measure positioning accuracy across aortic models from small annuli to bicuspid valves. Testing quantifies deployment forces, captures expansion dynamics with high-speed fluoroscopy, and validates whether your system achieves optimal positioning in challenging anatomies where calcification or irregular geometry complicates standard deployment. (48 words)"
+      },
+      {
+        "title": "Paravalvular Leak Measurement and Sealing Validation",
+        "description": "Advanced flow systems quantify leak severity through regurgitant fraction calculations and real-time jet visualization. We identify leak locations, measure sealing skirt effectiveness, and determine whether calcium displacement creates gaps. Testing addresses immediate post-deployment leak and performance after millions of cardiac cycles. (45 words)"
+      },
+      {
+        "title": "Hemodynamic Performance Under Physiological Conditions",
+        "description": "Pulse duplicators replicate aortic pressure and flow conditions while measuring transvalvular gradients, effective orifice area, and coronary flow patterns. We validate ISO 5840 performance requirements, compare hemodynamic benefits of different valve designs, and ensure adequate blood flow throughout complete cardiac cycles. (44 words)"
+      },
+      {
+        "title": "Coronary Flow Preservation and Obstruction Risk",
+        "description": "We measure coronary ostia clearance during deployment and validate flow to coronary arteries. Testing uses specialized models with functional coronary vessels, fluoroscopic visualization during valve expansion, and flow measurement confirming adequate perfusion. Protocols identify obstruction risks before clinical use. (42 words)"
+      },
+      {
+        "title": "Durability Testing and Accelerated Wear Protocols",
+        "description": "Fatigue testing simulates 200-400 million cycles representing decades of valve function. We monitor for frame fractures, leaflet tears, and hemodynamic degradation. Continuous tracking detects early structural failures while measuring whether sealing effectiveness and flow performance persist throughout projected device lifetime. (43 words)"
+      },
+      {
+        "title": "Conduction System Safety and Pacemaker Risk Assessment",
+        "description": "We evaluate valve positioning relative to conduction pathways, measure frame contact with septal tissue, and assess pacemaker implantation risk. Testing validates whether design modifications reduce conduction disturbances or if deeper deployment increases paravalvular leak trade-offs. (38 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for TAVR Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Complete TAVR Testing Infrastructure",
+        "text": "Our catheterization laboratories feature biplane fluoroscopy, three-dimensional echocardiography, and specialized TAVR deployment equipment. We maintain aortic models spanning normal annuli through severely calcified bicuspid geometries. Both balloon-expandable and self-expanding valve testing capabilities address platform-specific deployment mechanics and performance requirements."
+      },
+      {
+        "icon": "Activity",
+        "heading": "Decades of Aortic Valve Testing Experience",
+        "text": "We have tested aortic valves for over 40 years, supporting numerous FDA approvals across balloon-expandable and self-expanding platforms. Our team understands TAVR regulatory requirements, ISO 5840 compliance, and the specific performance data FDA reviewers expect for Class III transcatheter cardiac devices. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "GLP Compliance for FDA Submissions",
+        "text": "Our GLP-compliant protocols provide the documentation quality FDA expects for transcatheter aortic valve submissions. We generate complete data packages addressing deployment safety, hemodynamic performance, paravalvular leak quantification, and durability validation. Our testing supports both PMA applications and 510(k) substantial equivalence demonstrations. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your TAVR platform, deployment approach, and regulatory pathway requirements.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "mitraclip-testing",
+    "title": "MitraClip Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "MitraClip Testing Services",
+    "heroDescription": "Successful mitral repair depends on secure leaflet grasping without tissue damage, precise positioning targeting regurgitant jets, and maintained coaptation throughout cardiac cycles. We test grasping forces, measure residual regurgitation, and validate whether your clip creates effective double-orifice repair across varying tissue pathologies.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Edge-to-edge mitral repair requires clips that grasp leaflets securely without tearing tissue, position accurately in moving cardiac structures, and reduce regurgitation without creating excessive stenosis. Too little grasping force allows leaflet slippage while too much damages tissue. We test whether your clip applies optimal pressure, whether grippers hold throughout millions of cardiac cycles, and whether multi-clip strategies achieve adequate repair.\n\nWe measure grasping forces using specialized sensors that quantify leaflet compression and holding strength. Our mitral models replicate both degenerative disease with flail leaflets and functional regurgitation from dilated ventricles. Three-dimensional echocardiography visualizes leaflet capture in real-time while flow measurement quantifies residual regurgitation. Testing addresses single and multiple clip deployments across varying mitral anatomies.\n\nISO 5840 standards guide our transcatheter valve testing protocols. FDA guidance for mitral repair devices informs study designs addressing hemodynamic safety, procedural feasibility, and durability requirements. Our GLP-compliant testing supports PMA submissions for innovative repair technologies and 510(k) applications demonstrating substantial equivalence to established platforms.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Leaflet Grasping Force Measurement and Optimization",
+        "description": "We quantify clip closure pressure across leaflet tissue, measure holding strength under physiological loading, and validate whether grasping forces remain adequate after millions of cardiac cycles. Testing determines optimal pressure balancing secure leaflet capture against tissue damage risk. (42 words)"
+      },
+      {
+        "title": "Deployment Accuracy and Positioning Control",
+        "description": "We evaluate positioning precision within moving mitral structures using three-dimensional echocardiography. Testing measures whether delivery systems enable accurate jet targeting, whether independent gripper control improves leaflet capture, and whether clips achieve intended positioning despite cardiac motion throughout deployment sequences. (42 words)"
+      },
+      {
+        "title": "Residual Regurgitation Quantification and Repair Effectiveness",
+        "description": "Advanced flow systems measure regurgitation reduction through regurgitant fraction calculations and jet visualization. We quantify residual leak severity, map remaining leak locations, and determine whether repair achieves adequate regurgitation reduction without creating mitral stenosis that impairs cardiac output. (41 words)"
+      },
+      {
+        "title": "Coaptation Length Validation and Double-Orifice Function",
+        "description": "We measure coaptation length created by leaflet grasping, validate double-orifice configuration effectiveness, and assess whether adequate leaflet tissue bridge forms. Testing determines if clip width provides sufficient coaptation for broad regurgitant jets and whether tissue accommodation occurs throughout cardiac cycles. (43 words)"
+      },
+      {
+        "title": "Multi-Clip Strategy Testing and Device Interaction",
+        "description": "For complex regurgitation requiring multiple clips, we evaluate clip spacing optimization, measure device-device interactions, and quantify cumulative regurgitation reduction. Testing validates whether multi-clip approaches avoid excessive mitral stenosis while achieving adequate repair across large or multiple regurgitant jets. (40 words)"
+      },
+      {
+        "title": "Durability Assessment and Long-Term Stability",
+        "description": "Accelerated fatigue protocols simulate years of cardiac cycles while monitoring gripper integrity, clip arm stability, and maintained leaflet capture. We measure whether grasping forces persist, if tissue response affects clip position, and whether regurgitation reduction remains stable throughout projected device lifetime. (44 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for MitraClip Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Zap",
+        "heading": "Specialized Mitral Repair Testing Capabilities",
+        "text": "Our catheterization laboratories feature three-dimensional echocardiography, transseptal access equipment, and specialized mitral models. We maintain anatomical specimens representing primary degenerative disease and secondary functional regurgitation. Force measurement systems quantify grasping mechanics while advanced flow imaging captures regurgitation patterns. "
+      },
+      {
+        "icon": "Users",
+        "heading": "Extensive Mitral Device Testing Experience",
+        "text": "We have tested mitral repair devices for decades, supporting FDA approvals across edge-to-edge repair and replacement platforms. Our team understands mitral regurgitation pathophysiology, transcatheter repair challenges, and FDA expectations for Class III mitral devices addressing both primary and secondary regurgitation. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "GLP-Compliant Regulatory Data Packages",
+        "text": "Our protocols provide documentation meeting FDA requirements for transcatheter mitral repair submissions. We generate complete datasets addressing grasping force validation, residual regurgitation measurement, multi-clip safety, and durability testing. Testing supports PMA applications and 510(k) substantial equivalence demonstrations with ISO 5840 compliance. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your mitral repair device, grasping mechanism, and regulatory pathway.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "sapien-valve-testing",
+    "title": "Sapien Valve Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "Sapien Valve Testing Services",
+    "heroDescription": "Successful balloon-expandable TAVR depends on controlled expansion without frame recoil, predictable positioning during balloon inflation, and complete sealing in calcified tissue. We test crimping profile recovery, measure deployment forces during expansion, and validate whether your valve achieves optimal geometry across varying inflation pressures.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Balloon-expandable TAVR systems must crimp to small profiles without damaging leaflets, expand uniformly when inflated, and maintain position without recoil after balloon deflation. We test whether your valve recovers from crimping stress, whether balloon inflation displaces calcium effectively, and whether frame geometry remains stable post-deployment. Testing measures expansion pressures, radial forces, and sealing effectiveness.\n\nWe characterize crimping behavior using specialized equipment that measures profile reduction and leaflet integrity. Deployment testing uses controlled balloon inflation while biplane fluoroscopy captures expansion dynamics and calcium displacement. Our calcified aortic models replicate severe stenosis where uneven expansion creates dangerous leaks. Flow measurement systems quantify paravalvular leak patterns specific to balloon-expandable platforms.\n\nISO 5840 standards guide our balloon-expandable valve testing. FDA guidance for TAVR devices informs protocols addressing deployment safety, hemodynamic benchmarks, and durability requirements. Our GLP-compliant testing supports PMA submissions for innovative balloon-expandable technologies and 510(k) applications demonstrating substantial equivalence to established Sapien platforms.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Crimping Profile Validation and Leaflet Integrity",
+        "description": "We measure crimped valve diameter, assess leaflet damage from compression, and validate recovery after expansion. Testing quantifies whether crimping stress causes leaflet tearing or frame deformation. Specialized imaging captures leaflet configuration throughout crimping and re-expansion sequences. (40 words)"
+      },
+      {
+        "title": "Balloon Expansion Mechanics and Deployment Forces",
+        "description": "We measure balloon inflation pressures required for complete expansion, quantify radial forces during deployment, and capture frame geometry development using high-speed fluoroscopy. Testing validates whether expansion occurs uniformly or if calcium creates asymmetric loading that distorts valve shape. (42 words)"
+      },
+      {
+        "title": "Frame Recoil Measurement and Position Stability",
+        "description": "After balloon deflation, we measure frame recoil and position migration. Testing quantifies whether cobalt-chromium frames maintain intended diameter or if elastic recoil reduces effective orifice area. Stability assessment determines if valves shift position after balloon removal. (39 words)"
+      },
+      {
+        "title": "Calcium Displacement and Annular Contact Patterns",
+        "description": "We evaluate how balloon expansion displaces calcium nodules, whether displacement creates complete annular contact, and if uneven calcium distribution causes persistent leak paths. Testing uses heavily calcified models where balloon force distribution determines sealing success. (39 words)"
+      },
+      {
+        "title": "Paravalvular Leak Assessment in Calcified Anatomy",
+        "description": "Advanced flow systems quantify leak severity specific to balloon-expandable deployment. We identify leak locations relative to calcium distribution, measure whether sealing skirts accommodate irregular surfaces, and determine if higher inflation pressures improve sealing without causing annular rupture. (41 words)"
+      },
+      {
+        "title": "Accelerated Durability and Frame Integrity",
+        "description": "Fatigue protocols simulate millions of cardiac cycles while monitoring cobalt-chromium frame stability, bovine pericardial leaflet performance, and suture line integrity. We measure whether balloon expansion creates stress concentrations that accelerate frame fatigue or if deployment damage affects long-term durability. (44 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Sapien Valve Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Balloon-Expandable TAVR Testing Infrastructure",
+        "text": "Our laboratories feature precision balloon inflation systems, specialized crimping equipment, and biplane fluoroscopy for expansion visualization. We maintain heavily calcified aortic models and pressure monitoring systems measuring deployment forces. This infrastructure addresses balloon-expandable valve testing requirements that self-expanding valve facilities cannot replicate. "
+      },
+      {
+        "icon": "Activity",
+        "heading": "Decades of Balloon-Expandable Valve Experience",
+        "text": "We have tested balloon-expandable TAVR systems for years, supporting multiple FDA approvals. Our team understands balloon inflation mechanics, calcium displacement dynamics, and paravalvular leak prevention strategies specific to balloon-expandable platforms. This experience informs protocol designs addressing FDA Class III device requirements. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "GLP Compliance for FDA Submissions",
+        "text": "Our protocols provide documentation meeting FDA expectations for balloon-expandable TAVR submissions. We generate complete datasets addressing crimping safety, deployment force validation, frame recoil measurement, and sealing technology assessment. Testing supports both PMA applications and 510(k) substantial equivalence demonstrations with ISO 5840 compliance. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your balloon-expandable valve platform and regulatory pathway requirements.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "evolut-testing",
+    "title": "Evolut Valve Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "Evolut Valve Testing Services",
+    "heroDescription": "Successful repositionable TAVR depends on controlled self-expansion, safe retrieval and redeployment mechanics, and maintained performance after multiple positioning attempts. We test nitinol frame behavior, measure repositioning impact on valve integrity, and validate whether your system enables procedural optimization through recapture functionality.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Repositionable self-expanding TAVR systems must deploy predictably through controlled nitinol expansion, allow retrieval when positioning is suboptimal, and maintain structural integrity through multiple deployment attempts. We test whether your valve's nitinol frame self-expands at consistent rates, whether retrieval mechanisms function safely, and whether performance remains acceptable after recapture and redeployment sequences.\n\nWe measure self-expansion rates using specialized monitoring systems that capture frame deployment dynamics. Testing validates retrieval forces, quantifies nitinol stress during recapture, and assesses whether multiple deployment cycles damage leaflets or frame structure. Our aortic models enable repositioning validation across anatomical variations where initial deployment may require adjustment. Supra-annular positioning is evaluated for hemodynamic advantages over intra-annular designs.\n\nISO 5840 standards guide our self-expanding valve testing. FDA guidance for TAVR devices with repositioning capabilities informs protocols addressing enhanced procedural control and safety validation. Our GLP-compliant testing supports PMA submissions for innovative repositionable technologies and 510(k) applications demonstrating substantial equivalence to established Evolut platforms.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Nitinol Frame Self-Expansion and Deployment Control",
+        "description": "We measure self-expansion rates, quantify radial forces throughout deployment, and validate positioning control as the frame releases from delivery sheaths. Testing captures expansion dynamics using high-speed fluoroscopy while measuring whether temperature variations affect deployment predictability. (41 words)"
+      },
+      {
+        "title": "Retrieval and Redeployment Mechanics Validation",
+        "description": "We test whether retrieval mechanisms function reliably, measure forces required for recapture, and validate valve integrity after repositioning. Testing determines how many deployment attempts your system tolerates before structural damage occurs or performance degrades below acceptable thresholds. (41 words)"
+      },
+      {
+        "title": "Repositioning Impact on Valve Performance",
+        "description": "After recapture and redeployment sequences, we measure hemodynamic performance, inspect for leaflet damage, and quantify frame deformation. Testing validates whether repositioning affects paravalvular sealing, if leaflet function remains normal, and whether chronic radial force degrades after multiple deployment attempts. (42 words)"
+      },
+      {
+        "title": "Supra-Annular Positioning and Hemodynamic Advantages",
+        "description": "We measure effective orifice area benefits from elevated leaflet positioning, quantify transvalvular gradient reductions, and compare hemodynamic performance against intra-annular designs. Testing validates whether supra-annular placement provides measurable flow improvements justifying self-expanding platform selection. (38 words)"
+      },
+      {
+        "title": "Chronic Radial Force and Long-Term Stability",
+        "description": "We measure radial forces immediately post-deployment and throughout accelerated aging protocols. Testing determines whether nitinol maintains adequate outward force preventing frame collapse or migration, if chronic loading affects expansion geometry, and whether sealing effectiveness persists throughout projected device lifetime. (43 words)"
+      },
+      {
+        "title": "Nitinol Durability and Fatigue Resistance",
+        "description": "Accelerated fatigue testing simulates millions of cardiac cycles while monitoring nitinol frame integrity. We measure whether repositioning creates stress concentrations accelerating fracture, if high-cycle loading causes frame deformation, and whether porcine pericardial leaflets maintain performance throughout durability protocols. (41 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Evolut Valve Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Settings",
+        "heading": "Repositionable Valve Testing Infrastructure",
+        "text": "Our laboratories feature specialized equipment for self-expanding valve deployment, nitinol characterization systems, and repositioning mechanism validation capabilities. We maintain anatomical models enabling multiple deployment testing and advanced imaging capturing retrieval and redeployment dynamics. This infrastructure addresses repositionable platform requirements."
+      },
+      {
+        "icon": "Users",
+        "heading": "Self-Expanding TAVR Testing Experience",
+        "text": "We have tested self-expanding and repositionable TAVR systems for years, supporting FDA approvals. Our team understands nitinol deployment mechanics, retrieval safety requirements, and repositioning validation approaches. This experience informs protocol designs addressing FDA Class III device requirements for innovative repositionable valve technologies. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "GLP Compliance for Advanced TAVR Systems",
+        "text": "Our protocols provide documentation meeting FDA expectations for repositionable TAVR submissions. We generate datasets addressing retrieval mechanism safety, multiple deployment impact assessment, nitinol durability validation, and supra-annular hemodynamic benefits. Testing supports PMA applications and 510(k) demonstrations with ISO 5840 compliance. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your repositionable valve platform and enhanced deployment control features.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "pascal-testing",
+    "title": "Pascal Device Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "Pascal Device Testing Services",
+    "heroDescription": "Successful advanced mitral repair depends on independent leaflet grasping control, effective spacer deployment creating tissue bridges, and broad paddle coaptation addressing complex regurgitation. We test independent gripper mechanics, measure spacer technology performance, and validate whether your system achieves superior coaptation compared to conventional edge-to-edge repair.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Advanced mitral repair with independent grippers and spacer technology must grasp leaflets sequentially with separate control, deploy spacers that fill regurgitant gaps, and create broad coaptation areas through paddle design. We test whether independent gripper control improves leaflet capture success, whether spacer deployment forces remain safe, and whether broad paddles enhance repair effectiveness in challenging anatomies like large flail segments.\n\nWe measure forces for each independent gripper separately, quantifying sequential leaflet capture mechanics. Spacer deployment testing validates controlled expansion, tissue compression characteristics, and bridge formation effectiveness. Three-dimensional echocardiography captures paddle positioning, coaptation length measurement, and residual leak patterns. Testing compares performance against conventional single-gripper designs across primary and secondary regurgitation pathologies.\n\nISO 5840 standards guide our mitral device testing. FDA guidance for transcatheter mitral repair informs protocols addressing innovative repair technologies requiring comprehensive safety validation. Our GLP-compliant testing supports PMA submissions for advanced repair systems demonstrating advantages over established edge-to-edge platforms.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Independent Gripper Mechanics and Sequential Capture",
+        "description": "We measure individual gripper forces separately, quantify leaflet compression per gripper, and validate sequential capture timing. Testing determines whether independent control improves deployment success in challenging anatomies where simultaneous leaflet capture fails, measuring performance benefits over conventional designs. (41 words)"
+      },
+      {
+        "title": "Spacer Technology Deployment and Tissue Bridge Formation",
+        "description": "We test spacer expansion mechanics, measure deployment forces, and validate tissue bridge creation between leaflets. Testing determines whether spacer compression remains safe for tissue, if bridge formation fills regurgitant gaps effectively, and whether spacer technology enhances repair durability. (41 words)"
+      },
+      {
+        "title": "Broad Paddle Coaptation and Enhanced Surface Area",
+        "description": "We measure coaptation length created by paddle design, quantify contact area between paddles, and validate whether broader coaptation improves repair effectiveness. Testing compares paddle performance against narrower conventional designs, particularly for large flail segments or complex regurgitation patterns requiring enhanced leaflet contact. (44 words)"
+      },
+      {
+        "title": "Regurgitation Reduction in Complex Anatomies",
+        "description": "We quantify repair effectiveness across challenging mitral pathologies including large flail segments, multiple regurgitant jets, and severe functional regurgitation. Testing measures whether independent grippers and spacer technology enable adequate repair where conventional edge-to-edge approaches fail. (39 words)"
+      },
+      {
+        "title": "Multi-Device Strategy and Spacing Optimization",
+        "description": "For severe regurgitation requiring multiple devices, we test optimal spacing between Pascal clips, measure cumulative regurgitation reduction, and validate whether multi-device deployment avoids excessive stenosis. Testing addresses device-device interactions and spacing strategies maximizing repair effectiveness. (38 words)"
+      },
+      {
+        "title": "Durability of Advanced Repair Components",
+        "description": "Accelerated fatigue testing simulates years of cardiac loading while monitoring independent gripper integrity, spacer structural stability, and broad paddle performance. We measure whether advanced features introduce failure modes or if independent mechanics and spacer technology maintain long-term effectiveness. (42 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Pascal Device Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Layers",
+        "heading": "Advanced Mitral Repair Testing Capabilities",
+        "text": "Our laboratories feature force measurement systems quantifying independent gripper mechanics, specialized equipment validating spacer deployment, and imaging capturing broad paddle coaptation. We maintain complex mitral anatomical models including large flail segments and severe functional regurgitation where advanced repair technologies demonstrate advantages. "
+      },
+      {
+        "icon": "Users",
+        "heading": "Innovative Mitral Device Testing Experience",
+        "text": "We have tested advanced mitral repair technologies incorporating independent grippers and novel repair mechanisms. Our team understands comparative testing requirements demonstrating advantages over predicate devices, particularly when innovative features address limitations of conventional edge-to-edge repair. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "PMA Pathway Support for Innovative Technologies",
+        "text": "Our protocols provide documentation for PMA submissions requiring comprehensive safety and effectiveness validation. We generate comparative datasets addressing independent gripper advantages, spacer technology safety, and enhanced coaptation benefits over conventional designs. Testing meets FDA expectations for Class III innovative mitral devices. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your advanced mitral repair technology and PMA pathway requirements.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "tendyne-testing",
+    "title": "Tendyne Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "Tendyne Testing Services",
+    "heroDescription": "Successful transapical mitral replacement depends on secure apical anchoring without ventricular dysfunction, D-shaped frame expansion accommodating elliptical annuli, and optimal tether tension balancing stability against cardiac mechanics. We test apical delivery forces, measure tether tension ranges, and validate whether your D-shaped frame achieves complete mitral sealing.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Transapical mitral replacement with tether anchoring must deliver valves safely through ventricular walls, expand D-shaped frames conforming to elliptical mitral geometry, and maintain position through tether tension without constraining cardiac function. We test whether apical access creates acceptable tissue trauma, whether tether forces secure valves adequately, and whether D-shaped expansion achieves paravalvular sealing in irregular mitral annuli.\n\nWe measure apical delivery insertion forces, quantify tissue trauma from ventricular penetration, and validate closure adequacy. Tether tension testing uses force sensors measuring optimal ranges preventing migration while avoiding excessive ventricular constraint. D-shaped frame testing validates expansion across varying mitral geometries using anatomical models representing annular irregularities. Hemodynamic assessment measures transvalvular gradients and flow patterns specific to mitral position.\n\nISO 5840 standards guide our mitral valve testing. FDA guidance for transcatheter mitral devices informs protocols addressing transapical access safety, tether anchoring validation, and mitral hemodynamic benchmarks. Our GLP-compliant testing supports PMA submissions for innovative mitral replacement technologies where limited predicate devices require comprehensive safety and effectiveness demonstration.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Apical Delivery Safety and Access Validation",
+        "description": "We measure ventricular insertion forces, quantify tissue trauma from apical access, and validate hemostasis after catheter removal. Testing determines whether delivery causes acceptable damage to ventricular walls and if apical closure techniques prevent bleeding. Chronic studies assess healing and tissue response. (45 words)"
+      },
+      {
+        "title": "Tether Tension Optimization and Anchoring Mechanics",
+        "description": "We measure optimal tether force ranges securing apical anchoring without constraining ventricular function. Testing quantifies whether tether tension prevents valve migration during cardiac contraction while avoiding excessive wall stress. Force measurement validates whether anchoring remains adequate throughout cardiac cycles and chronic loading. (44 words)"
+      },
+      {
+        "title": "D-Shaped Frame Expansion and Mitral Accommodation",
+        "description": "We test frame expansion across elliptical mitral annuli, validate D-shaped geometry conformation to irregular anatomies, and measure whether frame design achieves complete annular contact. Testing addresses varying mitral dimensions and asymmetric annular shapes where circular frames fail to seal adequately. (43 words)"
+      },
+      {
+        "title": "Paravalvular Sealing in Irregular Mitral Anatomy",
+        "description": "Flow measurement quantifies leak severity specific to mitral position where annular irregularities complicate sealing. We identify leak locations, measure sealing effectiveness across D-shaped frame contact areas, and determine whether fabric skirts accommodate tissue variations. Testing addresses mitral-specific sealing challenges. (42 words)"
+      },
+      {
+        "title": "Mitral Hemodynamics and LVOT Obstruction Risk",
+        "description": "Pulse duplicators measure transvalvular gradients, effective orifice area, and left ventricular outflow tract flow patterns. We validate whether valve positioning obstructs outflow, if mitral gradients remain acceptable, and whether cardiac output is preserved. Testing addresses mitral-specific hemodynamic requirements. (42 words)"
+      },
+      {
+        "title": "Tether Durability and Long-Term Anchoring",
+        "description": "Accelerated fatigue testing simulates years of cardiac loading while monitoring tether integrity and apical anchoring stability. We measure whether tether materials resist fatigue, if apical pad remains secure, and whether ventricular wall response affects long-term positioning. Chronic studies assess tissue integration. (44 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Tendyne Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Anchor",
+        "heading": "Transapical Mitral Replacement Infrastructure",
+        "text": "Our laboratories feature transapical access simulation equipment, tether force measurement systems, and specialized mitral anatomical models with D-shaped annular configurations. We maintain three-dimensional echocardiography for frame expansion visualization and hemodynamic systems measuring mitral position performance. This infrastructure addresses transapical replacement challenges. "
+      },
+      {
+        "icon": "Users",
+        "heading": "Innovative Mitral Device Testing Experience",
+        "text": "We have tested transcatheter mitral devices across repair and replacement categories. Our team understands mitral replacement challenges including apical access risks, tether mechanics, and D-shaped frame requirements. This experience informs protocol designs addressing FDA Class III device requirements for breakthrough mitral replacement technologies. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "PMA Pathway Support for Mitral Replacement",
+        "text": "Our protocols provide documentation for PMA submissions requiring comprehensive safety demonstration. We generate datasets addressing apical access safety, tether anchoring validation, D-shaped frame sealing effectiveness, and mitral hemodynamic performance. Testing meets FDA expectations for innovative Class III transcatheter mitral devices with limited predicate options. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your transapical mitral replacement device and PMA pathway requirements.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "triclip-testing",
+    "title": "TriClip Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "TriClip Testing Services",
+    "heroDescription": "Successful tricuspid repair depends on secure leaflet grasping across heterogeneous tissue quality, effective multi-clip strategies addressing severely dilated annuli, and adequate regurgitation reduction in low-pressure right heart environments. We test grasping forces across anterior, posterior, and septal leaflets, measure repair effectiveness in extreme dilation, and validate right heart hemodynamic performance.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Tricuspid edge-to-edge repair faces unique challenges beyond mitral applications. Tricuspid leaflets vary dramatically in thickness and texture from thin septal to thick anterior tissue. Annular dilation often exceeds 50mm, far beyond mitral dimensions. Right heart pressure is one-fifth of left heart, changing hemodynamic requirements. We test whether clips grasp heterogeneous leaflets securely, whether multi-clip strategies achieve adequate repair in massive dilation, and whether low venous pressure affects device performance.\n\nWe measure grasping forces separately for each leaflet type, quantifying tissue compression across thin and thick variations. Testing validates multi-clip spacing strategies for severely dilated annuli where single clips fail. Right heart anatomical models replicate extreme tricuspid dilation and varying leaflet morphologies. Hemodynamic measurement addresses low-pressure performance and cardiac output preservation throughout repair assessment.\n\nISO 5840 standards guide our tricuspid device testing. FDA guidance for transcatheter tricuspid interventions informs protocols addressing right heart device safety and effectiveness validation. Our GLP-compliant testing supports PMA submissions for tricuspid therapies where limited predicate devices and unique anatomical challenges require comprehensive safety demonstration.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Heterogeneous Leaflet Grasping Across Tissue Quality",
+        "description": "We measure grasping forces separately for anterior, posterior, and septal leaflets with varying thickness and texture. Testing determines whether clips achieve secure capture across thin septal tissue and thick anterior leaflets, measuring optimal forces accommodating tricuspid heterogeneity. (42 words)"
+      },
+      {
+        "title": "Multi-Clip Strategy for Severe Annular Dilation",
+        "description": "We test clip spacing optimization in annuli exceeding 50mm where single devices fail. Testing measures cumulative regurgitation reduction with multiple clips, validates whether multi-device deployment avoids excessive stenosis, and determines optimal spacing patterns for extreme dilation. (40 words)"
+      },
+      {
+        "title": "Right Heart Hemodynamic Performance Validation",
+        "description": "We measure tricuspid gradients, right atrial pressures, and cardiac output throughout repair assessment. Testing validates whether repair maintains adequate flow in low-pressure venous environments, if stenosis risk increases with multiple clips, and whether right heart function improves after regurgitation reduction. (44 words)"
+      },
+      {
+        "title": "Repair Effectiveness in Complex Regurgitation Patterns",
+        "description": "We quantify regurgitation reduction across multiple jets and broad coaptation gaps characteristic of severe tricuspid disease. Testing measures whether edge-to-edge repair achieves adequate reduction when leaflet tethering and annular dilation create complex regurgitation patterns beyond simple central jets. (42 words)"
+      },
+      {
+        "title": "Right Heart Access and Delivery System Performance",
+        "description": "We validate transjugular and transfemoral venous access approaches, measuring catheter navigation through right atrium to tricuspid valve. Testing addresses delivery system performance in dilated right hearts where increased chamber size complicates device positioning and leaflet targeting. (41 words)"
+      },
+      {
+        "title": "Durability in Low-Pressure Environments",
+        "description": "Accelerated fatigue testing simulates years of venous pressure loading while monitoring clip integrity and leaflet capture. We measure whether low-pressure environments affect device performance differently than left heart applications, if grasping forces remain adequate, and whether tissue response differs in right heart positions. (47 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for TriClip Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Triangle",
+        "heading": "Specialized Tricuspid Repair Testing Infrastructure",
+        "text": "Our laboratories feature right heart anatomical models with severely dilated tricuspid annuli, heterogeneous leaflet specimens, and low-pressure hemodynamic systems. We maintain force measurement capabilities addressing tissue quality variations and imaging systems capturing multi-clip deployment in complex anatomies. This infrastructure addresses tricuspid-specific testing challenges. "
+      },
+      {
+        "icon": "Users",
+        "heading": "Right Heart Device Testing Experience",
+        "text": "We have tested transcatheter tricuspid devices addressing unique right heart challenges. Our team understands tricuspid anatomical heterogeneity, severe annular dilation management, and right heart hemodynamic requirements. This experience informs protocol designs addressing FDA Class III device requirements for innovative tricuspid therapies. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "PMA Pathway Support for Tricuspid Devices",
+        "text": "Our protocols provide documentation for PMA submissions in tricuspid repair where limited predicates require comprehensive effectiveness demonstration. We generate datasets addressing leaflet heterogeneity, multi-clip safety, severe dilation management, and right heart hemodynamics. Testing meets FDA expectations for Class III transcatheter tricuspid devices. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your tricuspid repair device and right heart testing requirements.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "corevalve-testing",
+    "title": "CoreValve Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Heart Valve Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/heart-valve-testing",
+    "heroHeadline": "CoreValve Testing Services",
+    "heroDescription": "Successful self-expanding TAVR depends on predictable nitinol deployment without balloon inflation, adequate radial force maintaining annular seal, and supra-annular leaflet positioning maximizing flow area. We test nitinol frame mechanics, measure chronic radial forces, and validate whether your self-expanding valve achieves hemodynamic advantages over intra-annular designs.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Self-expanding TAVR with nitinol frames must deploy predictably through controlled self-expansion, provide adequate radial force for paravalvular sealing, and demonstrate supra-annular positioning benefits. We test whether nitinol behaves consistently across temperature variations, whether radial forces prevent migration without excessive annular stress, and whether elevated leaflet placement improves effective orifice area compared to intra-annular valve positions.\n\nWe measure nitinol transformation temperatures, quantify radial force distribution across frame geometry, and capture self-expansion rates using high-speed fluoroscopy. Testing validates whether temperature fluctuations affect deployment predictability, whether chronic radial force maintains sealing throughout accelerated aging, and whether nitinol fatigue resistance meets durability requirements. Hemodynamic assessment measures supra-annular positioning advantages through flow area quantification and gradient reduction.\n\nISO 5840 standards guide our self-expanding valve testing. FDA guidance for TAVR devices informs protocols addressing nitinol safety, chronic radial force requirements, and hemodynamic performance benchmarks. Our GLP-compliant testing supports PMA submissions for innovative self-expanding technologies and 510(k) applications demonstrating substantial equivalence to established platforms.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Nitinol Framework Mechanics and Material Properties",
+        "description": "We measure transformation temperatures, quantify stress-strain relationships, and validate superelastic recovery across temperature ranges. Testing characterizes radial force distribution, chronic outward force maintenance, and temperature-dependent deployment dynamics. Material testing identifies whether nitinol properties meet performance requirements. (40 words)"
+      },
+      {
+        "title": "Self-Expansion Deployment Control and Predictability",
+        "description": "We measure self-expansion rates during frame release, quantify deployment control throughout unsheathing, and validate positioning accuracy. High-speed fluoroscopy captures expansion dynamics while testing determines whether temperature variations affect deployment predictability or if controlled release maintains positioning precision. (40 words)"
+      },
+      {
+        "title": "Chronic Radial Force and Paravalvular Sealing",
+        "description": "We measure radial forces immediately post-deployment and throughout accelerated aging protocols. Testing quantifies whether outward force provides adequate annular contact for sealing without excessive tissue stress, if force distribution patterns prevent leak, and whether chronic loading maintains sealing effectiveness. (43 words)"
+      },
+      {
+        "title": "Supra-Annular Hemodynamic Performance Benefits",
+        "description": "Pulse duplicators measure effective orifice area advantages from elevated leaflet positioning, quantify transvalvular gradient reductions, and compare flow patterns against intra-annular designs. Testing validates whether supra-annular placement provides measurable hemodynamic improvements justifying self-expanding platform selection. (38 words)"
+      },
+      {
+        "title": "Nitinol Fatigue Resistance and Frame Durability",
+        "description": "Accelerated fatigue testing simulates millions of cardiac cycles while monitoring nitinol framework for fractures or deformation. We measure high-cycle fatigue performance, identify stress concentration locations, and validate whether frame maintains structural integrity throughout projected device lifetime. (39 words)"
+      },
+      {
+        "title": "Temperature Stability and Deployment Consistency",
+        "description": "We test deployment across clinically relevant temperature ranges, measuring whether variations affect expansion rates, radial forces, or positioning accuracy. Testing validates whether procedural temperature fluctuations create unpredictable deployment behaviors or if nitinol maintains consistent performance. (38 words)"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for CoreValve Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Settings",
+        "heading": "Self-Expanding Valve Testing Infrastructure",
+        "text": "Our laboratories feature nitinol characterization equipment, controlled deployment monitoring systems, and supra-annular hemodynamic assessment capabilities. We maintain temperature-controlled testing environments, material testing equipment for nitinol properties, and specialized aortic models validating self-expanding platform performance. This infrastructure addresses self-expanding valve requirements. "
+      },
+      {
+        "icon": "Activity",
+        "heading": "Decades of Self-Expanding TAVR Experience",
+        "text": "We have tested self-expanding aortic valves for years, supporting multiple FDA approvals. Our team understands nitinol deployment mechanics, chronic radial force requirements, and supra-annular positioning advantages. This experience informs protocol designs addressing FDA Class III device requirements for self-expanding valve technologies. "
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "GLP Compliance for Nitinol Valve Submissions",
+        "text": "Our protocols provide documentation meeting FDA expectations for self-expanding TAVR submissions. We generate datasets addressing nitinol material validation, chronic radial force measurement, supra-annular hemodynamic benefits, and durability testing. Testing supports PMA applications and 510(k) demonstrations with ISO 5840 compliance. "
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your self-expanding valve platform and nitinol framework requirements.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "glp-testing",
+    "title": "GLP Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Medical Device Testing",
+    "parentHubUrl": "/preclinical-services/medical-device-testing",
+    "heroHeadline": "GLP Testing Services",
+    "heroDescription": "Successful FDA submissions require preclinical data generated under protocols that FDA trusts, with documentation that survives regulatory inspection. We conduct studies under 21 CFR Part 58 Good Laboratory Practice standards, maintaining the quality assurance oversight, audit trails, and protocol adherence that FDA expects.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "FDA reviewers reject submissions when they can't verify how data was collected, who collected it, or whether protocols were followed. GLP protocols create an unbreakable chain of custody from the moment a study begins until the final report reaches FDA. Every measurement, observation, and data point gets documented with timestamps, signatures, and audit trails that prove your preclinical data is reliable.\n\nWe follow written protocols approved before any work begins, and our Quality Assurance Unit operates independently from study teams to verify compliance. Studies are directed by qualified scientists who ensure protocol adherence, while automated systems capture data with built-in verification. Equipment gets calibrated on documented schedules, and any protocol deviations require written justification before they happen.\n\n21 CFR Part 58 establishes the framework FDA uses to evaluate whether preclinical data is trustworthy. Studies conducted under these regulations create documentation that survives FDA inspection, including complete records of raw data, protocol amendments, and quality assurance audits. This standard applies to safety studies supporting 510(k) clearances, PMA approvals, and IDE applications across all device types.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Independent Quality Assurance Oversight",
+        "description": "Quality Assurance Unit reviews protocols before studies begin, monitors ongoing compliance, and audits final reports to ensure every aspect meets 21 CFR Part 58 requirements."
+      },
+      {
+        "title": "Complete Audit Trail Documentation",
+        "description": "Electronic data capture systems maintain audit trails showing who entered data, when they entered it, and what changes were made throughout the study lifecycle."
+      },
+      {
+        "title": "Equipment Calibration Programs",
+        "description": "Documented calibration schedules, verification records, and traceability to national standards that FDA inspectors expect to see during facility inspections."
+      },
+      {
+        "title": "Qualified Study Director Oversight",
+        "description": "Study directors trained in GLP regulations maintain responsibility for protocol adherence, data integrity, and compliance throughout the study duration."
+      },
+      {
+        "title": "Comprehensive Standard Operating Procedures",
+        "description": "Written procedures covering every aspect of study conduct, from protocol development through final report archiving, ensuring consistency across all GLP studies."
+      },
+      {
+        "title": "Secure Archive Systems",
+        "description": "Controlled storage that preserves raw data, protocols, and final reports for FDA-specified retention periods, with access controls and environmental monitoring."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for GLP Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Shield",
+        "heading": "Purpose-Built GLP Infrastructure",
+        "text": "Our facility was designed specifically for cardiovascular device testing under GLP compliance, with two catheterization laboratories and environmental monitoring systems that document temperature, humidity, and air quality continuously. This infrastructure supports complex device studies while maintaining the documentation FDA requires."
+      },
+      {
+        "icon": "Users",
+        "heading": "Experienced GLP Study Teams",
+        "text": "Our study directors and quality assurance personnel have conducted hundreds of GLP studies across cardiovascular device types, understanding both regulatory requirements and practical study execution. This experience reduces protocol deviations and ensures studies generate data FDA accepts."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "Proven FDA Inspection Record",
+        "text": "We maintain inspection-ready documentation systems and QA oversight that have withstood FDA scrutiny across multiple device submissions. Our GLP compliance approach anticipates inspector questions and maintains the data integrity that regulatory reviewers trust."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your GLP Study?",
+      "description": "We'll help you design testing protocols that generate FDA-acceptable data while meeting your submission timeline.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "biocompatibility",
+    "title": "Biocompatibility Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Medical Device Testing",
+    "parentHubUrl": "/preclinical-services/medical-device-testing",
+    "heroHeadline": "Biocompatibility Testing Services",
+    "heroDescription": "Success with blood-contacting devices depends on proving your materials don't trigger clotting, cause cell damage, or produce allergic reactions that compromise patient safety. We conduct ISO 10993 biocompatibility testing with protocols adapted for cardiovascular applications, measuring biological responses that determine whether FDA accepts your device materials as safe for human use.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Device materials interact with blood, tissue, and immune systems in ways that standard engineering tests cannot predict. Biocompatibility testing measures whether your materials damage cells in laboratory culture, whether they trigger immune responses that cause inflammation or allergic reactions, and whether blood clots form when it contacts your device surface. These biological responses determine patient safety and regulatory approval for any device that touches human tissue.\n\nWe test cytotoxicity by exposing cells to your device materials and measuring cell death or metabolic damage. Hemocompatibility protocols measure platelet activation, complement system triggering, and clot formation when blood contacts device surfaces. Sensitization studies determine whether materials cause allergic reactions, while systemic toxicity testing evaluates effects on organs and body systems after device implantation.\n\nISO 10993 establishes the testing framework FDA requires, with specific protocols selected based on how long your device contacts tissue and where it's used in the body. Blood-contacting devices require hemocompatibility testing that surface-contact devices don't need. Permanent implants require long-term tissue response studies. We design testing matrices that address your specific device characteristics while meeting the standards FDA reviewers expect to see.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Cytotoxicity Testing (ISO 10993-5)",
+        "description": "We expose cell cultures to device materials and measure cell viability, membrane integrity, and metabolic function to detect materials that cause cellular damage."
+      },
+      {
+        "title": "Hemocompatibility Assessment",
+        "description": "Blood compatibility protocols measure platelet activation, thrombus formation, complement system triggering, and hemolysis to evaluate thrombosis risk for blood-contacting devices."
+      },
+      {
+        "title": "Sensitization and Irritation Testing (ISO 10993-10)",
+        "description": "Studies determine whether device materials trigger allergic reactions or cause tissue irritation, using validated protocols that FDA accepts for regulatory submissions."
+      },
+      {
+        "title": "Systemic Toxicity Evaluation (ISO 10993-11)",
+        "description": "Testing measures effects on major organ systems and overall health following device exposure, identifying potential systemic safety concerns before clinical use."
+      },
+      {
+        "title": "Implantation Testing (ISO 10993-6)",
+        "description": "Protocols evaluate local tissue responses to implanted materials, measuring inflammation, tissue integration, and long-term compatibility for permanently implanted devices."
+      },
+      {
+        "title": "Material Characterization and Extract Testing",
+        "description": "Chemical analysis identifies leachable compounds from device materials, while extract testing evaluates biological responses to substances that may migrate from devices into tissue."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Biocompatibility Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Cardiovascular-Specific Testing Protocols",
+        "text": "We've adapted ISO 10993 protocols specifically for blood-contacting cardiovascular devices, understanding that standard surface-contact testing doesn't capture thrombosis risk or complement activation that determines safety for devices in the bloodstream. This specialization ensures testing addresses the biological responses that matter for your device type."
+      },
+      {
+        "icon": "FileCheck",
+        "heading": "GLP-Compliant Testing Infrastructure",
+        "text": "Our biocompatibility laboratory operates under 21 CFR Part 58 Good Laboratory Practice standards, with Quality Assurance oversight and documentation systems that create the audit trails FDA requires. This compliance means your biocompatibility data withstands regulatory scrutiny without supplemental testing."
+      },
+      {
+        "icon": "Activity",
+        "heading": "Integrated Pathology Services",
+        "text": "Board-certified pathologists with cardiovascular device experience evaluate tissue responses, identifying subtle inflammatory patterns or foreign body reactions that determine long-term device safety. This expertise ensures accurate interpretation of histopathology results for regulatory submissions."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Validate Your Device Materials?",
+      "description": "We'll design biocompatibility testing that addresses your device's specific tissue contact characteristics and regulatory pathway requirements.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "fda-regulatory-testing",
+    "title": "FDA Regulatory Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Medical Device Testing",
+    "parentHubUrl": "/preclinical-services/medical-device-testing",
+    "heroHeadline": "FDA Regulatory Testing Services",
+    "heroDescription": "Successful FDA submissions depend on testing that answers the specific questions reviewers ask about your device type, using methods they recognize and trust. We design preclinical testing strategies aligned with current FDA guidance documents, consensus standards, and regulatory pathway requirements that generate data reviewers evaluate.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "FDA reviewers evaluate whether your testing demonstrates safety and effectiveness for the specific claims you're making. A 510(k) clearance requires showing your device works like an approved predicate through comparative testing. PMA approval demands comprehensive safety databases and effectiveness evidence from pivotal studies. IDE applications need preclinical data proving it's safe to begin human testing. Each pathway has distinct evidence requirements that determine which tests FDA expects to see.\n\nWe design testing strategies based on FDA guidance documents specific to your device type, whether that's heart valves following specific durability protocols, stents requiring fracture resistance testing, or novel devices needing risk-based testing approaches. Testing includes biocompatibility per ISO 10993, performance validation using ASTM or ISO consensus standards, and safety assessment addressing known device risks. All studies follow GLP protocols that create the documentation FDA trusts.\n\nYour regulatory pathway determines testing scope and endpoints. 510(k) substantial equivalence testing compares your device directly to predicate performance. PMA studies require statistically powered safety and effectiveness endpoints. Breakthrough designation or De Novo pathways need innovative testing approaches that address novel technologies. We match testing design to regulatory strategy, generating data that addresses your submission requirements.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "510(k) Substantial Equivalence Testing",
+        "description": "Comparative studies demonstrate your device performs similarly to cleared predicates, using matched test methods and head-to-head protocols that support equivalence claims FDA requires."
+      },
+      {
+        "title": "Consensus Standards Implementation",
+        "description": "Testing follows ASTM, ISO, and IEC standards that FDA recognizes, ensuring methods align with regulatory expectations and eliminating questions about protocol validity."
+      },
+      {
+        "title": "FDA Guidance Document Compliance",
+        "description": "Protocols incorporate device-specific FDA guidance requirements, addressing the exact safety and performance questions that reviewers evaluate during submission assessment."
+      },
+      {
+        "title": "Biocompatibility Testing Matrix Development",
+        "description": "Risk-based ISO 10993 testing selection addresses your device's tissue contact category, duration, and anatomical location with the specific tests FDA expects for your device type."
+      },
+      {
+        "title": "Performance Validation Under Worst-Case Conditions",
+        "description": "Testing evaluates device function at specification limits, anatomical extremes, and challenging deployment scenarios that demonstrate robustness for clinical use."
+      },
+      {
+        "title": "Clinical Study Design Support",
+        "description": "Preclinical data informs IDE submissions and clinical protocol development, establishing safety endpoints, defining success criteria, and supporting statistical analysis plans."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for FDA Regulatory Testing",
+    "whyChooseCards": [
+      {
+        "icon": "BookOpen",
+        "heading": "Regulatory Pathway Expertise",
+        "text": "We've supported hundreds of FDA submissions across 510(k), PMA, and IDE pathways, understanding which testing FDA requires versus what's optional for different device types. This experience helps identify the essential studies that address reviewer questions while avoiding unnecessary testing that extends timelines."
+      },
+      {
+        "icon": "Target",
+        "heading": "Device-Specific Testing Protocols",
+        "text": "Our cardiovascular focus means we know which consensus standards apply to your device, which FDA guidance documents govern testing requirements, and how to design protocols that address device-specific risks. Testing targets the exact performance characteristics FDA evaluates for your device category."
+      },
+      {
+        "icon": "FileText",
+        "heading": "Submission-Ready Documentation",
+        "text": "Study reports include regulatory summaries formatted for FDA submissions, with test rationale explaining why methods were selected and how results support safety and effectiveness claims. This documentation style addresses the questions reviewers typically ask during assessment."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Plan Your FDA Testing Strategy?",
+      "description": "We'll help you design testing that addresses your specific regulatory pathway requirements and generates the data FDA reviewers evaluate.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "liquid-embolic-device-testing",
+    "title": "Liquid Embolic Device Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Neurovascular Testing",
+    "parentHubUrl": "/preclinical-services/neurovascular-testing",
+    "heroHeadline": "Liquid Embolic Device Testing Services",
+    "heroDescription": "Liquid embolic agents face unique validation challenges requiring polymer viscosity measurement, radiopacity verification, and polymerization timing control that standard biocompatibility testing cannot address. We test DMSO compatibility, tantalum suspension stability, controlled precipitation behavior, and tissue uptake patterns across aneurysm, AVM, and peripheral embolization applications for both 510(k) and PMA submissions.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Liquid embolic agents must solidify at precisely the right speed during deployment. Too fast and the polymer blocks your delivery catheter. Too slow and it flows beyond the target vessel before hardening. We test how viscosity changes during injection, measure polymerization timing under different conditions, and verify that tantalum particles stay suspended throughout the procedure so your device remains visible under fluoroscopy. We track polymer behavior using real-time imaging that captures precipitation patterns as liquid transitions to solid. DMSO compatibility testing ensures your carrier solvent doesn't damage microcatheters during extended procedures. Advanced tissue analysis measures how deeply the polymer penetrates vessel walls and surrounding tissue. Our protocols evaluate coating uniformity, radiopacity across different thicknesses, and complete occlusion effectiveness in anatomically accurate aneurysm models. ISO 10993 biocompatibility standards guide material evaluation while device-specific protocols address DMSO toxicity, polymer degradation, and tissue response at embolization sites. Our testing supports both 510(k) pathways for devices similar to established embolics and PMA submissions for novel formulations. Whether validating polymer viscosity for aneurysm treatment or characterizing precipitation control for AVM applications, our catheterization laboratories provide the imaging and measurement capabilities liquid embolic validation requires.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Polymer Viscosity and Flow Measurement",
+        "description": "We measure how easily your liquid embolic flows through microcatheters at different temperatures and injection speeds, tracking viscosity changes that affect delivery control and occlusion success."
+      },
+      {
+        "title": "Polymerization Timing and Precipitation Control",
+        "description": "Real-time imaging captures how fast your polymer solidifies after contacting blood or tissue, measuring precipitation rates that determine whether the embolic stays where you place it."
+      },
+      {
+        "title": "Radiopacity and Imaging Visibility",
+        "description": "Fluoroscopic testing verifies that tantalum or other radiopaque markers provide clear visualization during injection and follow-up, measuring visibility across different polymer thicknesses and vessel sizes."
+      },
+      {
+        "title": "DMSO Compatibility and Carrier Safety",
+        "description": "Specialized protocols test whether DMSO damages microcatheter materials during extended procedures while evaluating tissue toxicity and vascular response to the carrier solvent."
+      },
+      {
+        "title": "Tissue Penetration and Distribution",
+        "description": "Histological analysis measures how deeply polymer penetrates aneurysm walls and surrounding tissue, mapping distribution patterns that predict occlusion completeness and durability."
+      },
+      {
+        "title": "Occlusion Effectiveness and Durability",
+        "description": "Anatomically accurate models test complete vessel sealing across aneurysm, AVM, and peripheral applications, measuring immediate occlusion success and long-term stability under pulsatile flow."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Liquid Embolic Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Specialized Imaging for Liquid Embolics",
+        "text": "Our catheterization laboratories feature fluoroscopy systems configured specifically for liquid embolic visualization with high frame rates that capture rapid precipitation events. Advanced imaging tracks polymer flow in real-time while specialized protocols measure radiopacity across varying concentrations and thicknesses. This infrastructure enables comprehensive liquid embolic testing that standard vascular labs cannot provide."
+      },
+      {
+        "icon": "Users",
+        "heading": "Polymer Device Expertise",
+        "text": "Our team combines neurovascular intervention experience with polymer science knowledge specific to embolic applications. We understand how DMSO interacts with catheter materials, how precipitation timing affects occlusion success, and which polymerization patterns predict clinical performance. This expertise translates to testing protocols that address both material science challenges and neurovascular safety requirements for liquid embolic devices."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "Liquid Embolic Regulatory Success",
+        "text": "Our data packages have supported FDA submissions for embolic devices across aneurysm, AVM, and peripheral applications. We understand how to demonstrate DMSO safety, characterize polymer biocompatibility, and validate occlusion effectiveness through testing protocols FDA expects. Whether pursuing 510(k) clearance or PMA approval for novel formulations, our testing addresses regulatory requirements specific to liquid embolic combination products."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your liquid embolic device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "thrombectomy-testing",
+    "title": "Thrombectomy Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Neurovascular Testing",
+    "parentHubUrl": "/preclinical-services/neurovascular-testing",
+    "heroHeadline": "Thrombectomy Testing Services",
+    "heroDescription": "Successful thrombectomy requires devices that grab clots effectively, retrieve them without vessel damage, and achieve complete recanalization on the first attempt. We test stent retriever deployment mechanics, aspiration force generation, clot extraction efficiency, and first-pass success rates across stroke, MI, and peripheral thrombosis applications for both 510(k) and PMA submissions.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Thrombectomy devices must grab clots effectively without tearing blood vessels during retrieval. Stent retrievers need to expand precisely to engage thrombus while maintaining vessel wall contact. Aspiration catheters must generate enough suction to pull clots out without fragmenting them. We test how devices perform across fresh platelet-rich clots and older organized thrombi because different clot types require different removal forces and techniques. Our protocols measure clot engagement success using force sensors that track how well devices capture thrombus during deployment. High-speed imaging documents retrieval mechanics while tracking whether clots break apart and send fragments downstream. We evaluate vessel preservation by measuring endothelial damage after multiple retrieval attempts. Anatomically accurate stroke models replicate cerebral vessel tortuosity while pulsatile flow systems simulate physiological conditions during emergency procedures. ISO 10993 biocompatibility standards guide material safety evaluation while thrombectomy-specific protocols assess rapid deployment requirements and emergency use scenarios. Our testing supports 510(k) pathways for devices similar to cleared retrievers and PMA submissions for novel clot removal mechanisms. Whether validating stent retriever expansion for stroke intervention or measuring aspiration efficiency for coronary thrombectomy, our neurovascular laboratories provide the imaging capabilities and clot models mechanical thrombectomy validation requires.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Clot Engagement and Retrieval Force",
+        "description": "We measure how much force devices need to capture and remove different clot types, tracking engagement success rates and retrieval mechanics that predict clinical performance across stroke and thrombosis scenarios."
+      },
+      {
+        "title": "First-Pass Recanalization Success",
+        "description": "Testing protocols evaluate complete clot removal on the first retrieval attempt using TICI scoring systems, measuring the critical performance metric that correlates with patient outcomes in stroke intervention."
+      },
+      {
+        "title": "Vessel Wall Preservation and Safety",
+        "description": "Specialized protocols assess endothelial damage after retrieval attempts, measuring vessel trauma that could cause perforation or dissection during emergency thrombectomy procedures in delicate cerebral vessels."
+      },
+      {
+        "title": "Distal Embolization Prevention",
+        "description": "High-speed imaging captures clot fragmentation during retrieval while sensitive particle detection measures embolic debris release, quantifying the safety risk of sending clot fragments to downstream vessels."
+      },
+      {
+        "title": "Stent Retriever Deployment Mechanics",
+        "description": "For stent-based devices, we test radial force generation, vessel apposition quality, and clot integration patterns using fluoroscopy that documents deployment precision in tortuous neurovascular anatomy."
+      },
+      {
+        "title": "Aspiration System Performance",
+        "description": "Aspiration catheter testing measures vacuum generation, flow rates through different catheter sizes, and extraction efficiency across varying clot compositions to optimize suction-based thrombectomy effectiveness."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Thrombectomy Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Brain",
+        "heading": "Neurovascular Stroke Testing Infrastructure",
+        "text": "Our catheterization labs feature anatomically accurate cerebral vessel models that replicate the tortuosity and branching patterns encountered during stroke intervention. High-frame-rate fluoroscopy captures rapid retrieval events while force measurement systems quantify clot engagement mechanics in real-time. This specialized infrastructure enables thrombectomy testing that simulates emergency stroke procedures with the precision regulatory submissions require."
+      },
+      {
+        "icon": "Target",
+        "heading": "Clot Model Development Expertise",
+        "text": "We prepare standardized clot analogs that match the mechanical properties of actual stroke, MI, and peripheral thrombi including fresh platelet-rich clots and organized fibrin material. Our team understands how clot age and composition affect retrieval difficulty, creating test conditions that predict clinical performance. This expertise ensures your device faces realistic challenges that demonstrate effectiveness across the spectrum of thrombotic occlusions physicians encounter."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "heading": "Thrombectomy Regulatory Track Record",
+        "text": "Our testing has supported FDA submissions for stent retrievers, aspiration catheters, and combination thrombectomy devices across neurovascular and coronary applications. We understand how to demonstrate first-pass success, characterize vessel safety, and validate performance through protocols FDA expects for time-critical emergency devices. Whether pursuing 510(k) clearance or breakthrough device designation for novel mechanisms, our data addresses thrombectomy-specific regulatory requirements."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your thrombectomy device, clot removal mechanism, and regulatory pathway to accelerate your path to clinical use.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "direct-aspiration-thrombectomy-testing",
+    "title": "Direct Aspiration Thrombectomy Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Neurovascular Testing",
+    "parentHubUrl": "/preclinical-services/neurovascular-testing",
+    "heroHeadline": "Direct Aspiration Thrombectomy Testing Services",
+    "heroDescription": "Aspiration thrombectomy success depends on generating sufficient vacuum force, maintaining catheter trackability through tortuous vessels, and extracting clots without fragmentation. We test suction pressure generation, catheter navigation performance, clot extraction efficiency across fresh and organized thrombi, and complete recanalization achievement for stroke, coronary, and peripheral applications supporting both 510(k) and PMA pathways.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Direct aspiration catheters must generate enough suction to pull clots from occluded vessels while staying flexible enough to navigate tortuous anatomy. Too much vacuum and the catheter collapses inward. Too little and clots won't budge. We measure how much negative pressure your catheter generates at different flow rates and track whether that suction stays consistent during extended procedures across varying catheter diameters and lengths. Our protocols test extraction success across different clot types because fresh platelet-rich thrombi extract differently than organized fibrin material. Force measurement systems track how much suction each clot composition requires while high-speed imaging documents whether clots come out intact or fragment during aspiration. We evaluate catheter deliverability through anatomically accurate stroke models that replicate cerebral vessel tortuosity. Pulsatile flow systems simulate physiological conditions that affect vacuum transmission from pump to catheter tip. ISO 10993 biocompatibility standards guide blood contact evaluation while aspiration-specific protocols assess vacuum effects on vessel walls and hemolysis potential. Our testing supports 510(k) pathways for devices similar to cleared aspiration catheters and PMA submissions for novel vacuum generation systems or catheter designs. Whether validating suction performance for neurovascular stroke or measuring extraction efficiency for coronary MI, our catheterization laboratories provide the pressure measurement capabilities and clot models direct aspiration validation requires.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Vacuum Generation and Pressure Measurement",
+        "description": "We measure peak suction pressure and sustained vacuum maintenance across different catheter configurations, tracking how negative pressure changes with catheter length, diameter, and aspiration system type during simulated procedures."
+      },
+      {
+        "title": "Clot Extraction Efficiency Testing",
+        "description": "Protocols evaluate complete clot removal rates across fresh and organized thrombi using standardized clot analogs, measuring extraction success and identifying which clot characteristics affect aspiration performance."
+      },
+      {
+        "title": "Catheter Trackability and Navigation",
+        "description": "Anatomically accurate models test how easily catheters navigate through tortuous neurovascular and coronary anatomy, measuring push force requirements and tip deflection during advancement to target vessels."
+      },
+      {
+        "title": "Clot Fragmentation and Distal Embolization",
+        "description": "High-speed imaging captures whether clots break apart during aspiration while particle detection measures embolic debris generation, quantifying the risk of sending fragments to downstream vessels during extraction."
+      },
+      {
+        "title": "Flow Rate and Aspiration Dynamics",
+        "description": "Testing measures fluid flow rates through different catheter sizes under varying vacuum levels, characterizing aspiration dynamics that determine how quickly and effectively devices remove occlusive material from vessels."
+      },
+      {
+        "title": "Hemolysis and Blood Compatibility",
+        "description": "Specialized blood contact testing evaluates red blood cell damage from aspiration forces while thrombogenicity protocols assess clot formation risk on catheter surfaces during extended vacuum exposure to flowing blood."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Direct Aspiration Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Zap",
+        "heading": "Precision Vacuum Measurement Systems",
+        "text": "Our catheterization labs feature calibrated pressure transducers that measure vacuum generation at the catheter tip rather than just at the pump, capturing the actual suction force available for clot extraction. Real-time pressure monitoring tracks how vacuum changes during simulated procedures while flow sensors measure aspiration dynamics through different catheter configurations. This precision measurement infrastructure provides the quantitative aspiration data regulatory submissions require."
+      },
+      {
+        "icon": "RefreshCw",
+        "heading": "Multi-Application Aspiration Experience",
+        "text": "We test aspiration catheters across neurovascular stroke, coronary MI, and peripheral thrombosis applications using appropriate vessel models and clot types for each territory. Our team understands how aspiration requirements differ between cerebral arteries, coronary vessels, and peripheral circulation. This cross-specialty expertise ensures your device faces testing conditions that match intended clinical use whether targeting stroke, heart attack, or limb ischemia treatment."
+      },
+      {
+        "icon": "BarChart2",
+        "heading": "Aspiration Device Regulatory Success",
+        "text": "Our testing has supported FDA submissions for direct aspiration catheters, vacuum generation systems, and combination aspiration devices across multiple vascular territories. We understand how to demonstrate suction effectiveness, characterize clot extraction efficiency, and validate safety through protocols FDA expects for aspiration thrombectomy devices. Whether pursuing 510(k) clearance through predicate comparison or PMA approval for novel aspiration mechanisms, our data addresses aspiration-specific regulatory requirements."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your aspiration catheter design, vacuum generation system, and testing protocol to validate your device performance.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "carotid-stent-testing",
+    "title": "Carotid Stent Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Peripheral Vascular Testing",
+    "parentHubUrl": "/preclinical-services/peripheral-vascular-testing",
+    "heroHeadline": "Carotid Stent Testing Services",
+    "heroDescription": "Success in carotid stenting depends on opening blocked arteries without releasing plaque fragments that could cause stroke. We test how your device compresses plaque, measure particles released during deployment, track vessel scaffolding performance, and verify that cerebral blood flow remains adequate throughout the procedure.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Carotid stents face a unique challenge that doesn't exist in other vascular territories. The plaque you're treating is the same material that causes stroke if fragments break loose. Your device must compress unstable plaque against the vessel wall, maintain that compression long-term, and accomplish both without releasing particles into cerebral circulation. This requires testing that tracks embolic generation during every phase of deployment while verifying that the stent provides adequate vessel scaffolding.\n\nWe test carotid stents using anatomically accurate carotid bifurcation models with pulsatile flow systems that replicate cerebral circulation patterns. High-resolution particle tracking captures debris released during deployment and expansion, measuring both size and quantity of embolic material. Flow velocity measurement confirms adequate cerebral perfusion throughout the procedure, while radial force testing validates that your stent maintains plaque compression under arterial pressure. We evaluate both self-expanding nitinol designs and balloon-expandable systems across different stenosis severities and plaque compositions.\n\nOur protocols align with FDA guidance for carotid stent devices, typically following the 510(k) pathway with substantial equivalence to predicate devices. Testing demonstrates embolic safety during deployment, adequate revascularization of the stenosed segment, and maintained vessel patency over time. We measure performance against ISO 25539 standards for cardiovascular stents, with specific emphasis on cerebrovascular safety parameters that distinguish carotid applications from coronary or peripheral use.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Embolic Particle Tracking During Deployment",
+        "description": "We capture and measure every particle released when your stent compresses plaque, using real-time imaging to track debris size and quantity throughout deployment sequences that simulate clinical procedures."
+      },
+      {
+        "title": "Cerebral Flow Preservation Measurement",
+        "description": "Flow velocity sensors confirm that your device maintains adequate blood supply to the brain during deployment and after implantation, measuring pressure gradients across the treatment site under pulsatile flow conditions."
+      },
+      {
+        "title": "Plaque Compression Performance",
+        "description": "We test how effectively your stent secures unstable plaque against vessel walls without causing material extrusion through struts, evaluating compression force and coverage patterns across different plaque types."
+      },
+      {
+        "title": "Deployment Precision in Carotid Anatomy",
+        "description": "Anatomically accurate carotid bifurcation models validate that your delivery system positions the stent accurately at the stenosis site, with testing across various vessel sizes and anatomical configurations."
+      },
+      {
+        "title": "Self-Expansion Characteristics",
+        "description": "For nitinol designs, we measure deployment force, expansion timing, and chronic radial force maintenance to verify consistent performance across physiological temperature ranges and after catheter constraint."
+      },
+      {
+        "title": "Long-Term Scaffolding Durability",
+        "description": "Accelerated fatigue testing simulates years of pulsatile pressure to confirm your stent maintains vessel support and plaque compression throughout the intended implantation period per ISO 25539 requirements."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Carotid Stent Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Activity",
+        "heading": "Specialized Embolic Safety Infrastructure",
+        "text": "Our particle tracking systems capture debris down to 40 microns during simulated carotid procedures, providing the embolic safety data FDA requires for cerebrovascular devices. Custom carotid bifurcation models with programmable stenosis severity let us test your device across the anatomical variations you'll encounter in clinical trials, from calcified plaque to soft lipid-rich lesions."
+      },
+      {
+        "icon": "Brain",
+        "heading": "Cerebrovascular Testing Expertise",
+        "text": "We understand the critical difference between carotid and other vascular territories. Our team has validated dozens of carotid stent submissions, from early self-expanding nitinol designs to current drug-eluting platforms. This experience means we know which embolic thresholds matter for regulatory approval and how to position your data against predicate devices."
+      },
+      {
+        "icon": "FileCheck",
+        "heading": "Proven Carotid Device Regulatory Success",
+        "text": "Our GLP-compliant protocols have supported successful 510(k) submissions for multiple carotid stent platforms over 40 years. We provide complete embolic safety datasets, flow preservation measurements, and durability testing that align with FDA guidance for cerebrovascular devices, reducing review cycles and accelerating your path to approval."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Let's discuss how our carotid stent testing protocols can support your cerebrovascular device development.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "aaa-device-testing",
+    "title": "AAA Device Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Peripheral Vascular Testing",
+    "parentHubUrl": "/preclinical-services/peripheral-vascular-testing",
+    "heroHeadline": "AAA Device Testing Services",
+    "heroDescription": "Successful aneurysm repair requires stent grafts that seal completely against vessel walls under continuous aortic pressure, prevent blood from leaking back into the aneurysm sac, and maintain that seal for years without migration. We test high-pressure containment performance, measure all four types of endoleaks, validate modular component integration, and confirm your device withstands the mechanical stresses of the aortic environment.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Abdominal aortic aneurysm repair presents a unique challenge in vascular intervention. Your stent graft must contain blood under the highest pressures in the body while sealing against vessel walls that may be irregular, calcified, or angulated. Any gap between the device and vessel wall creates an endoleak that defeats the purpose of the repair. The device must also resist the constant downward force of pulsatile blood flow that can cause migration over time.\n\nWe test AAA devices using high-pressure aortic simulators that replicate systolic pressures up to 200 mmHg with anatomically accurate aneurysm models. Pressure sensors throughout the system detect any blood flow into the aneurysm sac, identifying Type I endoleaks at attachment zones, Type II leaks from branch vessels, Type III leaks between modular components, and Type IV leaks through graft material. We measure the force required to dislodge your device, test seal integrity across different neck angulations and diameters, and run accelerated fatigue cycles that simulate decades of cardiac pulsation. Both modular multi-component systems and unibody designs undergo testing across the anatomical variations you'll encounter clinically.\n\nOur protocols follow FDA guidance for endovascular AAA devices, typically pursuing the 510(k) pathway with substantial equivalence to predicate devices. Testing demonstrates complete aneurysm exclusion, adequate seal zone fixation, and maintained structural integrity over the intended device life. We measure performance against ISO 7198 standards for cardiovascular implants, with specific emphasis on high-pressure containment and long-term durability requirements unique to aortic applications.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "High-Pressure Seal Performance",
+        "description": "We measure seal integrity at proximal and distal attachment zones under physiological aortic pressures, testing your device across different vessel diameters and wall irregularities to identify potential endoleak pathways."
+      },
+      {
+        "title": "Endoleak Detection and Classification",
+        "description": "Pressure monitoring throughout the aneurysm sac detects all four endoleak types during deployment and chronic testing, providing the comprehensive leak assessment data required for regulatory submissions."
+      },
+      {
+        "title": "Migration Resistance Measurement",
+        "description": "We quantify the force needed to displace your device from the attachment zones, testing fixation mechanisms under pulsatile pressure conditions that simulate years of hemodynamic stress."
+      },
+      {
+        "title": "Modular Component Integration",
+        "description": "For multi-piece systems, we validate seal integrity between components, measure overlap zone performance under pressure, and confirm that modular interfaces maintain leak-proof connections throughout fatigue testing."
+      },
+      {
+        "title": "Fatigue Durability Under Aortic Pressure",
+        "description": "Accelerated cycling exposes your device to millions of pressure pulses, validating that graft material, stent framework, and seal zones maintain structural integrity throughout the intended implantation period per ISO 7198 requirements."
+      },
+      {
+        "title": "Deployment Accuracy in Complex Anatomy",
+        "description": "Anatomically accurate models with angulated necks, tortuous iliacs, and variable aneurysm sizes validate that your delivery system positions the device precisely where seal zones must engage vessel walls."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for AAA Device Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Gauge",
+        "heading": "High-Pressure Aortic Testing Infrastructure",
+        "text": "Our specialized aortic simulators generate pressures up to 200 mmHg with physiological waveforms, providing the high-stress conditions that reveal seal weaknesses before clinical use. Multi-channel pressure monitoring detects endoleaks as small as 5 mL/min, delivering the leak assessment data FDA requires for AAA device submissions across all four endoleak classifications."
+      },
+      {
+        "icon": "Layers",
+        "heading": "Modular System Integration Expertise",
+        "text": "We've tested multi-component AAA systems since the technology's inception, understanding the unique challenges of limb-to-body junctions, overlap zones, and component interface sealing. Our protocols validate that your modular connections maintain integrity under the chronic pressure and fatigue conditions that cause late endoleaks in clinical practice."
+      },
+      {
+        "icon": "Award",
+        "heading": "Proven AAA Device Regulatory Track Record",
+        "text": "Our GLP-compliant testing has supported successful submissions for multiple generations of AAA stent grafts over 40 years. We provide complete datasets for pressure containment, endoleak prevention, migration resistance, and durability that align with FDA guidance for endovascular aneurysm repair devices, streamlining your regulatory pathway."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Let's discuss how our AAA device testing protocols can support your endovascular aneurysm repair development.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "ivc-filter-testing",
+    "title": "IVC Filter Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Peripheral Vascular Testing",
+    "parentHubUrl": "/preclinical-services/peripheral-vascular-testing",
+    "heroHeadline": "IVC Filter Testing Services",
+    "heroDescription": "Successful IVC filters must capture life-threatening clots traveling toward the lungs while preserving venous blood flow back to the heart, resist migration in high-volume flow, and allow safe retrieval weeks or months later. We test clot capture efficiency across different clot sizes, measure venous flow obstruction, quantify retrieval forces after extended deployment, and validate that your filter remains stable without perforating the vena cava wall.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "IVC filters face a paradox that defines their challenge. The device must catch clots that could cause fatal pulmonary embolism, yet those same struts or wires that capture emboli also obstruct the venous flow needed to return blood to the heart. Capture too much and you create venous congestion. Miss fragments and you fail to prevent embolism. The filter must also anchor securely in a vessel that carries enormous blood volume without tilting, migrating, or perforating through the vessel wall.\n\nWe test IVC filters using venous flow simulators that replicate inferior vena cava hemodynamics with flow rates up to 5 liters per minute. Synthetic clots of varying sizes challenge your filter's capture efficiency while flow sensors measure pressure gradients that indicate venous obstruction. We track filter position under pulsatile flow to detect migration or tilting, measure the force required to retrieve your device after simulated implantation periods, and validate that retrieval hooks or mechanisms remain accessible. Testing includes both permanent filters designed for indefinite placement and retrievable designs across the range of IVC diameters encountered clinically, from 15mm to 30mm vessel sizes.\n\nOur protocols align with FDA guidance for IVC filter devices, typically following the 510(k) pathway with substantial equivalence to predicate devices. Testing demonstrates adequate clot capture for pulmonary embolism prevention, minimal venous flow obstruction, secure positioning without perforation risk, and reliable retrieval for temporary designs. We measure performance against ISO 25539 standards for cardiovascular implants, with specific emphasis on venous safety parameters and retrieval system reliability.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Clot Capture Efficiency Measurement",
+        "description": "We challenge your filter with synthetic emboli ranging from 2mm fragments to 15mm clots, measuring capture rates across the size spectrum that determines pulmonary embolism prevention while tracking what escapes toward pulmonary circulation."
+      },
+      {
+        "title": "Venous Flow Preservation Testing",
+        "description": "Flow sensors quantify pressure gradients across your deployed filter under physiological venous flow conditions, confirming that clot capture mechanisms don't create dangerous venous congestion or impair cardiac preload."
+      },
+      {
+        "title": "Migration and Tilting Resistance",
+        "description": "We measure positional stability under continuous venous flow, detecting any device migration, filter tilting, or strut movement that could compromise capture efficiency or increase perforation risk over extended deployment periods."
+      },
+      {
+        "title": "Retrieval Force Quantification",
+        "description": "For retrievable designs, we measure the force required to collapse and extract your filter after simulated implantation durations from two weeks to several months, validating that retrieval remains feasible as tissue incorporation progresses."
+      },
+      {
+        "title": "Perforation Risk Assessment",
+        "description": "High-resolution imaging tracks strut position relative to vessel walls throughout deployment and flow exposure, identifying any penetration or wall contact that could lead to vena cava perforation or retroperitoneal complications."
+      },
+      {
+        "title": "Thrombus Burden Capacity",
+        "description": "We test filter performance as captured clot volume increases, measuring at what point accumulated thrombus begins to obstruct venous flow and whether your device maintains stability under increasing embolic load."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for IVC Filter Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Filter",
+        "heading": "Specialized Venous Flow Simulation",
+        "text": "Our high-volume venous flow systems replicate the unique hemodynamics of the inferior vena cava, generating the flow conditions that reveal capture efficiency and obstruction trade-offs before clinical use. Real-time particle tracking captures emboli as small as 2mm, providing the comprehensive capture efficiency data FDA requires for pulmonary embolism prevention claims."
+      },
+      {
+        "icon": "RotateCcw",
+        "heading": "Retrieval Mechanism Validation Expertise",
+        "text": "We've tested retrievable IVC filters since the first-generation devices, understanding how tissue incorporation affects retrieval forces over weeks and months of deployment. Our protocols simulate extended implantation periods to validate that your retrieval system remains functional across the clinical timeframes when physicians need to remove temporary filters."
+      },
+      {
+        "icon": "Shield",
+        "heading": "Complete Venous Safety Assessment",
+        "text": "Our GLP-compliant testing evaluates all critical safety parameters for IVC filters, from initial capture efficiency through long-term stability and retrieval. We provide datasets for clot capture rates, flow preservation, migration resistance, and retrieval forces that align with FDA guidance for venous intervention devices, supporting straightforward regulatory submissions."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Let's discuss how our IVC filter testing protocols can support your venous intervention device development.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "embolic-protection-testing",
+    "title": "Embolic Protection Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Peripheral Vascular Testing",
+    "parentHubUrl": "/preclinical-services/peripheral-vascular-testing",
+    "heroHeadline": "Embolic Protection Testing Services",
+    "heroDescription": "Successful embolic protection requires devices that capture plaque debris without blocking blood flow to critical organs, contain all captured material during retrieval, and deploy reliably in the seconds available during high-risk procedures. We test particle capture efficiency down to 40 microns, measure flow obstruction at the filter, validate debris retention during device collapse and removal, and confirm your system deploys accurately in tortuous vascular anatomy.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Embolic protection devices face competing demands that make testing critical. Your filter or occlusion system must catch particles that could cause stroke, heart attack, or organ damage, yet the same pores or mechanisms that capture debris also restrict blood flow to tissue that depends on continuous perfusion. Deploy too slowly and emboli escape before protection activates. Retrieve carelessly and captured debris spills back into circulation. The device must accomplish all this during procedures where seconds matter and anatomical access may be challenging.\n\nWe test embolic protection devices using programmable debris generators that release controlled quantities of synthetic particles sized from 40 microns to 5 millimeters. High-speed imaging tracks what your filter captures versus what passes through, while flow sensors measure pressure gradients that indicate perfusion compromise. We validate that your device deploys within the time window available during actual procedures, test debris retention as the filter collapses for retrieval, and confirm that captured material remains contained during catheter withdrawal. Testing covers distal filter systems used in carotid and peripheral interventions, proximal occlusion devices for cerebral protection, and specialized designs for specific anatomical territories across vessel diameters from 3mm to 8mm.\n\nOur protocols align with FDA guidance for embolic protection devices, typically following the 510(k) pathway with substantial equivalence to predicate devices. Testing demonstrates adequate particle capture for procedural safety, minimal flow obstruction during deployment, complete debris containment during retrieval, and reliable performance across relevant vascular territories. We measure capture efficiency against benchmarks established for cerebral protection during carotid stenting, coronary intervention safety, and peripheral vascular procedures.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Particle Capture Efficiency Across Size Ranges",
+        "description": "We measure what percentage of debris your filter captures across particles from 40 microns to 5 millimeters, providing the size-specific capture data that determines protection against microembolic injury during vascular interventions."
+      },
+      {
+        "title": "Flow Obstruction and Perfusion Measurement",
+        "description": "Pressure gradient sensors quantify how much your deployed filter restricts blood flow, confirming that particle capture mechanisms don't create dangerous tissue ischemia during the minutes your device protects the vascular bed."
+      },
+      {
+        "title": "Debris Retention During Retrieval",
+        "description": "High-speed imaging validates that captured particles remain contained as your filter collapses and withdraws through the guide catheter, measuring any debris spillage that could defeat the purpose of embolic protection."
+      },
+      {
+        "title": "Deployment Speed and Accuracy",
+        "description": "We measure time from catheter advancement to full filter deployment, confirming your device activates quickly enough to capture debris generated during balloon inflation, stent expansion, or atherectomy while positioning accurately in target vessels."
+      },
+      {
+        "title": "Performance in Tortuous Anatomy",
+        "description": "Testing through curved vessel models and bifurcation anatomy validates that your delivery system navigates challenging vascular access while maintaining filter integrity and deployment reliability across the anatomical variations encountered clinically."
+      },
+      {
+        "title": "Multi-Debris Load Testing",
+        "description": "We challenge your filter with increasing volumes of captured material, measuring at what point debris burden begins to compromise flow or device performance and whether your system maintains effectiveness throughout extended procedures."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Embolic Protection Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Precision Particle Tracking Systems",
+        "text": "Our debris generators release calibrated synthetic particles that replicate the size distribution of emboli generated during carotid stenting, TAVR, and peripheral interventions. High-resolution imaging captures particles as small as 40 microns, providing the detailed capture efficiency data FDA requires for embolic protection claims across cerebral, coronary, and peripheral applications."
+      },
+      {
+        "icon": "Timer",
+        "heading": "Procedural Realism in Testing",
+        "text": "We simulate actual intervention sequences with precise timing, testing whether your device deploys fast enough to capture debris from balloon inflation or stent expansion. Our protocols replicate the procedural realities that determine clinical success, from guide catheter compatibility through final retrieval with captured debris containment."
+      },
+      {
+        "icon": "Target",
+        "heading": "Multi-Territory Testing Experience",
+        "text": "Our GLP-compliant protocols address embolic protection across vascular territories, from cerebral filters during carotid procedures to coronary protection during saphenous vein graft interventions. We understand the territory-specific requirements that differentiate carotid protection from peripheral applications, providing testing strategies aligned with your specific regulatory pathway."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Let's discuss how our embolic protection testing protocols can support your procedural safety device development.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "laa-closure-testing",
+    "title": "LAA Closure Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Structural Heart Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/structural-heart-testing",
+    "heroHeadline": "LAA Closure Testing Services",
+    "heroDescription": "Comprehensive preclinical testing for left atrial appendage closure devices with deployment accuracy, sealing effectiveness assessment, and anatomical compatibility validation across diverse appendage morphologies.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Left atrial appendage closure devices prevent stroke in atrial fibrillation patients by permanently sealing the appendage where blood clots form. These devices face unique validation challenges across diverse appendage anatomies, from chicken wing to cauliflower configurations, requiring precise deployment mechanics and complete sealing without peridevice leaks. Success depends on demonstrating anatomical compatibility across morphological variants, positioning accuracy during cardiac motion, and endothelialization that ensures permanent closure.\n\nWe evaluate deployment accuracy using transesophageal echocardiography and high-resolution fluoroscopy that capture device positioning throughout complete cardiac cycles. Our catheterization laboratories feature specialized left atrial access capabilities, anatomical models representing morphological variations, and flow measurement systems that quantify sealing effectiveness. From device-tissue interface characterization to chronic endothelialization assessment, our protocols address the specific performance requirements LAA closure technologies demand.\n\nISO 10993 biocompatibility standards guide chronic implantation studies while device specific protocols address deployment mechanics and anatomical compatibility validation. Our GLP compliant testing supports both 510(k) pathways demonstrating substantial equivalence to predicate devices and PMA submissions for breakthrough technologies. Whether validating nitinol framework designs or novel sealing mechanisms, our protocols address FDA expectations for stroke prevention devices across diverse patient anatomies.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Anatomical Compatibility Assessment",
+        "description": "Deployment validation across chicken wing, cactus, cauliflower, and windsock LAA morphologies using anatomically accurate models with advanced imaging for detailed anatomical measurements and device sizing verification."
+      },
+      {
+        "title": "Deployment Mechanics and Positioning Accuracy",
+        "description": "High-resolution fluoroscopy and transesophageal echocardiography capture device deployment dynamics, positioning accuracy, and stability during cardiac motion with assessment of delivery system performance and retrieval capabilities."
+      },
+      {
+        "title": "Sealing Effectiveness and Leak Assessment",
+        "description": "Advanced flow measurement techniques quantify LAA occlusion completeness and peridevice leak detection with real-time imaging during deployment enabling sealing optimization and long-term closure validation."
+      },
+      {
+        "title": "Endothelialization and Tissue Integration",
+        "description": "Extended observation protocols evaluate endothelialization progression and device-tissue interface healing with histopathological analysis characterizing tissue ingrowth, cellular responses, and complete endothelial coverage development."
+      },
+      {
+        "title": "Device Stability and Durability",
+        "description": "Cardiac cycle simulation assesses device positioning stability and anchoring mechanism integrity throughout extended physiological loading with accelerated fatigue protocols characterizing material durability and long-term device behavior."
+      },
+      {
+        "title": "Biocompatibility and Thrombogenicity",
+        "description": "ISO 10993-4 compliant hemocompatibility testing addresses blood contact requirements while specialized thrombogenicity protocols evaluate clot formation potential under atrial fibrillation flow patterns with chronic studies assessing tissue response over implant lifetime."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for LAA Closure Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Layers",
+        "heading": "Specialized Structural Heart Infrastructure",
+        "text": "Two catheterization laboratories equipped specifically for LAA closure evaluation feature transesophageal echocardiography, high-resolution fluoroscopy, and specialized left atrial access capabilities. Our anatomical model library spans chicken wing, cactus, cauliflower, and windsock morphologies while hemodynamic monitoring systems capture device-heart interactions throughout complete cardiac cycles."
+      },
+      {
+        "icon": "Users",
+        "heading": "Structural Heart Device Expertise",
+        "text": "Founded by Duke University interventional cardiologists who pioneered transcatheter structural heart procedures, our team understands complex cardiac anatomy, deployment mechanics, and chronic tissue integration requirements. This cardiovascular heritage translates to protocol designs that address FDA Class III device requirements including anatomical compatibility demonstration, endothelialization assessment, and comprehensive safety validation."
+      },
+      {
+        "icon": "Activity",
+        "heading": "Proven Structural Heart Regulatory Success",
+        "text": "Our data packages have supported successful FDA approvals for structural heart devices across LAA closure, septal defect, and transcatheter repair categories. We understand Class III device requirements including chronic biocompatibility demonstration through ISO 10993 compliance, deployment accuracy validation, and the specific endpoints FDA expects for structural heart device submissions."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your LAA closure device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "watchman-device-testing",
+    "title": "Watchman Device Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Structural Heart Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/structural-heart-testing",
+    "heroHeadline": "Watchman Device Testing Services",
+    "heroDescription": "Specialized preclinical validation for Watchman LAA occluders with nitinol framework characterization, fabric membrane assessment, and device stability testing across varying appendage anatomies.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Watchman devices represent the established standard for percutaneous LAA closure, requiring validation that addresses nitinol framework expansion, polyester fabric membrane sealing, and sizing accuracy across diverse appendage geometries. These self-expanding occluders must demonstrate controlled deployment, adequate wall apposition force, and complete appendage isolation while supporting endothelialization that prevents thrombus formation. Success depends on validating framework durability under cardiac loading, membrane integrity throughout device lifetime, and optimal sizing across the spectrum of LAA anatomical variations.\n\nWe evaluate framework performance using specialized expansion testing that quantifies radial force, shape memory recovery, and deployment consistency across temperature ranges. Our catheterization laboratories feature transesophageal echocardiography capabilities, anatomical models representing chicken wing through windsock morphologies, and flow measurement systems that assess sealing effectiveness. From nitinol fatigue characterization to fabric endothelialization studies, our protocols address the specific validation requirements Watchman platforms demand.\n\nISO 10993 biocompatibility standards guide nitinol and fabric material assessment while device specific protocols address compression ratio optimization and anchoring stability validation. Our GLP compliant testing supports both 510(k) pathways for devices demonstrating substantial equivalence to established Watchman predicates and PMA submissions for significant design modifications. Whether validating next generation framework designs or novel fabric configurations, our protocols address FDA expectations for LAA closure devices across intended patient populations.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Nitinol Framework Performance",
+        "description": "Comprehensive framework testing quantifies expansion characteristics, wall apposition force distribution, and shape memory behavior across deployment conditions with fatigue protocols evaluating structural integrity throughout projected device lifetime."
+      },
+      {
+        "title": "Fabric Membrane Integration",
+        "description": "Specialized membrane assessment evaluates polyester fabric porosity, sealing effectiveness, and endothelialization support properties with testing protocols characterizing fabric-framework attachment integrity under physiological loading."
+      },
+      {
+        "title": "Device Sizing and Compression Ratio",
+        "description": "Sizing algorithm validation across LAA diameters and depths ensures optimal device selection with compression ratio testing confirming adequate wall contact without excessive tissue compression across morphological variants."
+      },
+      {
+        "title": "Deployment Accuracy and Retrieval",
+        "description": "High-resolution imaging captures deployment dynamics, positioning precision, and device stability during cardiac motion with retrieval capability assessment validating recapture mechanics and redeployment performance."
+      },
+      {
+        "title": "Sealing Integrity and Leak Prevention",
+        "description": "Advanced flow measurement techniques quantify complete LAA occlusion and peridevice leak detection with long-term sealing validation confirming permanent appendage isolation throughout extended observation periods."
+      },
+      {
+        "title": "Biocompatibility and Thrombogenicity",
+        "description": "ISO 10993 compliant testing addresses nitinol and polyester fabric biocompatibility with specialized thrombogenicity protocols evaluating clot formation potential during anticoagulation bridging and long-term antithrombotic therapy."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Watchman Device Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Microscope",
+        "heading": "Specialized LAA Closure Infrastructure",
+        "text": "Two catheterization laboratories configured specifically for Watchman device evaluation feature transesophageal echocardiography, high-resolution fluoroscopy, and specialized compression ratio testing equipment. Our anatomical model library includes all major LAA morphologies while nitinol characterization systems evaluate framework performance across temperature ranges and deployment scenarios encountered in clinical practice."
+      },
+      {
+        "icon": "Users",
+        "heading": "Structural Heart Device Expertise",
+        "text": "Founded by Duke University interventional cardiologists who pioneered LAA closure procedures, our team understands Watchman device mechanics, sizing methodologies, and chronic tissue integration requirements. This cardiovascular specialization translates to protocol designs addressing nitinol framework validation, fabric membrane assessment, and the comprehensive safety testing FDA expects for percutaneous stroke prevention devices."
+      },
+      {
+        "icon": "CheckCircle",
+        "heading": "Proven LAA Closure Regulatory Success",
+        "text": "Our data packages have supported successful FDA submissions for LAA closure devices across multiple platform generations. We understand Class III device requirements including nitinol biocompatibility demonstration, endothelialization validation, and the specific endpoints FDA expects for Watchman device submissions addressing stroke prevention in atrial fibrillation patients."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your Watchman device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "renal-denervation-testing",
+    "title": "Renal Denervation Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Structural Heart Testing",
+    "parentHubUrl": "/preclinical-services/cardiovascular-disease-testing/structural-heart-testing",
+    "heroHeadline": "Renal Denervation Testing Services",
+    "heroDescription": "Specialized preclinical validation for catheter-based renal denervation systems with sympathetic nerve ablation assessment, energy delivery characterization, and chronic reinnervation evaluation.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Renal denervation devices treat resistant hypertension by disrupting sympathetic nerves surrounding renal arteries. These catheter-based systems must prove they can achieve complete nerve ablation while preserving renal artery integrity and kidney function. Whether using radiofrequency energy or ultrasound, devices need validation showing sustained blood pressure reduction without nerve regrowth over time.\n\nWe test nerve ablation effectiveness through specialized immunohistochemistry that visualizes sympathetic fiber destruction, measuring norepinephrine levels to confirm functional denervation, and tracking blood pressure changes that demonstrate therapeutic benefit. Our protocols evaluate energy delivery consistency across varying vessel anatomies, ensuring circumferential ablation without creating arterial injury. From acute safety assessment through extended reinnervation studies, our testing addresses the complete validation path these hypertension devices require.\n\nISO 10993 biocompatibility standards guide chronic arterial contact assessment while FDA guidance for neurological devices informs ablation validation protocols. Our testing supports both early feasibility studies under IDE applications and comprehensive PMA submissions. Whether validating radiofrequency catheter designs or ultrasound transducer arrays, our protocols demonstrate the ablation completeness and renal safety FDA expects for hypertension treatment devices.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Sympathetic Nerve Ablation Verification",
+        "description": "Specialized immunohistochemistry visualizes sympathetic fiber destruction while norepinephrine analysis confirms functional denervation, with quantitative protocols characterizing ablation depth and completeness across arterial segments."
+      },
+      {
+        "title": "Energy Delivery Characterization",
+        "description": "Temperature and impedance monitoring track radiofrequency energy distribution and tissue contact quality while ultrasound mapping validates focal zones, penetration depth, and circumferential coverage achieving complete denervation."
+      },
+      {
+        "title": "Renal Artery Safety and Function Assessment",
+        "description": "Angiography and intravascular ultrasound evaluate arterial integrity and healing while renal function monitoring confirms preserved kidney performance throughout chronic observation periods."
+      },
+      {
+        "title": "Chronic Reinnervation Evaluation",
+        "description": "Serial nerve fiber assessment at multiple timepoints detects sympathetic regrowth while blood pressure monitoring identifies therapeutic durability, with histological analysis characterizing long-term ablation stability."
+      },
+      {
+        "title": "Catheter Performance and Electrode Contact",
+        "description": "Delivery system testing evaluates navigation through renal anatomy and electrode positioning while impedance monitoring confirms tissue contact and multi-electrode systems demonstrate circumferential ablation coverage."
+      },
+      {
+        "title": "Blood Pressure Response and Therapeutic Efficacy",
+        "description": "Continuous hemodynamic monitoring tracks acute and chronic blood pressure changes with ambulatory assessment characterizing sustained response and protocols evaluating bilateral versus unilateral denervation effectiveness."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Renal Denervation Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Target",
+        "heading": "Specialized Renal Denervation Infrastructure",
+        "text": "Two catheterization laboratories equipped for renal artery access feature specialized ablation monitoring systems and anatomical models spanning vessel size variations. Our nerve assessment capabilities include immunohistochemistry facilities, norepinephrine analysis equipment, and comprehensive blood pressure monitoring systems enabling complete denervation validation from acute ablation through chronic reinnervation assessment."
+      },
+      {
+        "icon": "Users",
+        "heading": "Sympathetic Nerve Ablation Expertise",
+        "text": "Our team combines cardiovascular device experience with specialized knowledge of sympathetic nervous system anatomy and ablation technologies. This expertise translates to protocols addressing energy delivery optimization, nerve fiber assessment methodologies, and the chronic observation requirements hypertension devices demand for demonstrating sustained therapeutic benefit without sympathetic nerve regrowth."
+      },
+      {
+        "icon": "Activity",
+        "heading": "Proven Ablation Device Regulatory Success",
+        "text": "Our data packages have supported FDA submissions for ablation-based therapeutic devices across multiple tissue targets. We understand neurological device guidance requirements, energy delivery safety validation, and the comprehensive efficacy demonstration FDA expects for devices treating systemic conditions through targeted nerve disruption addressing both acute ablation completeness and long-term therapeutic durability."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Our team is ready to discuss your renal denervation device, regulatory pathway, and study requirements to optimize your path to FDA approval.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "endoscopic-device-testing",
+    "title": "Endoscopic Device Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Surgical Robotics Testing",
+    "parentHubUrl": "/preclinical-services/surgical-robotics-testing",
+    "heroHeadline": "Endoscopic Device Testing Services",
+    "heroDescription": "Successful endoscopy depends on cameras that see tissue clearly, flexible shafts that navigate anatomy without breaking, and components that survive repeated cleaning cycles. We test optical resolution per ISO 8600 standards, measure mechanical durability through thousands of bending cycles, and validate that your scope maintains performance after the cleaning protocols hospitals actually use.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Endoscopic cameras must resolve enough detail for accurate diagnosis while maintaining color accuracy under varying light conditions. The flexible insertion tube must bend through tight turns without kinking, transmit physician hand movements precisely to the tip, and return to its original shape after each procedure. Meanwhile, working channels must stay patent for instrument passage, and the entire system must withstand hundreds of cleaning and sterilization cycles without degrading optical or mechanical performance.\n\nWe measure image resolution across your camera's full field of view using ISO 8600 test patterns. Mechanical testing quantifies minimum bending radius, torque transmission from handle to tip, and structural integrity after 10,000+ flexion cycles. We validate that seals maintain integrity during high-pressure cleaning, that optical components resist fogging and contamination, and that electrical insulation remains intact throughout your scope's claimed lifetime. Testing follows protocols specific to GI, bronchial, urological, and laparoscopic applications.\n\nYour regulatory pathway depends on demonstrating that optical performance meets diagnostic requirements, mechanical components survive clinical use patterns, and biocompatibility testing addresses mucosal contact duration per ISO 10993. We provide the data packages needed for 510(k) submissions, with protocols designed around FDA guidance for flexible endoscopes and the specific contact scenarios your device encounters during procedures.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Optical Resolution Testing",
+        "description": "We measure how many line pairs per millimeter your camera resolves at center and periphery, quantifying whether image quality supports diagnostic decisions across the full viewing area per ISO 8600 standards."
+      },
+      {
+        "title": "Mechanical Flexibility Validation",
+        "description": "We determine the tightest radius your scope navigates without kinking or breaking, measuring insertion force, torque response, and whether the shaft maintains flexibility after repeated bending to maximum specifications."
+      },
+      {
+        "title": "Channel Patency Assessment",
+        "description": "We verify that working channels pass instruments of specified diameters, maintain suction capacity, and resist blockage from tissue or fluid debris during simulated procedures."
+      },
+      {
+        "title": "Cleaning Validation Testing",
+        "description": "We measure whether your scope's design allows complete removal of organic matter from channels and components, using the automated reprocessing systems hospitals actually employ."
+      },
+      {
+        "title": "Illumination Uniformity Measurement",
+        "description": "We quantify light distribution across your scope's field of view, measuring whether illumination intensity varies enough to create diagnostic blind spots or misleading shadows."
+      },
+      {
+        "title": "Biocompatibility Evaluation",
+        "description": "We conduct ISO 10993 cytotoxicity, sensitization, and irritation testing based on mucosal contact duration, providing the safety data required for tissue-contacting components."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Endoscopic Device Testing",
+    "whyChooseCards": [
+      {
+        "icon": "FlaskConical",
+        "heading": "Flexible Catheter Testing Infrastructure",
+        "text": "Our facility includes specialized equipment for testing devices that must navigate complex anatomy. We measure bending performance using radius fixtures from 5mm to 50mm, quantify torque transmission through articulated shafts, and evaluate tip control precision. This infrastructure applies directly to endoscopic insertion tubes, which face the same mechanical challenges as the cardiovascular catheters we've tested for 40 years."
+      },
+      {
+        "icon": "Eye",
+        "heading": "Optical Performance Measurement Capabilities",
+        "text": "We maintain ISO 8600-compliant optical test benches with resolution targets, color charts, and illumination measurement systems. Our equipment quantifies resolution, contrast sensitivity, and color reproduction under controlled conditions. We can identify whether optical degradation stems from lens quality, fiber bundle damage, or sensor limitations, then correlate findings with your manufacturing specifications."
+      },
+      {
+        "icon": "FileCheck",
+        "heading": "GLP Documentation for Regulatory Submissions",
+        "text": "All testing occurs under GLP protocols per 21 CFR Part 58, with study directors who understand FDA expectations for endoscopic device submissions. Our final reports include the statistical analyses, photographic documentation, and traceability matrices that regulators expect. We've supported dozens of successful 510(k) clearances with this approach."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Whether you're developing flexible GI scopes, rigid laparoscopes, or specialty visualization systems, we'll design testing protocols that address your specific regulatory pathway and performance claims.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  },
+  {
+    "slug": "laparoscopic-testing",
+    "title": "Laparoscopic Testing Services | GLP Preclinical CRO | Synchrony Labs",
+    "parentHubName": "Surgical Robotics Testing",
+    "parentHubUrl": "/preclinical-services/surgical-robotics-testing",
+    "heroHeadline": "Laparoscopic Testing Services",
+    "heroDescription": "Successful laparoscopic surgery requires instruments where electrical insulation never fails during tissue cutting, trocar seals maintain pneumoperitoneum throughout procedures, and articulation joints deliver precise movements after thousands of cycles. We test whether your electrosurgical insulation withstands the mechanical stress of tissue manipulation, measure how much force surgeons need to actuate your instrument, and validate that seals prevent gas leakage under the pressure conditions surgeons actually encounter.",
+    "primaryContentTitle": "What We Test",
+    "primaryContentDescription": "Laparoscopic instruments combine mechanical precision with electrical safety in an environment where insulation failure can cause serious patient injury. Electrosurgical devices must deliver cutting or coagulation energy while maintaining complete insulation integrity along shaft lengths of 30-45cm. Articulating instruments must transmit hand movements through multiple joints without backlash or position drift. Trocars must seal around instruments of varying diameters while maintaining 12-15 mmHg insufflation pressure. All components must survive repeated sterilization cycles without performance degradation.\n\nWe measure insulation resistance per IEC 60601 standards, applying mechanical stress while monitoring for current leakage that could cause patient burns. Mechanical testing quantifies actuation forces at the handle, jaw closure forces at the tip, and whether articulation accuracy degrades after 5,000+ cycles. We validate trocar seal performance across instrument diameter ranges, measure CO2 leak rates during simulated instrument exchanges, and verify that valve mechanisms maintain function after repeated autoclaving. Testing addresses general surgery, gynecological, and urological applications.\n\nYour device typically follows a 510(k) pathway demonstrating substantial equivalence to predicate instruments. We provide testing that addresses FDA guidance on electrosurgical safety, mechanical performance verification, and biocompatibility assessment for peritoneal tissue contact per ISO 10993. Our protocols generate the comparative data and safety documentation regulators expect for laparoscopic instrument clearances.",
+    "keyCapabilitiesTitle": "Key Testing Capabilities",
+    "capabilities": [
+      {
+        "title": "Electrosurgical Insulation Testing",
+        "description": "We measure whether electrical insulation maintains integrity when your instrument bends to maximum radius during tissue manipulation, detecting failure points before they cause patient injury in clinical use per IEC 60601 requirements."
+      },
+      {
+        "title": "Trocar Seal Performance Validation",
+        "description": "We quantify CO2 leak rates when instruments of different diameters pass through your trocar seal, measuring whether pneumoperitoneum is maintained during the rapid instrument exchanges that occur in actual surgical procedures."
+      },
+      {
+        "title": "Articulation Durability Assessment",
+        "description": "We cycle articulating joints through 10,000+ movements while measuring position accuracy, determining whether backlash develops that would compromise surgical precision during complex dissection maneuvers."
+      },
+      {
+        "title": "Tissue Grasping Force Measurement",
+        "description": "We quantify how much force your jaws apply to tissue when surgeons close the handles completely, verifying adequate grip strength without tissue damage that could cause inadvertent bleeding or perforation."
+      },
+      {
+        "title": "Ergonomic Force Analysis",
+        "description": "We measure how much hand strength surgeons need to actuate your instrument over extended procedures, identifying whether actuation forces cause fatigue that could compromise surgical performance during lengthy operations."
+      },
+      {
+        "title": "Sterilization Compatibility Testing",
+        "description": "We validate that repeated exposure to steam sterilization, high-level disinfection, or other reprocessing methods does not degrade mechanical performance, electrical safety, or material properties throughout your instrument's claimed lifetime."
+      }
+    ],
+    "whyChooseTitle": "Why Choose Synchrony for Laparoscopic Testing",
+    "whyChooseCards": [
+      {
+        "icon": "Zap",
+        "heading": "Electrosurgical Safety Testing Equipment",
+        "text": "Our laboratory includes IEC 60601-compliant test systems that measure leakage current while instruments undergo mechanical stress. We can detect insulation failures at current levels far below what causes patient injury, identifying design weaknesses before clinical use. This equipment supports the electrical safety documentation FDA expects for electrosurgical instruments across all specialized surgical applications."
+      },
+      {
+        "icon": "Wrench",
+        "heading": "Surgical Instrument Evaluation Experience",
+        "text": "We've tested precision surgical instruments for 40 years, developing expertise in the mechanical performance and durability requirements that determine clinical success. Our team understands how surgeons actually use laparoscopic tools, which failure modes matter most, and how to design test protocols that predict real-world performance. This experience translates directly to identifying problems early in development."
+      },
+      {
+        "icon": "FileCheck",
+        "heading": "GLP Compliance for Device Submissions",
+        "text": "All testing follows GLP protocols per 21 CFR Part 58, with documentation systems designed around FDA submission requirements. Our study directors understand what regulators look for in laparoscopic instrument testing data. We've supported successful 510(k) clearances for electrosurgical devices, mechanical instruments, and combination products with this approach."
+      }
+    ],
+    "cta": {
+      "title": "Ready to Start Your Study?",
+      "description": "Whether you're developing electrosurgical instruments, mechanical graspers, or advanced articulating devices, we'll design protocols that address the specific safety and performance requirements your regulatory pathway demands.",
+      "primaryButtonText": "Schedule Consultation",
+      "primaryButtonLink": "/contact"
+    }
+  }
+]

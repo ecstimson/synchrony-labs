@@ -1,0 +1,39 @@
+---
+import type { CTASection } from '../../types/index.js';
+import Button from '../ui/Button.astro';
+
+interface Props {
+  cta: CTASection;
+}
+
+const { cta } = Astro.props;
+---
+
+<section class="py-32 relative overflow-hidden bg-transparent">
+  <div class="absolute inset-0 bg-gradient-to-t from-teal/10 via-transparent to-transparent pointer-events-none"></div>
+
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h2 class="text-4xl font-bold text-navy dark:text-white sm:text-5xl mb-6">
+      {cta.title}
+    </h2>
+    <p class="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400 mb-10">
+      {cta.description}
+    </p>
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <Button variant="primary" size="lg" href={cta.primaryButtonLink}>
+        {cta.primaryButtonText}
+      </Button>
+      {cta.secondaryButtonText && cta.secondaryButtonLink && (
+        <Button variant="outline" size="lg" href={cta.secondaryButtonLink}>
+          {cta.secondaryButtonText}
+        </Button>
+      )}
+      {cta.tertiaryButtonText && cta.tertiaryButtonLink && (
+        <Button variant="ghost" size="lg" href={cta.tertiaryButtonLink}>
+          {cta.tertiaryButtonText}
+        </Button>
+      )}
+    </div>
+  </div>
+</section>
+

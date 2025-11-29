@@ -1,0 +1,51 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import HeroWithBreadcrumb from '../components/sections/HeroWithBreadcrumb.astro';
+import SubServicesGrid from '../components/sections/SubServicesGrid.astro';
+import WhyChoose from '../components/sections/WhyChoose.astro';
+import FeaturedServices from '../components/sections/FeaturedServices.astro';
+import RelatedServices from '../components/sections/RelatedServices.astro';
+import CTASection from '../components/sections/CTASection.astro';
+import type { HubPage } from '../types/index.js';
+import { getBreadcrumbs } from '../utils/dataLoader';
+
+interface Props {
+  page: HubPage;
+}
+
+const { page } = Astro.props;
+const breadcrumbs = getBreadcrumbs(page.slug);
+---
+
+<BaseLayout title={page.title}>
+  <HeroWithBreadcrumb 
+    headline={page.heroHeadline}
+    description={page.heroDescription}
+    breadcrumbs={breadcrumbs}
+  />
+  <SubServicesGrid 
+    title={page.subpagesSectionTitle}
+    description={page.subpagesSectionDescription}
+    items={page.subpages}
+  />
+  <WhyChoose 
+    title={page.whyChooseSectionTitle}
+    description={page.whyChooseDescription}
+    cards={page.whyChooseCards}
+  />
+  {page.featuredServices.length > 0 && (
+    <FeaturedServices 
+      title={page.featuredServicesTitle}
+      services={page.featuredServices}
+    />
+  )}
+  {page.relatedServices.length > 0 && (
+    <RelatedServices 
+      title={page.relatedSectionTitle}
+      description={page.relatedSectionDescription}
+      services={page.relatedServices}
+    />
+  )}
+  <CTASection cta={page.cta} />
+</BaseLayout>
+

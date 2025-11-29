@@ -7,24 +7,23 @@ interface Props {
 
 const { className = '', theme = 'auto', id } = Astro.props;
 // For auto theme, we'll use CSS to handle it
-const textColor = theme === 'auto' 
-  ? 'text-navy dark:text-white' 
+const logoVariant = theme === 'auto' 
+  ? 'navy' 
   : theme === 'dark' 
-    ? 'text-white' 
-    : 'text-navy';
+    ? 'white' 
+    : 'navy';
 ---
 
-<div id={id} class={`flex items-center gap-2 ${className}`}>
-  <svg width="40" height="48" viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="shrink-0">
-    <path d="M20 48C20 48 40 40 40 12V4L20 0L0 4V12C0 40 20 48 20 48Z" fill="#032235"/>
-    <path d="M20 44C20 44 36 37 36 14V6L20 2L4 6V14C4 37 20 44 20 44Z" fill="white"/>
-    <path d="M20 44C20 44 4 37 4 14V6L20 2V44Z" fill="#4682B4"/>
-    <path d="M20 2V44C20 44 36 37 36 14V6L20 2Z" fill="#CF0000"/>
-    <path d="M4 25H12L15 15L18 35L22 25H36" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>
-  <div class={`flex flex-col font-bold uppercase leading-none tracking-wide ${textColor}`}>
-    <span class="text-xl">Synchrony</span>
-    <span class="text-xl">Labs</span>
-  </div>
-</div>
+<a href="/" id={id} class={`inline-block ${className}`} aria-label="Synchrony Labs Home">
+  <img 
+    src={`/logos/shi-sl_${logoVariant}_horizontal.svg`}
+    alt="Synchrony Labs"
+    class="h-24 w-auto dark:hidden"
+  />
+  <img 
+    src="/logos/shi-sl_white_horizontal.svg"
+    alt="Synchrony Labs"
+    class="h-24 w-auto hidden dark:block"
+  />
+</a>
 

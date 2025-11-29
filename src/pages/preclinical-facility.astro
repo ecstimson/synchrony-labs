@@ -1,0 +1,357 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/ui/Button.astro';
+
+// Helper function to get equipment image path
+function getEquipmentImage(name: string): string {
+  const imageMap: Record<string, string> = {
+    'GE Optima 330 Core Imaging System': 'GE OPTIMA 330 CORE IMAGING SYSTEM.jpg',
+    'Siemens Somatom Definition Flash Eco': 'SIEMENS SOMATOM DEFINITION FLASH ECO.jpg',
+    'Philips CX50 Ultrasound': 'PHILIPS CX50 ULTRASOUND.jpg',
+    'Stryker Laparoscopic Tower': 'STRYKER LAPAROSCOPIC TOWER.jpg',
+    'GE Vivid E9 with XDClear Ultrasound': 'GE VIVID E9 WITH XDCLEAR ULTRASOUND.jpg',
+    'GE Innova 3100 Cardiovascular Imaging System': 'GE INNOVA 3100 CARDIOVASCULAR IMAGING SYSTEM.jpg',
+    'Volcano S5 Imaging System': 'VOLCANO S5 IMAGING SYSTEM.jpg',
+    'Stockert S3 Perfusion System': 'STOCKERT S3 PERFUSION SYSTEM.jpg',
+  };
+  
+  // Try exact match first
+  if (imageMap[name]) {
+    return `/images/equipment/${imageMap[name]}`;
+  }
+  
+  // Try partial match
+  for (const [key, value] of Object.entries(imageMap)) {
+    if (name.toLowerCase().includes(key.toLowerCase().split(' ').slice(0, 2).join(' '))) {
+      return `/images/equipment/${value}`;
+    }
+  }
+  
+  return '/images/placeholder.jpg';
+}
+
+const equipment = [
+  {
+    name: 'GE Optima 330 Core Imaging System',
+    features: [
+      'High-resolution X-ray for orthopedic studies',
+      'Fluoroscopic guidance during procedures',
+      'Multiple positioning options for complete evaluation',
+      'Digital enhancement for better visualization'
+    ]
+  },
+  {
+    name: 'Siemens Somatom Definition Flash Eco',
+    features: [
+      'Resolution fine enough to catch submillimeter details',
+      'Contrast studies showing blood flow and tissue response',
+      '3D data that makes regulatory reviewers happy',
+      'Long-term imaging showing integration and healing'
+    ]
+  },
+  {
+    name: 'Philips CX50 Ultrasound',
+    features: [
+      'Sharp cardiac visualization for structural heart studies',
+      'Precise vascular access during complex procedures',
+      'Continuous monitoring while devices deploy',
+      'Follow-up imaging at scheduled intervals'
+    ]
+  },
+  {
+    name: 'Stryker Laparoscopic Tower',
+    features: [
+      'Ultra-clear imaging for exact device placement',
+      'Built-in recording for training and validation',
+      'Documentation from multiple angles for submissions',
+      'Remote streaming for off-site monitoring'
+    ]
+  },
+  {
+    name: 'GE Vivid E9 with XDClear Ultrasound',
+    features: [
+      'Doppler studies proving device performance',
+      'Vessel analysis supporting biocompatibility studies',
+      'Extended protocols showing long-term safety',
+      'Quantitative data meeting regulatory requirements'
+    ]
+  },
+  {
+    name: 'GE Innova 3100 Cardiovascular Imaging System',
+    features: [
+      'Advanced cardiovascular imaging capabilities',
+      'High-resolution angiography for interventional procedures',
+      'Real-time imaging during device deployment',
+      'Comprehensive documentation for regulatory submissions'
+    ]
+  },
+  {
+    name: 'Volcano S5 Imaging System',
+    features: [
+      'Intravascular ultrasound (IVUS) imaging',
+      'Precise vessel analysis and measurement',
+      'Real-time guidance during procedures',
+      'High-resolution imaging for device placement'
+    ]
+  },
+  {
+    name: 'Stockert S3 Perfusion System',
+    features: [
+      'Cardiopulmonary bypass support',
+      'Temperature-controlled perfusion',
+      'Precise flow and pressure monitoring',
+      'Essential for complex cardiovascular procedures'
+    ]
+  }
+];
+---
+
+<BaseLayout title="Preclinical Facility | Synchrony Labs">
+  <section class="relative pt-32 pb-12 md:pt-40 md:pb-16 flex flex-col items-center justify-center overflow-hidden">
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-center leading-[1.1] mb-6 text-navy dark:text-white">
+        Our Lab
+      </h1>
+      <p class="max-w-2xl mx-auto text-lg sm:text-xl font-medium leading-relaxed mb-8 text-gray-600 dark:text-gray-400">
+        Synchrony Labs offers 3 OR's, advanced imaging, and fully equipped support spaces designed for high integrity preclinical research.
+      </p>
+      <Button variant="primary" size="lg" href="/contact">
+        Schedule Consultation
+      </Button>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-20 px-4 border-t border-navy/5 dark:border-white/5 bg-transparent">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory mb-12 scrollbar-hide">
+        {equipment.map((item, index) => (
+          <button
+            type="button"
+            data-equipment-index={index}
+            class="min-w-[280px] md:min-w-[320px] max-w-[320px] snap-center rounded-xl overflow-hidden border border-navy/10 dark:border-white/10 glass-card flex flex-col shadow-lg cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+          >
+            <div class="aspect-[3/4] flex items-center justify-center border-b border-navy/10 dark:border-white/10 bg-gray-100 dark:bg-navy-dark/50 overflow-hidden">
+              <img 
+                src={getEquipmentImage(item.name)}
+                alt={item.name}
+                class="w-full h-full object-cover object-center"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-lg font-bold mb-4 leading-tight text-navy dark:text-white text-left">
+                {item.name}
+              </h3>
+              <ul class="space-y-2 text-left">
+                {item.features.slice(0, 2).map((feature) => (
+                  <li class="flex items-start gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0 bg-teal"></span>
+                    <span class="text-xs leading-relaxed text-gray-600 dark:text-gray-400">
+                      {feature}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </button>
+        ))}
+      </div>
+
+      <!-- Equipment Modal -->
+      <div id="equipment-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div class="relative max-w-4xl w-full max-h-[90vh] overflow-y-auto bg-white dark:bg-navy-dark rounded-2xl shadow-2xl">
+          <button
+            id="modal-close"
+            class="absolute top-4 right-4 z-10 p-2 rounded-full bg-white/90 dark:bg-navy-card hover:bg-white dark:hover:bg-navy-light border border-navy/10 dark:border-white/10 transition-colors"
+            aria-label="Close modal"
+          >
+            <svg class="w-6 h-6 text-navy dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+          <div id="modal-content" class="p-8">
+            <!-- Content will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-navy dark:text-white">
+          The Tools Behind the Science
+        </h2>
+        <div class="space-y-6 text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+          <p>
+            Walk into our facility and you'll immediately notice something different. Our three dedicated operating rooms provide unmatched versatility for diverse study protocols. Two cath labs handle interventional procedures while our surgical suite manages complex operations. We can dedicate the optimal environment to your study without scheduling conflicts.
+          </p>
+          <p>
+            Each room comes equipped with complete GLP compliance. They meet every FDA standard, with monitoring systems for cardiovascular, orthopedic, and neurosurgical procedures.
+          </p>
+          <p>
+            Our room layouts and data collection systems were specifically designed for large models, device implantation, surgical training, and physician education. That helps insure no delays or downtime so you stay on schedule.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 px-4 border-t border-navy/5 dark:border-white/5 bg-transparent">
+    <div class="max-w-5xl mx-auto">
+      <div class="border-2 border-teal/50 dark:border-teal/30 rounded-lg p-8 md:p-12 mb-12 glass-card">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6 text-navy dark:text-white">
+          Expertise Matched to Your Device Type
+        </h2>
+        <ul class="space-y-3 mb-12 text-gray-700 dark:text-gray-300">
+          {[
+            { title: 'Cardiovascular Applications:', text: 'Complete evaluation from initial deployment through extended follow-up' },
+            { title: 'Orthopedic Solutions:', text: 'Imaging protocols supporting integration studies, stability assessment, and biocompatibility evaluation' },
+            { title: 'Neurological Devices:', text: 'Monitoring designed specifically for CNS safety and performance evaluation' },
+            { title: 'Regenerative Medicine:', text: 'Healing protocols for wound care and dermatology applications' },
+            { title: 'Combination Products:', text: 'Analysis capabilities for complex drug-device combinations' }
+          ].map((item) => (
+            <li class="flex gap-2">
+              <span class="mt-2 w-1.5 h-1.5 rounded-full bg-current flex-shrink-0"></span>
+              <span>
+                <strong>{item.title}</strong> {item.text}
+              </span>
+            </li>
+          ))}
+        </ul>
+
+        <h2 class="text-2xl md:text-3xl font-bold mb-6 text-navy dark:text-white">
+          Standards You Can Count On
+        </h2>
+        <p class="mb-8 leading-relaxed text-lg text-gray-700 dark:text-gray-300">
+          AAALAC International accreditation represents our commitment to ethical animal care. GLP compliance under 21 CFR Part 58 ensures every study meets regulatory expectations. Our quality assurance programs protect data integrity throughout your development process.
+        </p>
+
+        <p class="text-sm italic text-gray-500 dark:text-gray-400">
+          This information serves educational purposes and doesn't constitute medical, regulatory, or legal advice. Requirements vary by device classification, intended use, and jurisdiction. Consult qualified regulatory professionals for device-specific guidance.
+        </p>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+        <Button variant="primary" size="lg" href="/contact">
+          Schedule Consultation
+        </Button>
+        <Button variant="outline" size="lg" href="/preclinical-services">
+          Explore Our Services
+        </Button>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline define:vars={{ equipmentData: JSON.stringify(equipment) }}>
+  (function() {
+    const equipment = JSON.parse(equipmentData);
+
+    function getEquipmentImage(name) {
+      const imageMap = {
+        'GE Optima 330 Core Imaging System': 'GE OPTIMA 330 CORE IMAGING SYSTEM.jpg',
+        'Siemens Somatom Definition Flash Eco': 'SIEMENS SOMATOM DEFINITION FLASH ECO.jpg',
+        'Philips CX50 Ultrasound': 'PHILIPS CX50 ULTRASOUND.jpg',
+        'Stryker Laparoscopic Tower': 'STRYKER LAPAROSCOPIC TOWER.jpg',
+        'GE Vivid E9 with XDClear Ultrasound': 'GE VIVID E9 WITH XDCLEAR ULTRASOUND.jpg',
+        'GE Innova 3100 Cardiovascular Imaging System': 'GE INNOVA 3100 CARDIOVASCULAR IMAGING SYSTEM.jpg',
+        'Volcano S5 Imaging System': 'VOLCANO S5 IMAGING SYSTEM.jpg',
+        'Stockert S3 Perfusion System': 'STOCKERT S3 PERFUSION SYSTEM.jpg',
+      };
+      
+      if (imageMap[name]) {
+        return '/images/equipment/' + imageMap[name];
+      }
+      
+      for (const key in imageMap) {
+        if (name.toLowerCase().includes(key.toLowerCase().split(' ').slice(0, 2).join(' '))) {
+          return '/images/equipment/' + imageMap[key];
+        }
+      }
+      
+      return '/images/placeholder.jpg';
+    }
+
+    function initModal() {
+      const modal = document.getElementById('equipment-modal');
+      const modalContent = document.getElementById('modal-content');
+      const closeBtn = document.getElementById('modal-close');
+      const equipmentCards = document.querySelectorAll('[data-equipment-index]');
+
+      if (!modal || !modalContent) return;
+
+      function openModal(index) {
+        const item = equipment[index];
+        if (!item) return;
+
+        modalContent.innerHTML = 
+          '<div class="grid md:grid-cols-2 gap-8">' +
+            '<div class="aspect-[3/4] overflow-hidden rounded-xl">' +
+              '<img src="' + getEquipmentImage(item.name) + '" alt="' + item.name + '" class="w-full h-full object-cover object-center" />' +
+            '</div>' +
+            '<div>' +
+              '<h2 class="text-3xl font-bold text-navy dark:text-white mb-6">' + item.name + '</h2>' +
+              '<ul class="space-y-4">' +
+                item.features.map(function(feature) {
+                  return '<li class="flex items-start gap-3">' +
+                    '<span class="w-2 h-2 rounded-full mt-2 flex-shrink-0 bg-teal"></span>' +
+                    '<span class="text-gray-600 dark:text-gray-400 leading-relaxed">' + feature + '</span>' +
+                  '</li>';
+                }).join('') +
+              '</ul>' +
+            '</div>' +
+          '</div>';
+
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+
+      equipmentCards.forEach(function(card) {
+        card.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          const index = parseInt(card.getAttribute('data-equipment-index') || '0');
+          openModal(index);
+        });
+      });
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', closeModal);
+      }
+
+      modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          closeModal();
+        }
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+          closeModal();
+        }
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initModal);
+    } else {
+      initModal();
+    }
+  })();
+</script>
+
+<style>
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+</style>
+

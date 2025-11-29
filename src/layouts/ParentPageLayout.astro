@@ -1,0 +1,42 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import HeroWithBreadcrumb from '../components/sections/HeroWithBreadcrumb.astro';
+import SubServicesGrid from '../components/sections/SubServicesGrid.astro';
+import PrimaryContent from '../components/sections/PrimaryContent.astro';
+import WhyChoose from '../components/sections/WhyChoose.astro';
+import CTASection from '../components/sections/CTASection.astro';
+import type { ParentPage } from '../types/index.js';
+import { getBreadcrumbs } from '../utils/dataLoader';
+
+interface Props {
+  page: ParentPage;
+}
+
+const { page } = Astro.props;
+const breadcrumbs = getBreadcrumbs(page.slug);
+---
+
+<BaseLayout title={page.title}>
+  <HeroWithBreadcrumb 
+    headline={page.heroHeadline}
+    description={page.heroDescription}
+    breadcrumbs={breadcrumbs}
+  />
+  <SubServicesGrid 
+    title={page.subServicesTitle}
+    description={page.subServicesDescription}
+    items={page.subServices}
+  />
+  <PrimaryContent 
+    title={page.primaryContentTitle}
+    description={page.primaryContentDescription}
+    capabilitiesTitle={page.keyCapabilitiesTitle}
+    capabilities={page.capabilities}
+  />
+  <WhyChoose 
+    title={page.whyChooseTitle}
+    cards={page.whyChooseCards}
+  />
+  <CTASection cta={page.cta} />
+</BaseLayout>
+

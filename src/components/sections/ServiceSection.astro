@@ -1,0 +1,153 @@
+---
+import type { HubPage } from '../../types/index.js';
+
+interface Props {
+  service: HubPage;
+  index: number;
+}
+
+const { service, index } = Astro.props;
+const isEven = index % 2 === 0;
+const imageOnLeft = isEven;
+
+// Map service titles to icons
+function getIcon(serviceTitle: string): string {
+  const iconMap: Record<string, string> = {
+    'Cardiovascular Disease Testing': 'heart',
+    'Neurovascular Testing': 'brain',
+    'Peripheral Vascular Testing': 'share',
+    'Surgical Robotics Testing': 'bot',
+    'Drug-Coated Balloon Testing': 'syringe',
+    'Medical Device Testing Laboratory': 'clipboard',
+  };
+  
+  for (const [key, icon] of Object.entries(iconMap)) {
+    if (serviceTitle.includes(key.split(' ')[0])) {
+      return icon;
+    }
+  }
+  return 'activity';
+}
+
+function getIconColor(serviceTitle: string): string {
+  if (serviceTitle.includes('Cardiovascular')) return 'text-red';
+  if (serviceTitle.includes('Neurovascular')) return 'text-teal';
+  if (serviceTitle.includes('Peripheral')) return 'text-red';
+  if (serviceTitle.includes('Robotics')) return 'text-steel';
+  if (serviceTitle.includes('Drug') || serviceTitle.includes('DCB')) return 'text-teal';
+  return 'text-teal';
+}
+
+const iconName = getIcon(service.heroHeadline);
+const iconColor = getIconColor(service.heroHeadline);
+---
+
+<section class="py-12 md:py-16 bg-transparent">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="glass-card rounded-2xl p-8 md:p-12">
+      <div class={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ${imageOnLeft ? '' : 'lg:grid-flow-dense'}`}>
+        
+        {imageOnLeft && (
+          <div class="lg:col-start-1">
+            <div class="aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 dark:bg-navy-dark/50 flex items-center justify-center border border-navy/10 dark:border-white/10">
+              <div class="text-center">
+                <svg class="w-16 h-16 mx-auto mb-4 text-gray-400 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Service Image Placeholder</span>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <div class={`${imageOnLeft ? 'lg:col-start-2' : 'lg:col-start-1'}`}>
+          <div class="flex items-center gap-4 mb-6">
+            <div class="p-3 rounded-xl shadow-sm border border-navy/10 dark:border-white/10 bg-white/50 dark:bg-navy-card/50 backdrop-blur-sm">
+              {iconName === 'heart' && (
+                <svg class="w-8 h-8 text-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              )}
+              {iconName === 'brain' && (
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              )}
+              {iconName === 'share' && (
+                <svg class="w-8 h-8 text-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.684 13.342C8.885 12.938 9 12.482 9 12c0-.482-.115-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                </svg>
+              )}
+              {iconName === 'bot' && (
+                <svg class="w-8 h-8 text-steel" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                </svg>
+              )}
+              {iconName === 'syringe' && (
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                </svg>
+              )}
+              {iconName === 'clipboard' && (
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+              )}
+              {iconName === 'activity' && (
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              )}
+            </div>
+            <h2 class="text-2xl md:text-3xl font-bold text-navy dark:text-white">
+              {service.heroHeadline}
+            </h2>
+          </div>
+          
+          <p class="text-base leading-relaxed mb-6 text-gray-600 dark:text-gray-300">
+            {service.heroDescription}
+          </p>
+
+          {service.subpages.length > 0 && (
+            <div class="mb-6">
+              <h3 class="text-xs font-bold uppercase tracking-widest mb-4 text-gray-600 dark:text-gray-400">
+                Featured Services:
+              </h3>
+              <ul class="space-y-3 mb-6">
+                {service.subpages.map((subpage) => (
+                  <li class="group">
+                    <a href={subpage.url} class="flex items-center text-base transition-colors text-gray-600 dark:text-gray-300 hover:text-teal dark:hover:text-teal-bright">
+                      <span class="w-2 h-2 rounded-full bg-teal mr-3 mt-1.5 flex-shrink-0"></span>
+                      {subpage.heading}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <a href={`/preclinical-services/${service.slug}`} class="inline-flex items-center text-teal font-bold hover:text-teal-bright transition-colors group text-sm">
+            View All {service.heroHeadline.split(' ')[0]} Services 
+            <svg class="ml-2 transform group-hover:translate-x-1 transition-transform w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        {!imageOnLeft && (
+          <div class="lg:col-start-2">
+            <div class="aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 dark:bg-navy-dark/50 flex items-center justify-center border border-navy/10 dark:border-white/10">
+              <div class="text-center">
+                <svg class="w-16 h-16 mx-auto mb-4 text-gray-400 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Service Image Placeholder</span>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</section>
+

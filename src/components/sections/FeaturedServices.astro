@@ -1,0 +1,72 @@
+---
+import type { FeaturedService } from '../../types/index.js';
+import Button from '../ui/Button.astro';
+
+interface Props {
+  title: string;
+  services: FeaturedService[];
+}
+
+const { title, services } = Astro.props;
+
+// Map image names to actual file paths
+function getImagePath(imageUrl?: string): string {
+  if (!imageUrl) return '/images/placeholder.jpg';
+  // Extract filename from Google Drive URL or use as-is
+  const filename = imageUrl.split('/').pop() || 'placeholder.jpg';
+  // Map to actual image files
+  const imageMap: Record<string, string> = {
+    'Heart Valve Testing.jpg': '/images/services/Heart Valve Testing.jpg',
+    'Structural Heart Testing.jpg': '/images/services/Structural Heart Testing.jpg',
+    'Coronary Stent Testing.jpg': '/images/services/Coronary Stent Testing.jpg',
+    'Thrombectomy Testing.jpg': '/images/services/Thrombectomy Testing.jpg',
+    'Direct Aspiration Thrombectomy Testing.jpg': '/images/services/Direct Aspiration Thrombectomy Testing.jpg',
+    'Liquid Embolic Device Testing.jpg': '/images/services/Liquid Embolic Device Testing.jpg',
+    'Carotid Stent Testing.jpg': '/images/services/Carotid Stent Testing.jpg',
+    'AAA Device Testing.jpg': '/images/services/AAA Device Testing.jpg',
+    'IVC Filter Testing.jpg': '/images/services/IVC Filter Testing.jpg',
+    'Endoscopic Device Testing.jpg': '/images/services/Endoscopic Device Testing.jpg',
+    'Laparoscopic Testing.jpg': '/images/services/Laparoscopic Testing.jpg',
+    'GLP Testing.jpg': '/images/services/GLP Testing.jpg',
+    'Biocompatibility Testing.jpg': '/images/services/Biocompatibility Testing.jpg',
+    'FDA Regulatory Testing.jpg': '/images/services/FDA Regulatory Testing.jpg',
+    'Comprehensive DCB Validation.jpg': '/images/services/Comprehensive DCB Validation.jpg',
+  };
+  return imageMap[filename] || '/images/placeholder.jpg';
+}
+---
+
+<section class="py-16 bg-transparent">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-navy dark:text-white sm:text-4xl mb-12 text-center">
+      {title}
+    </h2>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {services.map((service) => (
+        <div class="glass-card rounded-xl overflow-hidden">
+          <div class="aspect-video bg-gray-100 dark:bg-navy-dark/50 flex items-center justify-center">
+            <img 
+              src={getImagePath(service.image)} 
+              alt={service.heading}
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-navy dark:text-white mb-3">
+              {service.heading}
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+              {service.text}
+            </p>
+            <Button variant="outline" href={service.ctaUrl} size="sm">
+              {service.ctaText}
+            </Button>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+

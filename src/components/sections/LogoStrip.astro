@@ -1,0 +1,50 @@
+---
+// Logo strip section with scrolling marquee
+const tickerIcons = [
+  { name: 'NIH', image: 'NIH_2012_logo_arrow.svg.png' },
+  { name: 'USDA', image: 'Logo_of_the_United_States_Department_of_Agriculture.svg.png' },
+  { name: 'NABR', image: 'NABR-LOGO.png' },
+  { name: 'AAALAC', image: 'AAALAC-LOGO grey.png' },
+  { name: 'American', image: 'AMERICAN-LOGO.png' },
+];
+---
+
+<section class="py-12 border-y border-navy/5 dark:border-white/5 bg-navy/5 dark:bg-white/[0.02] backdrop-blur-sm relative z-10 transition-colors duration-500 overflow-hidden">
+  <div class="relative">
+    <div class="flex items-center gap-24 md:gap-32 lg:gap-40 animate-scroll">
+      {tickerIcons.map((icon) => (
+        <div class="flex-shrink-0 h-12 md:h-16 lg:h-20 flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity px-8">
+          <img 
+            src={`/images/ticker/${icon.image}`}
+            alt={icon.name}
+            class="h-full w-auto object-contain filter dark:brightness-0 dark:invert max-w-[200px]"
+            loading="lazy"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% - 2rem));
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: max-content;
+  }
+  
+  .animate-scroll:hover {
+    animation-play-state: paused;
+  }
+</style>
+
+

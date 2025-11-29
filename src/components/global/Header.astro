@@ -12,7 +12,7 @@ import MobileMenu from './MobileMenu.astro';
     <div class="flex h-20 items-center justify-between">
       <div class="flex-shrink-0">
         <a href="/">
-          <Logo id="header-logo" />
+          <Logo id="header-logo" theme="auto" />
         </a>
       </div>
       
@@ -127,18 +127,8 @@ import MobileMenu from './MobileMenu.astro';
     }
   }
 
-  // Update logo theme based on current theme
-  function updateLogoTheme() {
-    const logo = document.getElementById('header-logo');
-    if (logo) {
-      const isDark = document.documentElement.classList.contains('dark');
-      // Logo component will handle theme internally via CSS
-    }
-  }
-
   // Initialize
   initMobileTheme();
-  updateLogoTheme();
 
   // Event listeners
   const mobileThemeToggle = document.getElementById('mobile-theme-toggle');

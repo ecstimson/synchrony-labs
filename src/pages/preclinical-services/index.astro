@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllHubPages } from '../../utils/dataLoader';
+import Button from '../../components/ui/Button.astro';
+import ServiceSection from '../../components/sections/ServiceSection.astro';
+
+const hubPages = getAllHubPages();
+---
+
+<BaseLayout title="Preclinical Services | Synchrony Labs">
+  <section class="relative w-full min-h-[60vh] flex items-center justify-center overflow-hidden pt-24">
+    <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 text-center py-16">
+      <h1 class="mx-auto max-w-5xl text-4xl font-bold tracking-tight text-navy dark:text-white sm:text-5xl lg:text-6xl mb-8 leading-tight">
+        Preclinical Services
+      </h1>
+      
+      <p class="mx-auto mt-6 max-w-2xl text-lg text-gray-600 dark:text-gray-400 mb-12 leading-relaxed">
+        Comprehensive preclinical testing services across cardiovascular, neurovascular, peripheral vascular, and surgical robotics applications.
+      </p>
+    </div>
+  </section>
+
+  {/* Core Study Areas - Cards Grid Section */}
+  <section class="py-12 px-4 border-b border-navy/5 dark:border-white/5 bg-transparent">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-10 max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-navy dark:text-white">
+          Core Study Areas
+        </h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400">
+          Decades of expertise across the full spectrum of medical device innovation.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {hubPages.map((hub) => (
+          <a 
+            href={`/preclinical-services/${hub.slug}`}
+            class="group glass-card rounded-xl p-8 transition-all duration-300 hover:-translate-y-1"
+          >
+            <h3 class="text-xl font-bold text-navy dark:text-white mb-4 group-hover:text-teal transition-colors">
+              {hub.heroHeadline}
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+              {hub.heroDescription}
+            </p>
+            <span class="text-sm font-medium text-teal group-hover:underline">
+              Learn More →
+            </span>
+          </a>
+        ))}
+      </div>
+      
+      <div class="mt-12 text-center pb-4">
+        <a href="#services" class="inline-flex items-center text-sm font-semibold border-b border-transparent hover:border-current transition-all text-gray-500 dark:text-gray-400 hover:text-navy dark:hover:text-white">
+          View All Study Types
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {/* Detailed Services Lists */}
+  <section id="services">
+    {hubPages.map((hub, index) => (
+      <ServiceSection service={hub} index={index} />
+    ))}
+  </section>
+
+  {/* Start Your Study CTA */}
+  <section class="py-24 bg-gray-50 dark:bg-navy-card">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-6 text-navy dark:text-white">Start Your Study</h2>
+      <p class="text-xl mb-12 max-w-2xl mx-auto leading-relaxed text-gray-600 dark:text-gray-400">
+        Get expert guidance on your study design from the team with decades of specialized testing experience.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <Button variant="primary" size="lg" href="/contact" class="flex items-center justify-center gap-2">
+          Schedule Your Pre-Study Consultation
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </Button>
+        <Button variant="outline" size="lg" href="/preclinical-facility">
+          Explore Our Facility
+        </Button>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+

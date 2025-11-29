@@ -1,0 +1,46 @@
+---
+import { getAllHubPages, getAllParentPages, getAllServicePages } from '../../utils/dataLoader';
+import HubPageLayout from '../../layouts/HubPageLayout.astro';
+import ParentPageLayout from '../../layouts/ParentPageLayout.astro';
+import ServicePageLayout from '../../layouts/ServicePageLayout.astro';
+
+export async function getStaticPaths() {
+  const hubPages = getAllHubPages();
+  const parentPages = getAllParentPages();
+  const servicePages = getAllServicePages();
+
+  const paths = [
+    ...hubPages.map(page => {
+      // Extract slug from URL path
+      const slugPath = page.slug.replace(/^\/?preclinical-services\//, '').split('/').filter(Boolean);
+      return {
+        params: { slug: slugPath.join('/') },
+        props: { page, pageType: 'hub' }
+      };
+    }),
+    ...parentPages.map(page => {
+      const slugPath = page.slug.replace(/^\/?preclinical-services\//, '').split('/').filter(Boolean);
+      return {
+        params: { slug: slugPath.join('/') },
+        props: { page, pageType: 'parent' }
+      };
+    }),
+    ...servicePages.map(page => {
+      const slugPath = page.slug.replace(/^\/?preclinical-services\//, '').split('/').filter(Boolean);
+      return {
+        params: { slug: slugPath.join('/') },
+        props: { page, pageType: 'service' }
+      };
+    })
+  ];
+
+  return paths;
+}
+
+const { page, pageType } = Astro.props;
+---
+
+{pageType === 'hub' && <HubPageLayout page={page as any} />}
+{pageType === 'parent' && <ParentPageLayout page={page as any} />}
+{pageType === 'service' && <ServicePageLayout page={page as any} />}
+
