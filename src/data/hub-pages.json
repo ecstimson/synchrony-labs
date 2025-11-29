@@ -166,7 +166,7 @@
       },
       {
         "heading": "Direct Aspiration Thrombectomy Testing",
-        "text": "Aspiration catheters require validation of vacuum force generation, clot extraction efficiency, and complete vessel recanalization across neurovascular, coronary, and peripheral applications. We evaluate aspiration performance using standardized clot compositions—from fresh platelet-rich thrombi to organized fibrin material—ensuring devices handle the full spectrum of clinical scenarios. Our testing protocols assess catheter trackability through tortuous cerebral anatomy, aspiration force consistency during extended procedures, and biocompatibility requirements for blood-contacting devices.",
+        "text": "Aspiration catheters require validation of vacuum force generation, clot extraction efficiency, and complete vessel recanalization across neurovascular, coronary, and peripheral applications. We evaluate aspiration performance using standardized clot compositionsâ€”from fresh platelet-rich thrombi to organized fibrin materialâ€”ensuring devices handle the full spectrum of clinical scenarios. Our testing protocols assess catheter trackability through tortuous cerebral anatomy, aspiration force consistency during extended procedures, and biocompatibility requirements for blood-contacting devices.",
         "ctaText": "Learn More About Aspiration Thrombectomy Testing",
         "ctaUrl": "/preclinical-services/neurovascular-testing/direct-aspiration-thrombectomy-testing",
         "image": "https://drive.google.com/file/d/1sLHGNTiS7mzufLjC6hy4TMs4WMM-6qY6/view?usp=drive_link"
@@ -532,7 +532,7 @@
     "featuredServices": [
       {
         "heading": "Comprehensive DCB Validation",
-        "text": "Drug-coated balloons need to prove they can maintain coating integrity through tortuous anatomy, transfer therapeutic drug concentrations during brief inflation periods, and achieve sustained tissue uptake that prevents restenosis. We test coating uniformity using micro-CT and scanning electron microscopy, characterize drug elution kinetics under physiological flow conditions, and quantify vascular tissue penetration through advanced histological analysis. Our protocols evaluate coating adhesion during catheter transit, drug release during balloon inflation, and therapeutic agent retention in vessel walls throughout extended follow-up periods.\n\nFrom paclitaxel-eluting systems for peripheral intervention to novel drug formulations for coronary applications, our testing addresses both device performance and pharmaceutical requirements that define combination product submissions. Our catheterization laboratories feature specialized equipment for real-time coating visualization, drug distribution mapping, and tissue uptake quantification throughout the complete deployment sequence. Whether pursuing 510(k) clearance through predicate comparison or PMA approval for breakthrough formulations, our GLP-compliant protocols generate the comprehensive data packages FDA requires for combination product approval.",
+        "text": "Drug-coated balloons need to prove they can maintain coating integrity through tortuous anatomy, transfer therapeutic drug concentrations during brief inflation periods, and achieve sustained tissue uptake that prevents restenosis. We test coating uniformity using micro-CT and scanning electron microscopy, characterize drug elution kinetics under physiological flow conditions, and quantify vascular tissue penetration through advanced histological analysis. Our protocols evaluate coating adhesion during catheter transit, drug release during balloon inflation, and therapeutic agent retention in vessel walls throughout extended follow-up periods.\r\n\r\nFrom paclitaxel-eluting systems for peripheral intervention to novel drug formulations for coronary applications, our testing addresses both device performance and pharmaceutical requirements that define combination product submissions. Our catheterization laboratories feature specialized equipment for real-time coating visualization, drug distribution mapping, and tissue uptake quantification throughout the complete deployment sequence. Whether pursuing 510(k) clearance through predicate comparison or PMA approval for breakthrough formulations, our GLP-compliant protocols generate the comprehensive data packages FDA requires for combination product approval.",
         "ctaText": "Learn More About DCB Testing",
         "ctaUrl": "/contact",
         "image": "https://drive.google.com/file/d/1VqCWF2FwQduVpvQq7-BmoJDQphziyIVD/view?usp=drive_link"
@@ -557,7 +557,7 @@
         "heading": "Surgical Robotics Testing",
         "text": "Robotic surgical systems require specialized validation protocols addressing teleoperation accuracy, force feedback calibration, and tremor filtration effectiveness with comprehensive testing of endoscopic and laparoscopic instrumentation for minimally invasive procedures.",
         "ctaText": "Explore Surgical Robotics Testing",
-        "ctaUrl": "/preclinical-services/surgical-robotics-testing\n\n"
+        "ctaUrl": "/preclinical-services/surgical-robotics-testing\r\n\r\n"
       }
     ],
     "cta": {
