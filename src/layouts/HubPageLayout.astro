@@ -15,9 +15,17 @@ interface Props {
 
 const { page } = Astro.props;
 const breadcrumbs = getBreadcrumbs(page.slug);
+
+// Generate SEO-friendly description
+const metaDescription = page.heroDescription || `${page.heroHeadline} - Specialized preclinical research and testing services at Synchrony Labs.`;
+const pageUrl = page.slug;
 ---
 
-<BaseLayout title={page.title}>
+<BaseLayout 
+  title={page.title}
+  description={metaDescription}
+  url={pageUrl}
+>
   <HeroWithBreadcrumb 
     headline={page.heroHeadline}
     description={page.heroDescription}
