@@ -61,9 +61,19 @@ const { page } = Astro.props;
 const fullPath = page.parentHubUrl.replace('/preclinical-services/', '') + '/' + page.slug;
 const breadcrumbs = getBreadcrumbs(fullPath);
 const heroImage = getServiceHeroImage(page.heroHeadline, page.slug);
+
+// Generate SEO-friendly description
+const metaDescription = page.heroDescription || `${page.heroHeadline} - Expert preclinical testing services at Synchrony Labs. ${page.primaryContentDescription?.substring(0, 100) || ''}`;
+const pageUrl = `/preclinical-services/${fullPath}`;
 ---
 
-<BaseLayout title={page.title}>
+<BaseLayout 
+  title={page.title}
+  description={metaDescription}
+  image={heroImage}
+  url={pageUrl}
+  type="Service"
+>
   <HeroWithPhoto 
     headline={page.heroHeadline}
     description={page.heroDescription}

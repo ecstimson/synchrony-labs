@@ -10,7 +10,7 @@ const NAV_ITEMS = [
 <nav class="hidden md:flex items-center space-x-8">
   <button 
     id="theme-toggle"
-    class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 text-navy dark:text-gray-300 transition-colors"
+    class="p-2 rounded-full bg-navy-light/30 hover:bg-navy-light/50 text-navy dark:text-gray-200 transition-colors"
     aria-label="Toggle theme"
   >
     <span id="theme-icon-sun" class="hidden">
@@ -46,7 +46,7 @@ const NAV_ITEMS = [
 <script>
   // Theme toggle functionality
   function initTheme() {
-    const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'dark');
+    const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     document.documentElement.classList.toggle('dark', theme === 'dark');
     updateThemeIcon(theme === 'dark');
   }

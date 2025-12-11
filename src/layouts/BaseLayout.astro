@@ -6,28 +6,77 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  url?: string;
+  type?: string;
 }
 
 const {
   title = 'Synchrony Labs - Specialized Cardiovascular Preclinical Research',
   description = 'Four decades of GLP expertise advancing structural heart, neurovascular, and peripheral vascular innovation.',
+  image = '/images/placeholder.jpg',
+  url = Astro.url.href,
+  type = 'website',
 } = Astro.props;
+
+const siteUrl = import.meta.env.SITE_URL || 'https://synchronylabs.com';
+const fullUrl = url.startsWith('http') ? url : `${siteUrl}${url}`;
+const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
 ---
 
 <!doctype html>
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    
+    {/* Primary Meta Tags */}
     <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    
+    {/* Open Graph / Facebook */}
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={fullUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={fullImageUrl} />
+    <meta property="og:site_name" content="Synchrony Labs" />
+    
+    {/* Twitter */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={fullUrl} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={fullImageUrl} />
+    
+    {/* Schema.org JSON-LD */}
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Synchrony Labs",
+      "url": siteUrl,
+      "logo": `${siteUrl}/logos/shi-sl_navy_horizontal.svg`,
+      "description": description,
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-919-541-9977",
+        "contactType": "Sales",
+        "email": "sales@synchronylabs.com"
+      },
+      "sameAs": []
+    })} />
   </head>
   <body class="min-h-screen font-sans text-navy dark:text-white selection:bg-steel selection:text-white overflow-x-hidden relative transition-colors duration-500">
     
     {/* FIXED GLOBAL 3D BACKGROUND */}
-    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none bg-white dark:bg-black transition-colors duration-700">
+    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none bg-white dark:bg-navy transition-colors duration-700">
       
       {/* Grid Pattern - Subtle Texture */}
       <div 
@@ -102,7 +151,7 @@ const {
     <script>
       // Initialize theme on page load
       function initTheme() {
-        const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'dark');
+        const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         document.documentElement.classList.toggle('dark', theme === 'dark');
         updateRayVisibility(theme === 'dark');
       }

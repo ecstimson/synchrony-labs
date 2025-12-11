@@ -308,3 +308,6 @@ console.log(`✓ Processed ${parentPages.length} parent pages`);
 console.log(`✓ Processed ${servicePages.length} service pages`);
 console.log('✓ Content processing complete!');
 
+
+
+

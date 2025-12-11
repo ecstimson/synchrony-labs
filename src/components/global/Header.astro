@@ -21,7 +21,7 @@ import MobileMenu from './MobileMenu.astro';
       <div class="flex items-center gap-4 md:hidden">
         <button 
           id="mobile-theme-toggle"
-          class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 text-navy dark:text-white transition-colors"
+          class="p-2 rounded-full bg-navy-light/30 hover:bg-navy-light/50 text-navy dark:text-white transition-colors"
           aria-label="Toggle theme"
         >
           <span id="mobile-theme-icon-sun" class="hidden">
@@ -73,7 +73,7 @@ import MobileMenu from './MobileMenu.astro';
 <script>
   // Theme toggle for mobile
   function initMobileTheme() {
-    const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'dark');
+    const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     updateMobileThemeIcon(theme === 'dark');
   }
 
@@ -122,7 +122,7 @@ import MobileMenu from './MobileMenu.astro';
     if (header) {
       const isScrolled = window.scrollY > 10;
       header.className = isScrolled
-        ? 'fixed top-0 z-50 w-full transition-all duration-300 bg-white/80 dark:bg-navy-dark/70 backdrop-blur-md border-b border-navy/5 dark:border-white/5 shadow-lg'
+        ? 'fixed top-0 z-50 w-full transition-all duration-300 bg-white/80 dark:bg-navy/80 backdrop-blur-md border-b border-navy/5 dark:border-white/5 shadow-lg'
         : 'fixed top-0 z-50 w-full transition-all duration-300 bg-transparent';
     }
   }

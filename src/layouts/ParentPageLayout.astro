@@ -16,9 +16,17 @@ const { page } = Astro.props;
 // Construct full path for breadcrumbs: parentHubUrl + slug
 const fullPath = page.parentHubUrl.replace('/preclinical-services/', '') + '/' + page.slug;
 const breadcrumbs = getBreadcrumbs(fullPath);
+
+// Generate SEO-friendly description
+const metaDescription = page.heroDescription || `${page.heroHeadline} - Comprehensive preclinical testing services at Synchrony Labs.`;
+const pageUrl = `/preclinical-services/${fullPath}`;
 ---
 
-<BaseLayout title={page.title}>
+<BaseLayout 
+  title={page.title}
+  description={metaDescription}
+  url={pageUrl}
+>
   <HeroWithBreadcrumb 
     headline={page.heroHeadline}
     description={page.heroDescription}
