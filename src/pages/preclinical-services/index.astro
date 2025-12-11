@@ -9,6 +9,52 @@ const hubPages = getAllHubPages();
 
 <BaseLayout title="Preclinical Services | Synchrony Labs">
   <section class="relative w-full min-h-[400px] flex items-center justify-center overflow-hidden pt-24 pb-8">
+    {/* ECG Line Animation Container */}
+    <div id="ecg-container-services" class="absolute top-[45%] left-0 w-full -translate-y-1/2 transition-opacity duration-1000 opacity-0">
+      <svg
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+        class="w-full h-32 md:h-48 opacity-80"
+      >
+        <defs>
+          <linearGradient id="line-gradient-services" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#4682B4" stop-opacity="0" /> 
+            <stop offset="20%" stop-color="#4682B4" stop-opacity="0.8" />
+            <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+          </linearGradient>
+          <filter id="glow-services">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+              <feMergeNode in="coloredBlur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+          <path id="heartbeat-path-services"
+            d="M0,60 L200,60 L230,60 L240,40 L250,80 L260,20 L275,100 L290,60 L350,60 L380,60 L390,45 L400,75 L410,60 L600,60 L630,60 L640,30 L650,90 L665,60 L800,60 L830,60 L840,40 L850,80 L860,20 L875,100 L890,60 L1200,60"
+          />
+        </defs>
+
+        <use href="#heartbeat-path-services"
+          fill="none"
+          stroke="#1e293b"
+          stroke-width="1"
+          vector-effect="non-scaling-stroke"
+          class="opacity-30 dark:opacity-100"
+        />
+
+        <use href="#heartbeat-path-services"
+          fill="none"
+          stroke="url(#line-gradient-services)"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="animate-ecg-draw"
+          style="stroke-dasharray: 1200; filter: url(#glow-services);"
+          vector-effect="non-scaling-stroke"
+        />
+      </svg>
+    </div>
+
     <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-7xl">
       <h1 class="mx-auto max-w-5xl text-4xl font-bold tracking-tight text-navy dark:text-white sm:text-5xl lg:text-6xl mb-4 leading-tight">
         Preclinical Services
@@ -87,4 +133,12 @@ const hubPages = getAllHubPages();
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  // Animate ECG pulse line on load
+  setTimeout(() => {
+    const ecg = document.getElementById('ecg-container-services');
+    if (ecg) ecg.classList.add('opacity-100');
+  }, 100);
+</script>
 
