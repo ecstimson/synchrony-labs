@@ -76,7 +76,7 @@ const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
   <body class="min-h-screen font-sans text-navy dark:text-white selection:bg-steel selection:text-white overflow-x-hidden relative transition-colors duration-500">
     
     {/* FIXED GLOBAL 3D BACKGROUND */}
-    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none bg-white dark:bg-black transition-colors duration-700">
+    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none bg-white dark:bg-navy transition-colors duration-700">
       
       {/* Grid Pattern - Subtle Texture */}
       <div 
@@ -151,7 +151,7 @@ const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
     <script>
       // Initialize theme on page load
       function initTheme() {
-        const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'dark');
+        const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         document.documentElement.classList.toggle('dark', theme === 'dark');
         updateRayVisibility(theme === 'dark');
       }
